@@ -1,0 +1,24 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 1.5rem;
+	background-image: linear-gradient(to right, lighten($navy, 10%), $navy);
+	z-index: 1;
+
+	.wrap {
+		padding-bottom: 0;
+	}
+
+	.logo-wrap {
+		width: 75px;
+		height: 75px;
+		margin: 0 auto;
+
+		svg {
+			display: block;
+			fill: $white;
+		}
+	}
+}

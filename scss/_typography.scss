@@ -1,0 +1,31 @@
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.cormorant-<uniquifier> {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+.primary-heading {
+	font-size: 4.5rem;
+}
+
+.secondary-heading {
+	font-size: 3rem;
+	color: $navy;
+	margin-top: 0;
+}
+
+.tertiary-heading {
+	font-size: 2.25rem;
+	color: $green;
+}
+
+a {
+	color: $links;
+	text-underline-offset: 5px;
+}
