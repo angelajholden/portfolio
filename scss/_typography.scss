@@ -16,8 +16,9 @@
 
 .secondary-heading {
 	font-size: 3rem;
+	line-height: 1.25;
 	color: $navy;
-	margin: 0;
+	margin: 0 0 2rem;
 
 	@media (max-width: 960px) {
 		font-size: 2rem;

@@ -234,6 +234,73 @@ body {
 	}
 }
 
+.youtube {
+	padding: 6rem 2rem;
+
+	.wrap {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.video {
+		position: relative;
+		width: 60%;
+		height: 0;
+		margin: 0;
+		padding-bottom: 33.75%;
+		z-index: 0;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -1rem;
+			left: -1rem;
+			width: 100%;
+			height: 100%;
+			border: 3px solid $teal;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 1rem;
+			right: -1rem;
+			width: 100%;
+			height: 100%;
+			border: 3px solid $yellow;
+			z-index: -1;
+		}
+	}
+
+	.embed-video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.video-content {
+		width: 40%;
+		padding-left: 2rem;
+	}
+
+	@media (max-width: 960px) {
+		.video {
+			width: 100%;
+			margin-bottom: 4rem;
+			padding-bottom: 56.25%;
+		}
+
+		.video-content {
+			width: 100%;
+			padding-left: 0;
+		}
+	}
+}
+
 .responsibilities {
 	position: relative;
 	padding: 6rem;
@@ -274,57 +341,48 @@ body {
 	}
 
 	.wrap {
+		max-width: none;
 		display: flex;
-		flex-flow: column wrap;
-		height: 600px;
-
-		@media (max-width: 1270px) {
-			height: 800px;
-		}
-
-		@media (max-width: 1060px) {
-			height: 1000px;
-		}
-
-		@media (max-width: 960px) {
-			height: 1200px;
-
-			.item {
-				width: 48%;
-			}
-		}
-
-		@media (max-width: 768px) {
-			height: auto;
-
-			.item {
-				width: 100%;
-			}
-		}
+		flex-flow: row wrap;
+		justify-content: space-between;
 	}
 
 	.item {
-		width: 32%;
-		// flex: 1 1 33%;
+		width: 32.333%;
 		background-color: $white;
 		padding: 2rem;
 		margin: 0 0 1rem;
 		box-shadow: 2px 2px 2px 0 rgba($black, 0.25);
 
-		&:nth-of-type(1n) {
-			border-bottom: 7px solid $yellow;
-		}
-
-		&:nth-of-type(2n) {
-			border-bottom: 7px solid $mint;
+		&::first-letter {
+			initial-letter: 2;
+			color: $navy;
+			font-weight: 600;
+			margin-right: 0.5rem;
 		}
 
 		&:nth-of-type(3n) {
 			border-bottom: 7px solid $teal;
 		}
 
+		&:nth-of-type(3n + 1) {
+			border-bottom: 7px solid $yellow;
+		}
+
+		&:nth-of-type(3n + 2) {
+			border-bottom: 7px solid $mint;
+		}
+
 		p {
 			margin: 0;
+		}
+
+		@media (max-width: 1024px) {
+			width: 48%;
+		}
+
+		@media (max-width: 768px) {
+			width: 100%;
 		}
 	}
 }
