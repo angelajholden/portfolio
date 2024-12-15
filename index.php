@@ -11,7 +11,7 @@ include_once __DIR__ . '/config.php';
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="./styles.css" />
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>styles.css" />
 </head>
 
 <body>
