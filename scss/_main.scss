@@ -1,0 +1,392 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: "Cormorant", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 150%;
+	line-height: 1.65;
+	background-color: $white;
+	color: $black;
+
+	@media (max-width: 960px) {
+		font-size: 125%;
+	}
+}
+
+.main {
+	padding: 150px 0 0;
+}
+
+.hero {
+	.hero-image {
+		position: relative;
+		width: 100%;
+		height: 0;
+		margin: 0;
+		padding-bottom: 75vh;
+
+		@media (max-width: 1600px) {
+			padding-bottom: 60vh;
+		}
+
+		@media (max-width: 960px) {
+			padding-bottom: 45vh;
+		}
+	}
+
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: 50% 10%;
+	}
+}
+
+.skills-experience {
+	padding: 150px 0 50px;
+
+	.wrap {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.image-with-background {
+		position: relative;
+		width: 35%;
+		height: 0;
+		margin: 0;
+		padding-bottom: 50%;
+		z-index: 0;
+
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		// low poly bg image
+		&::before {
+			content: "";
+			position: absolute;
+			top: -40px;
+			left: -100px;
+			width: 100%;
+			height: calc(100% + 80px);
+			background-image: url("images/low-poly-bg.jpg");
+			background-size: cover;
+			z-index: -2;
+
+			@media (max-width: 960px) {
+				top: -20px;
+				height: calc(100% + 40px);
+			}
+		}
+
+		// gold border
+		&::after {
+			content: "";
+			position: absolute;
+			top: -75px;
+			left: -30px;
+			width: 100%;
+			height: 100%;
+			border: 3px solid $yellow;
+			z-index: -1;
+
+			@media (max-width: 960px) {
+				top: -40px;
+				left: -15px;
+			}
+		}
+	}
+
+	.text-container {
+		width: 65%;
+		padding-left: 50px;
+	}
+
+	@media (max-width: 960px) {
+		padding: 75px 0 0;
+
+		.wrap {
+			flex-flow: column wrap;
+
+			.image-with-background,
+			.text-container {
+				width: 90%;
+				margin: 0 auto 1.5rem;
+				padding-left: 0;
+			}
+		}
+	}
+}
+
+.current-duties {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	color: $white;
+
+	.image-half-screen {
+		position: relative;
+		width: 50%;
+		height: auto;
+		margin: 0;
+
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: right bottom;
+		}
+	}
+
+	.text-container {
+		position: relative;
+		padding: 6rem;
+		width: 50%;
+		background-image: linear-gradient(to right, $navy, lighten($navy, 10%));
+
+		&::before {
+			content: "";
+			display: block;
+			width: calc(100% - 6rem);
+			height: calc(100% - 6rem);
+			border: 3px solid darken($navy, 2.5%);
+			position: absolute;
+			top: 3rem;
+			left: 3rem;
+			z-index: 0;
+			pointer-events: none;
+
+			@media (max-width: 960px) {
+				width: calc(100% - 3rem);
+				height: calc(100% - 3rem);
+				top: 1.5rem;
+				left: 1.5rem;
+			}
+		}
+	}
+
+	.secondary-heading,
+	.tertiary-heading {
+		color: $white;
+	}
+
+	@media (max-width: 1200px) {
+		flex-flow: column wrap;
+
+		.image-half-screen {
+			width: 100%;
+			height: 0;
+			padding-bottom: 50%;
+		}
+
+		.text-container {
+			width: 100%;
+			padding: 3rem;
+		}
+	}
+}
+
+.social-icons {
+	padding: 50px 0;
+
+	.social-nav ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.social-nav li {
+		display: inline-block;
+		width: 65px;
+		height: 65px;
+		margin: 0 10px;
+
+		a {
+			display: block;
+		}
+
+		svg {
+			fill: $navy;
+		}
+	}
+}
+
+.youtube {
+	padding: 6rem 2rem;
+
+	.wrap {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.video {
+		position: relative;
+		width: 60%;
+		height: 0;
+		margin: 0;
+		padding-bottom: 33.75%;
+		z-index: 0;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -1rem;
+			left: -1rem;
+			width: 100%;
+			height: 100%;
+			border: 3px solid $teal;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 1rem;
+			right: -1rem;
+			width: 100%;
+			height: 100%;
+			border: 3px solid $yellow;
+			z-index: -1;
+		}
+	}
+
+	.embed-video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.video-content {
+		width: 40%;
+		padding-left: 2rem;
+	}
+
+	@media (max-width: 960px) {
+		.video {
+			width: 100%;
+			margin-bottom: 4rem;
+			padding-bottom: 56.25%;
+		}
+
+		.video-content {
+			width: 100%;
+			padding-left: 0;
+		}
+	}
+}
+
+.responsibilities {
+	position: relative;
+	padding: 6rem;
+	background-image: url("./images/low-poly-geometric.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	&::before {
+		content: "";
+		display: block;
+		width: calc(100% - 6rem);
+		height: calc(100% - 6rem);
+		border: 3px solid $teal;
+		position: absolute;
+		top: 3rem;
+		left: 3rem;
+		z-index: 0;
+		pointer-events: none;
+
+		@media (max-width: 960px) {
+			width: calc(100% - 3rem);
+			height: calc(100% - 3rem);
+			top: 1.5rem;
+			left: 1.5rem;
+		}
+	}
+
+	@media (max-width: 960px) {
+		padding: 3rem;
+	}
+
+	.secondary-heading {
+		margin: 0 0 2.5rem;
+		color: $white;
+		text-align: center;
+		text-shadow: 2px 2px 2px rgba($black, 0.75);
+	}
+
+	.wrap {
+		max-width: none;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.item {
+		width: 32.333%;
+		background-color: $white;
+		padding: 2rem;
+		margin: 0 0 1rem;
+		box-shadow: 2px 2px 2px 0 rgba($black, 0.25);
+
+		&::first-letter {
+			initial-letter: 2;
+			color: $navy;
+			font-weight: 600;
+			margin-right: 0.5rem;
+		}
+
+		&:nth-of-type(3n) {
+			border-bottom: 7px solid $teal;
+		}
+
+		&:nth-of-type(3n + 1) {
+			border-bottom: 7px solid $yellow;
+		}
+
+		&:nth-of-type(3n + 2) {
+			border-bottom: 7px solid $mint;
+		}
+
+		p {
+			margin: 0;
+		}
+
+		@media (max-width: 1024px) {
+			width: 48%;
+		}
+
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+}
