@@ -3,7 +3,7 @@
 	min-width: 220px;
 	margin: 1rem auto 0;
 	padding: 1rem;
-	appearance: none;
+	// appearance: none;
 	font-weight: 600;
 	text-decoration: none;
 	cursor: pointer;
@@ -36,6 +36,21 @@
 			background-color: $white;
 			border: 3px solid $green;
 			color: $green;
+		}
+	}
+
+	// on white bg
+	&.teal-solid {
+		background-color: $teal;
+		border: 3px solid $teal;
+		color: $white;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $white;
+			border: 3px solid $teal;
+			color: $teal;
 		}
 	}
 
