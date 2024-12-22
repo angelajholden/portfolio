@@ -105,7 +105,7 @@ include_once __DIR__ . '/config.php';
 				</article>
 			</div>
 		</section>
-		<?php include_once __DIR__ . '/includes/social.php'; ?>
+		<?php //include_once __DIR__ . '/includes/social.php'; ?>
 	</main>
 	<?php include_once __DIR__ . '/includes/footer.php'; ?>
 </body>

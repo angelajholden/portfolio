@@ -39,7 +39,7 @@ include_once dirname(__DIR__) . '/config.php';
 				</form>
 			</div>
 		</section>
-		<?php include_once dirname(__DIR__) . '/includes/social.php'; ?>
+		<?php //include_once dirname(__DIR__) . '/includes/social.php'; ?>
 	</main>
 	<?php include_once dirname(__DIR__) . '/includes/footer.php'; ?>
 </body>
