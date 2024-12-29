@@ -24,7 +24,7 @@ include_once __DIR__ . '/config.php';
 				<svg xmlns="http://www.w3.org/2000/svg" class="play-button" viewBox="0 0 512 512"><path d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z" fill="none" stroke="" stroke-miterlimit="10" stroke-width="32"/><path d="M216.32 334.44l114.45-69.14a10.89 10.89 0 000-18.6l-114.45-69.14a10.78 10.78 0 00-16.32 9.31v138.26a10.78 10.78 0 0016.32 9.31z"/></svg>
 			</button>
 			<figure class="hero-image">
-				<video id="video" autoplay="true" loop muted controls preload="metadata" poster="images/downtown-mpls-hero.jpg" aria-describedby="video-description">
+				<video id="video" autoplay loop muted controls preload="metadata" poster="images/downtown-mpls-hero.jpg" aria-describedby="video-description">
 					<source src="video/angelajholden-video-banner_v2.mp4" type="video/mp4" />
 					</source>
 					<p id="video-description" class="access-hidden">The poster image shows the Minneapolis skyline as a placeholder before the video starts.</p>
@@ -34,10 +34,10 @@ include_once __DIR__ . '/config.php';
 		</section>
 		<section class="skills-experience">
 			<div class="wrap">
-				<figure class="image-with-background">
+				<figure class="image-with-background animate__animated animate__slow" data-animation="animate__fadeInLeft">
 					<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Selfie of Angela J Holden from a video still frame." />
 				</figure>
-				<div class="text-container">
+				<div class="text-container animate__animated animate__slow" data-animation="animate__fadeInRight">
 					<h2 class="secondary-heading">Experience &amp; Skills</h2>
 					<ul class="list">
 						<li>
@@ -69,10 +69,10 @@ include_once __DIR__ . '/config.php';
 			</div>
 		</section>
 		<section class="current-duties">
-			<figure class="image-half-screen">
+			<figure class="image-half-screen animate__animated animate__slow" data-animation="animate__fadeInBottomLeft">
 				<img src="<?php echo BASE_URL; ?>images/ust-background.jpg" alt="University of St. Thomas and Anderson Student Center with red flowering bushes." />
 			</figure>
-			<div class="text-container">
+			<div class="text-container animate__animated animate__slow" data-animation="animate__fadeInBottomRight">
 				<h2 class="secondary-heading">Current Position</h2>
 				<h3 class="tertiary-heading">Manager of Frontend Development</h3>
 				<p>University of St. Thomas, Minnesota</p>
@@ -81,7 +81,7 @@ include_once __DIR__ . '/config.php';
 			</div>
 		</section>
 		<section class="youtube">
-			<div class="wrap">
+			<div class="wrap animate__animated" data-animation="animate__fadeInUp">
 				<figure class="video">
 					<iframe class="embed-video" width="560" height="315" src="https://www.youtube.com/embed/8Di4M3GBS3I?si=6zSUgVLoNwu40IuP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</figure>
@@ -94,22 +94,22 @@ include_once __DIR__ . '/config.php';
 		<section class="responsibilities">
 			<h2 class="secondary-heading">Key Responsibilities</h2>
 			<div class="wrap">
-				<article class="item">
+				<article class="item animate__animated" data-animation="animate__fadeInUp">
 					<p>Spend significant time hands-on coding, implementing new features, optimizing existing ones, and ensuring we stick to frontend best practices.</p>
 				</article>
-				<article class="item">
+				<article class="item animate__animated" data-animation="animate__fadeInUp">
 					<p>Lead and manage a junior frontend developer, oversee the development calendar, delegate tasks using a Scrumban methodology.</p>
 				</article>
-				<article class="item">
+				<article class="item animate__animated" data-animation="animate__fadeInUp">
 					<p>Mentor a junior developer, provide guidance on coding standards, project workflows, and career development.</p>
 				</article>
-				<article class="item">
+				<article class="item animate__animated" data-animation="animate__fadeInUp">
 					<p>Responsible for hiring and mentoring, foster a positive and growth-oriented culture.</p>
 				</article>
-				<article class="item">
+				<article class="item animate__animated" data-animation="animate__fadeInUp">
 					<p>Create and maintain documentation for code base and development processes, for clarity and knowledge sharing across teams.</p>
 				</article>
-				<article class="item">
+				<article class="item animate__animated" data-animation="animate__fadeInUp">
 					<p>Develop and implement frontend best practices for QA, testing, and production deployment, including pull requests.</p>
 				</article>
 			</div>

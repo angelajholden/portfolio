@@ -47,13 +47,18 @@ body {
 		background: none;
 		border: none;
 		cursor: pointer;
+		width: 60px;
+		height: 60px;
+		background-color: $navy;
+		border-radius: 50%;
 		z-index: 1;
+		transition: all 300ms ease-in-out;
 
 		svg {
 			display: none;
 			position: absolute;
-			top: 0;
-			left: 0;
+			top: 5px;
+			left: 5px;
 			width: 50px;
 			height: 50px;
 			stroke: $white;
@@ -65,14 +70,16 @@ body {
 			}
 		}
 
-		// &:hover,
-		// &:active,
-		// &:focus {
-		// 	& > svg {
-		// 		stroke: $green;
-		// 		fill: $green;
-		// 	}
-		// }
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $white;
+
+			& > svg {
+				stroke: $navy;
+				fill: $navy;
+			}
+		}
 	}
 
 	#video {
