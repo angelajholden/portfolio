@@ -1,34 +1,47 @@
 .header {
+	display: block;
 	position: sticky;
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 1rem;
+	padding: 1rem 0;
 	background-image: linear-gradient(to right, lighten($navy, 10%), $navy);
 	z-index: 1;
 
-	.wrap {
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: space-between;
-		align-items: center;
-		padding-bottom: 0;
+	.skip-nav {
+		position: fixed;
+		top: 0;
+		left: 50%;
+		font-size: 0;
+		background-color: $teal;
+		transform: translateX(-50%);
+		z-index: 1;
+
+		a {
+			display: block;
+			color: $white;
+		}
+
+		&:focus-within {
+			font-size: 1.25rem;
+
+			a {
+				padding: 0.5rem;
+			}
+		}
 	}
 
 	.primary-heading {
+		display: block;
 		margin: 0;
-		font-size: 3rem;
+		padding: 0 1rem;
+		font-size: clamp(1rem, 10vw, 3rem);
 		font-weight: 400;
 		color: $white;
+		white-space: nowrap;
 
-		@media (max-width: 700px) {
-			clip: rect(0 0 0 0);
-			clip-path: inset(50%);
-			height: 1px;
-			overflow: hidden;
-			position: absolute;
-			white-space: nowrap;
-			width: 1px;
+		@media (min-width: 960px) {
+			display: none;
 		}
 
 		a {
@@ -37,46 +50,59 @@
 		}
 	}
 
-	.logo-wrap {
-		width: 75px;
-		height: auto;
+	.mobile-menu {
+		display: none;
+		position: relative;
+		padding: 0.333rem 1rem;
+		border: none;
+		background-color: transparent;
+		z-index: 1;
 
-		@media (max-width: 960px) {
-			width: 50px;
+		div {
+			width: 32px;
+			height: 2px;
+			margin: 0.5rem 0;
+			background-color: $white;
 		}
+	}
 
-		svg {
+	@media (max-width: 960px) {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+
+		.mobile-menu {
 			display: block;
-			fill: $white;
 		}
 	}
 
-	.button {
-		min-width: auto;
-		margin: 0;
-		padding: 0.5rem 1.5rem;
-		color: $white;
-		text-decoration: none;
-		transition: all 300ms ease-in-out;
+	// .button {
+	// 	min-width: auto;
+	// 	margin: 0;
+	// 	padding: 0.5rem 1.5rem;
+	// 	color: $white;
+	// 	text-decoration: none;
+	// 	transition: all 300ms ease-in-out;
 
-		&:hover,
-		&:active,
-		&:focus {
-			color: $navy;
+	// 	&:hover,
+	// 	&:active,
+	// 	&:focus {
+	// 		color: $navy;
 
-			& > svg {
-				fill: $navy;
-			}
-		}
+	// 		& > svg {
+	// 			fill: $navy;
+	// 		}
+	// 	}
 
-		svg {
-			display: inline-block;
-			vertical-align: text-bottom;
-			width: 25px;
-			height: 25px;
-			margin-right: 10px;
-			fill: $white;
-			transition: fill 300ms ease-in-out;
-		}
-	}
+	// 	svg {
+	// 		display: inline-block;
+	// 		vertical-align: text-bottom;
+	// 		width: 25px;
+	// 		height: 25px;
+	// 		margin-right: 10px;
+	// 		fill: $white;
+	// 		transition: fill 300ms ease-in-out;
+	// 	}
+	// }
 }

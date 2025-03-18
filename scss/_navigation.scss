@@ -1,0 +1,97 @@
+.navigation {
+	position: static;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+
+	.wrap {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		padding: 0;
+		list-style-type: none;
+
+		li {
+			margin: 0 1rem;
+		}
+	}
+
+	.logo-wrap {
+		display: block;
+		width: 75px;
+		height: auto;
+
+		@media (max-width: 960px) {
+			width: 50px;
+		}
+
+		svg {
+			display: block;
+			fill: $white;
+		}
+	}
+
+	.nav_item {
+		padding: 1rem 0.5rem;
+		color: $white;
+		text-decoration-color: transparent;
+		transition: text-decoration-color 300ms ease-in-out;
+
+		&:hover,
+		&:active,
+		&:focus {
+			text-decoration-color: $white;
+		}
+	}
+
+	@media (max-width: 960px) {
+		position: fixed;
+		top: 0;
+		right: -320px;
+		width: 320px;
+		max-width: 100%;
+		height: 100vh;
+		background-color: $navy;
+		transition: right 300ms ease-in-out;
+
+		&.active {
+			right: 0;
+		}
+
+		.wrap {
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+
+			li:not(.logo-wrap) {
+				display: block;
+				width: 100%;
+				margin: 0;
+				border-bottom: 3px dotted $yellow;
+			}
+
+			li:last-of-type {
+				border-bottom: none;
+			}
+		}
+
+		.nav_item {
+			display: block;
+			padding: 1rem;
+			text-align: center;
+		}
+
+		.logo-wrap {
+			svg {
+				position: absolute;
+				top: 1.5rem;
+				left: 1rem;
+				width: 50px;
+				height: auto;
+			}
+		}
+	}
+}

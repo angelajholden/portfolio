@@ -7,16 +7,17 @@ include_once __DIR__ . '/config.php';
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Angela J Holden</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet" />
+	<title>Angela J Holden | Software Engineer &amp; Frontend Developer</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>styles.css" />
 </head>
 
 <body>
 	<?php include_once __DIR__ . '/includes/header.php'; ?>
-	<main class="main">
+	<main id="content" class="main">
+		<h1 class="access-hidden">Angela J Holden | Software Engineer &amp; Frontend Developer</h1>
 		<!-- full width image in a container with a defined height, goes beneath the header which is fixed -->
 		<section class="hero">
 			<button id="play-pause" type="button" aria-label="Play/Pause">
