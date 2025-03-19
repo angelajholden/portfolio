@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+function videoBanner() {
 	const supportsVideo = !!document.createElement("video").canPlayType;
 	if (supportsVideo) {
 		const video = document.getElementById("video");
@@ -6,28 +6,32 @@ document.addEventListener("DOMContentLoaded", () => {
 		const play = document.querySelector(".play-button");
 		const pause = document.querySelector(".pause-button");
 
-		// Hide the default controls
-		video.controls = false;
+		if (video) {
+			// Hide the default controls
+			video.controls = false;
 
-		// Set the initial button state for autoplay
-		play.classList.remove("active");
-		pause.classList.add("active");
+			// Set the initial button state for autoplay
+			play.classList.remove("active");
+			pause.classList.add("active");
 
-		playPause.addEventListener("click", (e) => {
-			if (video.paused || video.ended) {
-				video.play();
-				// add paused button svg
-				play.classList.remove("active");
-				pause.classList.add("active");
-			} else {
-				video.pause();
-				// add the play button svg
-				play.classList.add("active");
-				pause.classList.remove("active");
-			}
-		});
+			playPause.addEventListener("click", (e) => {
+				if (video.paused || video.ended) {
+					video.play();
+					// add paused button svg
+					play.classList.remove("active");
+					pause.classList.add("active");
+				} else {
+					video.pause();
+					// add the play button svg
+					play.classList.add("active");
+					pause.classList.remove("active");
+				}
+			});
+		}
 	}
+}
 
+function animateOnScroll() {
 	const observerOptions = {
 		root: null, // Use the viewport as the container
 		rootMargin: "0px",
@@ -52,4 +56,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	// Attach observer to each element
 	const elements = document.querySelectorAll(".animate__animated");
 	elements.forEach((el) => observer.observe(el));
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+	videoBanner();
+	animateOnScroll();
 });

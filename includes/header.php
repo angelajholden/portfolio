@@ -1,7 +1,7 @@
 <!-- fixed header with a gradient, stays fixed on scroll -->
 <header class="header">
 	<nav class="skip-nav"><a href="#content">Skip to Content</a></nav>
-	<div class="primary-heading"><a href="<?php echo BASE_URL; ?>index.php">Angela J Holden</a></div>
+	<div class="primary-heading"><a href="<?php echo BASE_URL; ?>/index.php">Angela J Holden</a></div>
 	<button class="mobile-menu" aria-label="Menu">
 		<div></div>
 		<div></div>
@@ -9,9 +9,9 @@
 	</button>
 	<nav class="navigation">
 		<ul class="wrap">
-			<li><a class="nav_item" href="#">Home</a></li>
-			<li><a class="nav_item" href="#">About</a></li>
-			<li><a class="nav_item" href="#">Contact</a></li>
+			<li><a class="nav_item" href="<?php echo BASE_URL; ?>">Home</a></li>
+			<li><a class="nav_item" href="<?php echo BASE_URL; ?>/about">About Me</a></li>
+			<li><a class="nav_item" href="<?php echo BASE_URL; ?>/contact">Contact Me</a></li>
 			<li class="logo-wrap">
 				<span class="access-hidden">Angela J Holden Logo</span>
 				<svg aria-hidden="true" width="100%" height="100%" viewBox="0 0 1127 1298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2">
@@ -22,9 +22,9 @@
 						</g>
 					</svg>
 			</li>
-			<li><a class="nav_item" href="#">Articles</a></li>
-			<li><a class="nav_item" href="#">Projects</a></li>
-			<li><a class="nav_item" href="#">Practice Layouts</a></li>
+			<li><a class="nav_item" href="<?php echo BASE_URL; ?>/articles">Articles</a></li>
+			<li><a class="nav_item" href="<?php echo BASE_URL; ?>/projects">Projects</a></li>
+			<li><a class="nav_item" href="https://practicelayouts.com" target="_blank">Practice Layouts</a></li>
 		</ul>
 	</nav>
 </header>
