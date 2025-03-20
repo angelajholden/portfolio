@@ -22,5 +22,6 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 	</main>
 	<?php include_once dirname(__DIR__) . '/../includes/footer.php'; ?>
 </body>
+<script src="<?php echo BASE_URL; ?>js/main.js"></script>
 
 </html>
