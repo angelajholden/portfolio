@@ -2,15 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Contact | Angela J Holden</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles.css" />
-</head>
+<?php 
+$title = 'Contact Me | Angela J Holden | Software Engineer &amp; Frontend Developer';
+include_once dirname(__DIR__) . '/includes/head.php' ?>
 
 <body>
 	<?php include_once dirname(__DIR__) . '/includes/header.php'; ?>
@@ -37,7 +31,6 @@
 				</form>
 			</div>
 		</section>
-		<?php //include_once dirname(__DIR__) . '/includes/social.php'; ?>
 	</main>
 	<?php include_once dirname(__DIR__) . '/includes/footer.php'; ?>
 </body>
