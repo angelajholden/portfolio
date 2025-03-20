@@ -14,7 +14,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 			<div class="wrap">
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>/images/ajh-selfie.jpg" alt="Low Poly Geometric">
+						<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Low Poly Geometric">
 					</figure>
 					<div class="item-content">
 						<h2 class="secondary-heading">
@@ -44,7 +44,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 				</article>
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>/images/downtown-mpls-hero.jpg" alt="Low Poly Geometric">
+						<img src="<?php echo BASE_URL; ?>images/downtown-mpls-hero.jpg" alt="Low Poly Geometric">
 					</figure>
 					<div class="item-content">
 						<h2 class="secondary-heading">
@@ -74,7 +74,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 				</article>
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>/images/ust-background.jpg" alt="Low Poly Geometric">
+						<img src="<?php echo BASE_URL; ?>images/ust-background.jpg" alt="Low Poly Geometric">
 					</figure>
 					<div class="item-content">
 						<h2 class="secondary-heading">
@@ -107,7 +107,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 		<section class="skills-experience">
 			<div class="wrap">
 				<figure class="image-with-background animate__animated animate__slow" data-animation="animate__fadeInLeft">
-					<img src="<?php echo BASE_URL; ?>/images/ajh-selfie.jpg" alt="Selfie of Angela J Holden from a video still frame." />
+					<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Selfie of Angela J Holden from a video still frame." />
 				</figure>
 				<div class="text-container animate__animated animate__slow" data-animation="animate__fadeInRight">
 					<h2 class="secondary-heading">Experience &amp; Skills</h2>
@@ -138,7 +138,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 		</section>
 		<section class="current-duties">
 			<figure class="image-half-screen animate__animated animate__slow" data-animation="animate__fadeInBottomLeft">
-				<img src="<?php echo BASE_URL; ?>/images/ust-background.jpg" alt="University of St. Thomas and Anderson Student Center with red flowering bushes." />
+				<img src="<?php echo BASE_URL; ?>images/ust-background.jpg" alt="University of St. Thomas and Anderson Student Center with red flowering bushes." />
 			</figure>
 			<div class="text-container animate__animated animate__slow" data-animation="animate__fadeInBottomRight">
 				<h2 class="secondary-heading">Professional Experience</h2>
@@ -165,6 +165,6 @@ include_once __DIR__ . '/includes/head.php' ?>
 	</main>
 	<?php include_once __DIR__ . '/includes/footer.php'; ?>
 </body>
-<script src="<?php echo BASE_URL; ?>/js/main.js"></script>
+<script src="<?php echo BASE_URL; ?>js/main.js"></script>
 
 </html>
