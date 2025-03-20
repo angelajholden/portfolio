@@ -1,5 +1,5 @@
 .three-card_hero {
-	padding: 65px 0;
+	padding: 50px 0;
 	background-image: url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -26,6 +26,7 @@
 	.three-card_hero & {
 		width: 32%;
 		background-color: $white;
+		border-bottom: 5px solid $mint;
 		box-shadow: 0 1px 1px 1px rgba($color: $black, $alpha: 0.1);
 
 		@media (max-width: 960px) {
@@ -62,6 +63,7 @@
 .secondary-heading {
 	.three-card_hero & {
 		font-size: 1.5rem;
+		line-height: 1.5;
 
 		a {
 			color: $navy;

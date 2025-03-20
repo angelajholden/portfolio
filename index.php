@@ -1,6 +1,4 @@
-<?php
-include_once __DIR__ . '/config.php';
-?>
+<?php include_once __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,12 +24,12 @@ include_once __DIR__ . '/config.php';
 					</figure>
 					<div class="item-content">
 						<h2 class="secondary-heading">
-							<a href="#">Perfecting a Masonry Layout</a>
+							<a href="#">Perfecting a Masonry Layout with a CSS Only Solution and No JavaScript Needed</a>
 						</h2>
 						<div class="item-meta">
 							<span>
-								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="44" d="M358.62 129.28L86.49 402.08 70 442l39.92-16.49 272.8-272.13-24.1-24.1zM413.07 74.84l-11.79 11.78 24.1 24.1 11.79-11.79a16.51 16.51 0 000-23.34l-.75-.75a16.51 16.51 0 00-23.35 0z"/></svg>
-								<a href="#">By Angela</a>
+								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
+								By Angela
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
@@ -39,7 +37,7 @@ include_once __DIR__ . '/config.php';
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
-								<a href="#">Tutorial</a>
+								Tutorial
 							</span>
 						</div>
 						<p class="read-more-link">
@@ -56,12 +54,12 @@ include_once __DIR__ . '/config.php';
 					</figure>
 					<div class="item-content">
 						<h2 class="secondary-heading">
-							<a href="#">Perfecting a Masonry Layout with CSS; JavaScript not Required</a>
+							<a href="#">Perfecting a Masonry Layout</a>
 						</h2>
 						<div class="item-meta">
 							<span>
-								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="44" d="M358.62 129.28L86.49 402.08 70 442l39.92-16.49 272.8-272.13-24.1-24.1zM413.07 74.84l-11.79 11.78 24.1 24.1 11.79-11.79a16.51 16.51 0 000-23.34l-.75-.75a16.51 16.51 0 00-23.35 0z"/></svg>
-								<a href="#">By Angela</a>
+								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
+								By Angela
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
@@ -69,7 +67,7 @@ include_once __DIR__ . '/config.php';
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
-								<a href="#">Tutorial</a>
+								Tutorial
 							</span>
 						</div>
 						<p class="read-more-link">
@@ -90,8 +88,8 @@ include_once __DIR__ . '/config.php';
 						</h2>
 						<div class="item-meta">
 							<span>
-								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="44" d="M358.62 129.28L86.49 402.08 70 442l39.92-16.49 272.8-272.13-24.1-24.1zM413.07 74.84l-11.79 11.78 24.1 24.1 11.79-11.79a16.51 16.51 0 000-23.34l-.75-.75a16.51 16.51 0 00-23.35 0z"/></svg>
-								<a href="#">By Angela</a>
+								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
+								By Angela
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
@@ -99,7 +97,7 @@ include_once __DIR__ . '/config.php';
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
-								<a href="#">Tutorial</a>
+								Tutorial
 							</span>
 						</div>
 						<p class="read-more-link">
@@ -122,7 +120,7 @@ include_once __DIR__ . '/config.php';
 					<ul class="list">
 						<li>
 							<strong>Frontend Development:</strong>
-							HTML, CSS, SCSS, Vanilla JavaScript, Vue.js (primary framework), Angular (used occasionally), responsive design, accessibility (a11y).
+							HTML, CSS, SCSS, PostCSS, Vanilla JavaScript, jQuery, Vue JS, Angular, Astro, Twig (this project!), responsive design, accessibility (a11y), search engine optimization (SEO).
 						</li>
 						<li>
 							<strong>Backend Development:</strong>
@@ -130,7 +128,7 @@ include_once __DIR__ . '/config.php';
 						</li>
 						<li>
 							<strong>APIs and Data:</strong>
-							REST APIs, Relational Databases, Python (web scraping, data extraction).
+							REST APIs, Relational Databases, Python (web scraping and data extraction).
 						</li>
 						<li>
 							<strong>Tools and Workflows:</strong>
@@ -138,11 +136,7 @@ include_once __DIR__ . '/config.php';
 						</li>
 						<li>
 							<strong>Leadership and Collaboration:</strong>
-							Mentoring junior developers, leading frontend projects, fostering team collaboration, conducting code reviews, establishing frontend development best practices, and promoting accessibility (a11y) and DevOps knowledge among frontend teams.
-						</li>
-						<li>
-							<strong>Other Skills:</strong>
-							Experience live streaming frontend development on YouTube and creating custom OBS scenes.
+							Mentoring junior developers, leading frontend projects, writing documentation, conducting code reviews, establishing frontend development best practices, promoting accessibility (a11y) and DevOps knowledge among frontend teams.
 						</li>
 					</ul>
 				</div>
@@ -158,7 +152,7 @@ include_once __DIR__ . '/config.php';
 				<p>University of St. Thomas, Minnesota</p>
 				<p>Saint Paul, MN</p>
 				<p>February 2018 - March 2025</p>
-				<p><a class="button white-hollow-blue" href="https://www.dropbox.com" target="_blank">Download My Resume</a></p>
+				<p><a class="button white-hollow-blue" href="https://www.dropbox.com" target="_blank">View My Resume</a></p>
 			</div>
 		</section>
 		<section class="youtube">
