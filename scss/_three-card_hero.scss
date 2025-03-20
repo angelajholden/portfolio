@@ -85,8 +85,11 @@
 		flex-flow: row wrap;
 		justify-content: space-evenly;
 		align-items: center;
-		font-family: "Roboto", sans-serif;
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		font-style: normal;
 		font-size: 0.95rem;
+		letter-spacing: 0.5px;
 
 		a {
 			color: $navy;
@@ -101,9 +104,9 @@
 
 		svg {
 			display: inline-block;
-			vertical-align: text-top;
-			width: 15px;
-			height: 15px;
+			vertical-align: text-bottom;
+			width: 18px;
+			height: 18px;
 			fill: $mint;
 			stroke: $mint;
 		}

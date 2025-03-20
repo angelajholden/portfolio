@@ -18,7 +18,7 @@
 
 		@media (max-width: 960px) {
 			transform: translateY(calc(-33vh + 1rem));
-			padding: 1.5rem;
+			padding: 0.5rem 1.25rem;
 		}
 	}
 }
@@ -29,19 +29,88 @@
 		color: $navy;
 		line-height: 1.5;
 		margin: 0 0 2.5rem;
+
+		@media (max-width: 768px) {
+			margin: 0 0 1rem;
+		}
+	}
+}
+
+.content-meta {
+	.full-width_content & {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: center;
+		padding: 2.5rem 0;
+		margin-bottom: 2.5rem;
+		border-top: 3px dotted $yellow;
+		border-bottom: 3px dotted $yellow;
+
+		@media (max-width: 768px) {
+			flex-flow: column nowrap;
+			padding: 1rem 0;
+			margin-bottom: 1rem;
+			font-size: 1.25rem;
+		}
+	}
+}
+
+.meta-image {
+	.full-width_content & {
+		width: 65px;
+		height: 65px;
+		margin: 0 0.5rem 0 0;
+		border: 3px solid $green;
+		border-radius: 50%;
+		overflow: hidden;
+
+		@media (max-width: 768px) {
+			width: 50px;
+			height: 50px;
+		}
+	}
+}
+
+.meta-item {
+	.full-width_content & {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: center;
+		margin: 0;
+
+		svg {
+			width: 35px;
+			height: 35px;
+			margin: 0 0.5rem 0 0;
+			fill: $teal;
+		}
+
+		@media (max-width: 768px) {
+			margin: 0.25rem 0;
+
+			svg {
+				width: 20px;
+				height: 20px;
+			}
+		}
 	}
 }
 
 .content-item {
 	.full-width_content & {
-		font-family: "Roboto", sans-serif;
-		font-size: 1.25rem;
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: clamp(1rem, 2vw, 1.25rem);
 		line-height: 2;
 		letter-spacing: 0.5px;
 		color: #4d4d4d;
 
 		p:first-of-type {
 			&::first-letter {
+				font-family: "Cormorant", serif;
 				initial-letter: 2;
 				color: $navy;
 				font-weight: 600;
