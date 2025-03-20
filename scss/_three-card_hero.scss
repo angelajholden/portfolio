@@ -1,0 +1,153 @@
+.three-card_hero {
+	padding: 50px 0;
+	background-image: url("images/low-poly-geometric.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@media (max-width: 960px) {
+		padding: 0.5rem 1rem;
+	}
+}
+
+.wrap {
+	.three-card_hero & {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: stretch;
+
+		@media (max-width: 960px) {
+			flex-flow: column nowrap;
+		}
+	}
+}
+
+.hero-item {
+	.three-card_hero & {
+		width: 32%;
+		background-color: $white;
+		border-bottom: 5px solid $mint;
+		box-shadow: 0 1px 1px 1px rgba($color: $black, $alpha: 0.1);
+
+		@media (max-width: 960px) {
+			width: 100%;
+			margin: 0.5rem auto;
+		}
+	}
+}
+
+.image {
+	.three-card_hero & {
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		aspect-ratio: 4/3;
+
+		img {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.item-content {
+	.three-card_hero & {
+		padding: 1.5rem;
+	}
+}
+
+.secondary-heading {
+	.three-card_hero & {
+		font-size: 1.5rem;
+		line-height: 1.5;
+
+		a {
+			color: $navy;
+			text-decoration-color: $navy;
+			transition: text-decoration-color 300ms ease-in-out;
+
+			&:hover,
+			&:active,
+			&:focus {
+				text-decoration-color: transparent;
+			}
+		}
+	}
+}
+
+.item-meta {
+	.three-card_hero & {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+		align-items: center;
+		font-family: "Roboto", sans-serif;
+		font-size: 0.95rem;
+
+		a {
+			color: $navy;
+			text-decoration-color: $navy;
+
+			&:hover,
+			&:active,
+			&:focus {
+				text-decoration-color: transparent;
+			}
+		}
+
+		svg {
+			display: inline-block;
+			vertical-align: text-top;
+			width: 15px;
+			height: 15px;
+			fill: $mint;
+			stroke: $mint;
+		}
+	}
+}
+
+.read-more-link {
+	.three-card_hero & {
+		margin-top: 2rem;
+
+		a {
+			position: relative;
+			z-index: 0;
+
+			&::before {
+				content: "";
+				display: block;
+				width: 100%;
+				position: absolute;
+				top: 50%;
+				transform: translateY(50%);
+				border-top: 1px solid $green;
+				z-index: -1;
+			}
+
+			&:hover > svg,
+			&:active > svg,
+			&:focus > svg {
+				background-color: $green;
+				stroke: $white;
+			}
+		}
+
+		svg {
+			display: block;
+			width: 48px;
+			height: 48px;
+			padding: 8px;
+			margin: 0 auto;
+			stroke: $green;
+			border: 2px solid $green;
+			border-radius: 50%;
+			background-color: $white;
+			transition: all 300ms ease-in-out;
+		}
+	}
+}

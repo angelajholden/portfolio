@@ -1,0 +1,52 @@
+.full-width_hero {
+	height: 33vh;
+	background-image: url("images/low-poly-geometric.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.full-width_content {
+	padding: 0 1rem;
+}
+
+.wrap {
+	.full-width_content & {
+		transform: translateY(-25vh);
+		padding: 2.5rem 5rem;
+		background-color: $white;
+		border-top: 5px solid $mint;
+
+		@media (max-width: 960px) {
+			transform: translateY(calc(-33vh + 1rem));
+			padding: 1.5rem;
+		}
+	}
+}
+
+.primary-heading {
+	.full-width_content & {
+		font-size: clamp(2rem, 5vw, 4rem);
+		color: $navy;
+		line-height: 1.5;
+		margin: 0 0 2.5rem;
+	}
+}
+
+.content-item {
+	.full-width_content & {
+		font-family: "Roboto", sans-serif;
+		font-size: 1.25rem;
+		line-height: 2;
+		letter-spacing: 0.5px;
+		color: #4d4d4d;
+
+		p:first-of-type {
+			&::first-letter {
+				initial-letter: 2;
+				color: $navy;
+				font-weight: 600;
+				margin-right: 0.5rem;
+			}
+		}
+	}
+}

@@ -8,6 +8,15 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 */
 
 .primary-heading {
@@ -37,7 +46,16 @@ p {
 
 a {
 	color: $links;
+	text-decoration-thickness: 2px;
+	text-decoration-color: $links;
 	text-underline-offset: 5px;
+	transition: text-decoration-color 300ms ease-in-out;
+
+	&:hover,
+	&:active,
+	&:focus {
+		text-decoration-color: transparent;
+	}
 }
 
 /*
