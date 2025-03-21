@@ -1,11 +1,21 @@
 .three-card_hero {
-	padding: 50px 0;
+	padding: 25px 0 50px;
 	background-image: url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 
 	@media (max-width: 960px) {
 		padding: 0.5rem 1rem;
+	}
+}
+
+.primary-heading {
+	.three-card_hero & {
+		font-size: clamp(1.333rem, 5vw, 3rem);
+		color: $white;
+		text-align: center;
+		margin-top: 0;
+		text-shadow: 1px 2px 1px rgba($color: $black, $alpha: 0.75);
 	}
 }
 
