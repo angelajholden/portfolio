@@ -1,11 +1,21 @@
 .three-card_hero {
-	padding: 50px 0;
+	padding: 25px 0 50px;
 	background-image: url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 
 	@media (max-width: 960px) {
 		padding: 0.5rem 1rem;
+	}
+}
+
+.primary-heading {
+	.three-card_hero & {
+		font-size: clamp(1.333rem, 5vw, 3rem);
+		color: $white;
+		text-align: center;
+		margin-top: 0;
+		text-shadow: 1px 2px 1px rgba($color: $black, $alpha: 0.75);
 	}
 }
 
@@ -85,8 +95,11 @@
 		flex-flow: row wrap;
 		justify-content: space-evenly;
 		align-items: center;
-		font-family: "Roboto", sans-serif;
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		font-style: normal;
 		font-size: 0.95rem;
+		letter-spacing: 0.5px;
 
 		a {
 			color: $navy;
@@ -101,9 +114,9 @@
 
 		svg {
 			display: inline-block;
-			vertical-align: text-top;
-			width: 15px;
-			height: 15px;
+			vertical-align: text-bottom;
+			width: 18px;
+			height: 18px;
 			fill: $mint;
 			stroke: $mint;
 		}
