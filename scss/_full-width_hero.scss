@@ -164,13 +164,15 @@
 		color: #4d4d4d;
 
 		p:first-of-type {
-			&::first-letter {
-				font-family: "Cormorant", serif;
-				-webkit-initial-letter: 2;
-				initial-letter: 2;
-				color: $navy;
-				font-weight: 600;
-				margin-right: 0.5rem;
+			@supports (initial-letter: 2) {
+				&::first-letter {
+					font-family: "Cormorant", serif;
+					-webkit-initial-letter: 2;
+					initial-letter: 2;
+					color: $navy;
+					font-weight: 600;
+					margin-right: 0.5rem;
+				}
 			}
 		}
 	}
