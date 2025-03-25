@@ -100,6 +100,10 @@
 			align-items: flex-start;
 			width: 135px;
 		}
+
+		@media (max-width: 350px) {
+			padding-left: 10px;
+		}
 	}
 }
 
@@ -161,7 +165,7 @@
 		font-size: clamp(1rem, 2vw, 1.25rem);
 		line-height: 2;
 		letter-spacing: 0.5px;
-		color: #4d4d4d;
+		color: $dk-gray;
 
 		p:first-of-type {
 			@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
