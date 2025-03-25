@@ -166,6 +166,7 @@
 		p:first-of-type {
 			&::first-letter {
 				font-family: "Cormorant", serif;
+				-webkit-initial-letter: 2;
 				initial-letter: 2;
 				color: $navy;
 				font-weight: 600;
