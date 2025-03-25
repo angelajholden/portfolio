@@ -164,7 +164,7 @@
 		color: #4d4d4d;
 
 		p:first-of-type {
-			@supports (initial-letter: 2) {
+			@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
 				&::first-letter {
 					font-family: "Cormorant", serif;
 					-webkit-initial-letter: 2;
