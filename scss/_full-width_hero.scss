@@ -40,18 +40,69 @@
 	.full-width_content & {
 		display: flex;
 		flex-flow: row nowrap;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		align-items: center;
 		padding: 2.5rem 0;
 		margin-bottom: 2.5rem;
+		font-size: clamp(1.1rem, 2vw, 1.5rem);
 		border-top: 3px dotted $yellow;
 		border-bottom: 3px dotted $yellow;
 
 		@media (max-width: 768px) {
-			flex-flow: column nowrap;
 			padding: 1rem 0;
 			margin-bottom: 1rem;
-			font-size: 1.25rem;
+		}
+
+		@media (max-width: 350px) {
+			flex-flow: column nowrap;
+		}
+	}
+}
+
+.meta-dots {
+	.full-width_content & {
+		display: none;
+		position: relative;
+		top: 37.5px;
+		transform: translateY(-50%);
+		width: 2px;
+		height: 75px;
+		border-right: 2px dotted $mint;
+
+		@media (max-width: 768px) {
+			display: block;
+		}
+
+		@media (max-width: 350px) {
+			position: static;
+			transform: translateY(0);
+			border-right: none;
+			border-bottom: 2px dotted $mint;
+			width: 125px;
+			height: 2px;
+			padding: 0.5rem 0 0;
+			margin: 0 0 0.5rem;
+		}
+	}
+}
+
+.meta-group {
+	.full-width_content & {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+		width: 42.5%;
+
+		@media (max-width: 768px) {
+			flex-flow: column nowrap;
+			justify-content: space-around;
+			align-items: flex-start;
+			width: 135px;
+		}
+
+		@media (max-width: 350px) {
+			padding-left: 10px;
 		}
 	}
 }
@@ -88,11 +139,19 @@
 		}
 
 		@media (max-width: 768px) {
-			margin: 0.25rem 0;
-
 			svg {
 				width: 20px;
 				height: 20px;
+			}
+
+			&.by-author {
+				flex-flow: column nowrap;
+				justify-content: space-between;
+				align-items: center;
+
+				.meta-image {
+					margin: 0;
+				}
 			}
 		}
 	}
@@ -106,15 +165,18 @@
 		font-size: clamp(1rem, 2vw, 1.25rem);
 		line-height: 2;
 		letter-spacing: 0.5px;
-		color: #4d4d4d;
+		color: $dk-gray;
 
 		p:first-of-type {
-			&::first-letter {
-				font-family: "Cormorant", serif;
-				initial-letter: 2;
-				color: $navy;
-				font-weight: 600;
-				margin-right: 0.5rem;
+			@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+				&::first-letter {
+					font-family: "Cormorant", serif;
+					-webkit-initial-letter: 2;
+					initial-letter: 2;
+					color: $navy;
+					font-weight: 600;
+					margin-right: 0.5rem;
+				}
 			}
 		}
 	}
