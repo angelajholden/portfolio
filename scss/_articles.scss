@@ -4,6 +4,10 @@
 	@media (max-width: 768px) {
 		padding: 1.5rem;
 	}
+
+	@media (max-width: 600px) {
+		padding: 1rem;
+	}
 }
 
 .primary-heading {
@@ -48,15 +52,16 @@
 		break-inside: avoid;
 
 		@media (max-width: 768px) {
-			padding-bottom: 1.5rem;
+			padding-bottom: 2rem;
 		}
 
 		@media (max-width: 600px) {
 			display: flex;
 			flex-flow: row nowrap;
 			justify-content: space-between;
-			align-items: flex-start;
-			margin-bottom: 2rem;
+			align-items: center;
+			padding-bottom: 1.25rem;
+			margin-bottom: 1.25rem;
 			border-bottom: 3px dotted $mint;
 
 			&:nth-of-type(even) {
