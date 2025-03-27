@@ -20,10 +20,8 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
-						<h2 class="secondary-heading">
-							<a href="#">Title One: Crates of fruit at an open market</a>
-						</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem? Odio libero magnam voluptates corrupti distinctio sed, numquam dignissimos pariatur reiciendis.</p>
+						<h2 class="secondary-heading"><a href="#">Title One: Crates of fruit at an open market</a></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem?</p>
 					</div>
 				</article>
 				<article class="article-item">
@@ -32,10 +30,8 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
-						<h2 class="secondary-heading">
-							<a href="#">Title Two: Cheese and red pomegranate seeds</a>
-						</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem? Odio libero magnam voluptates corrupti distinctio sed, numquam dignissimos pariatur reiciendis.</p>
+						<h2 class="secondary-heading"><a href="#">Title Two: Cheese and red pomegranate seeds</a></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem?</p>
 					</div>
 				</article>
 				<article class="article-item">
@@ -44,10 +40,8 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
-						<h2 class="secondary-heading">
-							<a href="#">Title Three: Rosé wine in glasses</a>
-						</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem? Odio libero magnam voluptates corrupti distinctio sed, numquam dignissimos pariatur reiciendis.</p>
+						<h2 class="secondary-heading"><a href="#">Title Three: Rosé wine in glasses</a></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem?</p>
 					</div>
 				</article>
 				<article class="article-item">
@@ -56,10 +50,8 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
-						<h2 class="secondary-heading">
-							<a href="#">Title Four: Soft yellow tulips</a>
-						</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem? Odio libero magnam voluptates corrupti distinctio sed, numquam dignissimos pariatur reiciendis.</p>
+						<h2 class="secondary-heading"><a href="#">Title Four: Soft yellow tulips</a></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem?</p>
 					</div>
 				</article>
 				<article class="article-item">
@@ -68,10 +60,8 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
-						<h2 class="secondary-heading">
-							<a href="#">Title Five: A single stem of rich, green eucalyptus</a>
-						</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem? Odio libero magnam voluptates corrupti distinctio sed, numquam dignissimos pariatur reiciendis.</p>
+						<h2 class="secondary-heading"><a href="#">Title Five: A single stem of rich, green eucalyptus</a></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem?</p>
 					</div>
 				</article>
 				<article class="article-item">
@@ -80,10 +70,8 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
-						<h2 class="secondary-heading">
-							<a href="#">Title Six: Fuzzy bumblebee sitting on a purple flower bulb</a>
-						</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem? Odio libero magnam voluptates corrupti distinctio sed, numquam dignissimos pariatur reiciendis.</p>
+						<h2 class="secondary-heading"><a href="#">Title Six: Fuzzy bumblebee sitting on a purple flower bulb</a></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem?</p>
 					</div>
 				</article>
 				<article class="article-item">
@@ -92,10 +80,8 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
-						<h2 class="secondary-heading">
-							<a href="#">Title Seven: Fruit smoothie with mint and ginger</a>
-						</h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem? Odio libero magnam voluptates corrupti distinctio sed, numquam dignissimos pariatur reiciendis.</p>
+						<h2 class="secondary-heading"><a href="#">Title Seven: Fruit smoothie with mint and ginger</a></h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ut saepe beatae placeat consectetur provident ipsa laboriosam quae exercitationem?</p>
 					</div>
 				</article>
 			</div>
