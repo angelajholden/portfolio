@@ -1,0 +1,92 @@
+.masonry-articles {
+	padding: 50px;
+
+	@media (max-width: 1024px) {
+		padding: 1rem;
+	}
+}
+
+.primary-heading {
+	.masonry-articles & {
+		margin: 0 0 1rem;
+		color: $navy;
+		text-align: center;
+	}
+}
+
+.masonry-wrap {
+	.masonry-articles & {
+		columns: 5 auto;
+		gap: 3rem;
+
+		@media (max-width: 1920px) {
+			columns: 4 auto;
+		}
+
+		@media (max-width: 1440px) {
+			columns: 3 auto;
+		}
+
+		@media (max-width: 1024px) {
+			columns: 2 auto;
+			gap: 1rem;
+		}
+	}
+}
+
+.article-item {
+	.masonry-articles & {
+		padding-bottom: 2rem;
+		break-inside: avoid;
+	}
+}
+
+.image {
+	.masonry-articles & {
+		margin: 0;
+	}
+}
+
+.article-wrap {
+	.masonry-articles & {
+		padding: 1rem 0;
+
+		p {
+			font-family: "Lato", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: clamp(1rem, 1.25vw, 1.1rem);
+		}
+	}
+}
+
+.article-category {
+	.masonry-articles & {
+		font-family: "Lato", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 0.95rem;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 2px;
+		color: $green;
+	}
+}
+
+.secondary-heading {
+	.masonry-articles & {
+		margin: 1rem 0;
+		font-size: 1.5rem;
+
+		a {
+			color: $navy;
+			text-decoration-color: $navy;
+
+			&:hover,
+			&:active,
+			&:focus {
+				text-decoration-color: transparent;
+			}
+		}
+	}
+}
