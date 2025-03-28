@@ -1,5 +1,6 @@
 .masonry-articles {
 	padding: 50px;
+	transition: padding 300ms ease-in-out;
 
 	@media (max-width: 768px) {
 		padding: 1.5rem;
@@ -12,7 +13,7 @@
 
 .primary-heading {
 	.masonry-articles & {
-		margin: 0 0 1rem;
+		margin: 0 0 3rem;
 		color: $navy;
 		text-align: center;
 		line-height: 1;
@@ -23,6 +24,7 @@
 	.masonry-articles & {
 		columns: 5 auto;
 		gap: 3rem;
+		transition: gap 300ms ease-in-out;
 
 		@media (max-width: 1920px) {
 			columns: 4 auto;
@@ -50,6 +52,7 @@
 	.masonry-articles & {
 		padding-bottom: 3rem;
 		break-inside: avoid;
+		transition: padding 300ms ease-in-out;
 
 		@media (max-width: 768px) {
 			padding-bottom: 2rem;
@@ -64,10 +67,6 @@
 			margin-bottom: 1.25rem;
 			border-bottom: 3px dotted $mint;
 
-			&:nth-of-type(even) {
-				border-color: $yellow;
-			}
-
 			&:last-of-type {
 				border-bottom: none;
 			}
@@ -79,6 +78,7 @@
 	.masonry-articles & {
 		margin: 0;
 		overflow: hidden;
+		box-shadow: 5px 5px 0 0 transparent;
 
 		img {
 			transform: scale(1);
@@ -87,7 +87,7 @@
 		}
 
 		&:hover > img {
-			transform: scale(1.15);
+			transform: scale(1.1);
 			filter: brightness(1.1);
 		}
 
@@ -113,6 +113,7 @@
 	.masonry-articles & {
 		padding: 1rem 0 0;
 		line-height: 1;
+		transition: padding 300ms ease-in-out;
 
 		p {
 			font-family: "Lato", sans-serif;
@@ -158,7 +159,6 @@
 		@media (max-width: 600px) {
 			position: static;
 			transform: translateX(0);
-			padding-bottom: 0.5rem;
 		}
 	}
 }
@@ -168,6 +168,7 @@
 		margin: 1rem 0;
 		font-size: clamp(1.25rem, 2vw, 1.75rem);
 		line-height: 1.333;
+		transition: margin 300ms ease-in-out;
 
 		a {
 			color: $navy;
