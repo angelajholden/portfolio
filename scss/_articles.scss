@@ -1,5 +1,5 @@
 .masonry-articles {
-	padding: 50px;
+	padding: 2rem 3rem 3rem;
 	transition: padding 300ms ease-in-out;
 
 	@media (max-width: 768px) {
@@ -13,10 +13,47 @@
 
 .primary-heading {
 	.masonry-articles & {
-		margin: 0 0 3rem;
+		margin: 0 0 1rem;
 		color: $navy;
 		text-align: center;
 		line-height: 1;
+
+		&::after {
+			content: "";
+			display: block;
+			width: 200px;
+			max-width: 100%;
+			margin: 1rem auto 2rem;
+			border-bottom: 3px dotted $yellow;
+		}
+	}
+}
+
+.article-buttons {
+	.masonry-articles & {
+		text-align: center;
+		margin: 0 0 2rem;
+
+		.button {
+			min-width: 160px;
+			margin: 0;
+			font-size: clamp(1rem, 2vw, 1.25rem);
+		}
+
+		.button.active {
+			background-color: $navy;
+			border: 3px solid $navy;
+			color: $white;
+		}
+
+		@media (max-width: 960px) {
+			.button {
+				display: block;
+				width: 100%;
+				margin: 0.5rem 0;
+				padding: 0.65rem;
+			}
+		}
 	}
 }
 
