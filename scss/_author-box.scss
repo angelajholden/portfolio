@@ -1,0 +1,69 @@
+.author-box {
+	padding: 5rem 0 2rem;
+	text-align: center;
+
+	p {
+		max-width: 70ch;
+		margin: 0 auto;
+	}
+}
+
+.tertiary-header {
+	.author-box & {
+		@include bold-section-heading;
+	}
+}
+
+svg {
+	.author-box & {
+		position: relative;
+		display: block;
+		width: 50px;
+		height: auto;
+		padding: 0.5rem;
+		margin: 0 auto 1rem;
+		fill: $red;
+		z-index: 0;
+		background-color: $white;
+	}
+}
+
+.svg-border {
+	.author-box & {
+		position: relative;
+		top: 25px;
+		max-width: 65rem;
+		margin: 0 auto;
+		border-bottom: 3px dotted $gray;
+		z-index: 0;
+	}
+}
+
+.image {
+	.author-box & {
+		position: relative;
+		width: 200px;
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+		aspect-ratio: 1 / 1;
+		border-radius: 50%;
+		overflow: hidden;
+
+		img {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.author-name {
+	.author-box & {
+		font-size: 2rem;
+		color: $green;
+		margin: 1.25rem 0 1rem;
+	}
+}

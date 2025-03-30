@@ -6,6 +6,7 @@
 	color: $dk-gray;
 	letter-spacing: 0.5px;
 	padding: 50px 0;
+	background-color: $white;
 
 	ul {
 		margin: 0;
@@ -15,23 +16,7 @@
 
 .comment-count {
 	.comments & {
-		font-size: 0.85rem;
-		font-weight: 700;
-		text-transform: uppercase;
-		text-align: center;
-		letter-spacing: 2px;
-		color: $dk-gray;
-		margin-bottom: 1rem;
-
-		&::after {
-			content: "";
-			display: block;
-			width: 100%;
-			position: relative;
-			top: -30px;
-			border-bottom: 1px solid $gray;
-			z-index: -1;
-		}
+		@include bold-section-heading;
 	}
 }
 

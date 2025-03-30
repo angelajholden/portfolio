@@ -29,7 +29,7 @@
 */
 
 .primary-heading {
-	font-size: 4.5rem;
+	font-size: clamp(2rem, 5vw, 4rem);
 }
 
 .secondary-heading {
@@ -49,8 +49,31 @@
 	margin: 0 0 0.5rem;
 }
 
+@mixin bold-section-heading {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 0.85rem;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	color: $dk-gray;
+	margin-bottom: 1rem;
+}
+
 p {
-	margin: 0 0 0.5rem;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: clamp(1rem, 2vw, 1.25rem);
+	line-height: 2;
+	letter-spacing: 0.5px;
+	color: $dk-gray;
+	margin: 0 0 1.25rem;
+
+	&:last-of-type {
+		margin: 0;
+	}
 }
 
 a {
