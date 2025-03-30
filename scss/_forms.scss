@@ -1,13 +1,35 @@
 .contact {
-	padding: 50px 10px 0;
+	padding: 3rem;
+	background-image: url("images/low-poly-geometric.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-	.wrap {
-		max-width: 50rem;
+.wrap {
+	.contact & {
+		max-width: 60rem;
+		padding: 2rem;
 		margin: 0 auto;
+		border-radius: 10px;
+		background-color: rgba($color: $white, $alpha: 0.65);
 	}
+}
 
-	.secondary-heading {
-		color: $teal;
+.primary-heading {
+	.contact & {
+		margin: 0 0 1rem;
+		color: $navy;
+		text-align: center;
+		line-height: 1;
+
+		&::after {
+			content: "";
+			display: block;
+			width: 275px;
+			max-width: 100%;
+			margin: 1rem auto 2rem;
+			border-bottom: 3px dotted $yellow;
+		}
 	}
 }
 
