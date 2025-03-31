@@ -14,10 +14,10 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				<h1 class="primary-heading">Articles</h1>
 				<div class="article-buttons">
 					<button class="button blue-hollow active" data-category="all">All Articles</button>
-					<button class="button blue-hollow" data-category="tutorials">Tutorials</button>
-					<button class="button blue-hollow" data-category="tips">Tips &amp; Advice</button>
 					<button class="button blue-hollow" data-category="pdfs">Free PDFs</button>
 					<button class="button blue-hollow" data-category="lifestyle">Lifestyle</button>
+					<button class="button blue-hollow" data-category="tips">Tips &amp; Advice</button>
+					<button class="button blue-hollow" data-category="tutorials">Tutorials</button>
 				</div>
 			</header>
 			<div class="masonry-wrap">

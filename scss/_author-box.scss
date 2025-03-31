@@ -19,9 +19,10 @@ svg {
 		position: relative;
 		display: block;
 		width: 50px;
-		height: auto;
+		height: 50px;
 		padding: 0.5rem;
 		margin: 0 auto 1rem;
+		border-radius: 10px;
 		fill: $red;
 		background-color: $white;
 		z-index: 0;
