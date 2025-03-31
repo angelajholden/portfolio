@@ -98,21 +98,26 @@
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
-			transform: scale(1);
-			filter: brightness(1);
-			transition: all 300ms ease-in-out;
-		}
-
-		&:hover > img {
-			transform: scale(1.1);
-			filter: brightness(1.1);
 		}
 	}
 }
 
 .project-content {
 	.grid-projects & {
-		padding: 2rem;
+		position: relative;
+		width: 100%;
+		padding: 1.5rem 2rem 2rem 2.5rem;
+		border-top: 1px solid $gray;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 1.75rem;
+			left: 1.25rem;
+			width: 5px;
+			height: 75px;
+			background: linear-gradient(to bottom, #1d506f 0%, #1d506f 25%, #44878c 25%, #44878c 50%, #89bfac 50%, #89bfac 75%, #d7cc8e 75%, #d7cc8e 100%);
+		}
 
 		@media (max-width: 768px) {
 			padding: 1rem;

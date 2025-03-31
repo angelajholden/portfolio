@@ -19,7 +19,7 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
-						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
+						<h2 class="secondary-heading">Build a Modal Window</h2>
 						<div class="project-links">
 							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
@@ -29,7 +29,7 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</article>
 				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
@@ -42,7 +42,7 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
@@ -55,46 +55,7 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
-					</figure>
-					<div class="project-content">
-						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
-						<div class="project-links">
-							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
-							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://www.youtube.com" target="_blank">YouTube</a></span>
-						</div>
-					</div>
-				</article>
-				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
-					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
-					</figure>
-					<div class="project-content">
-						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
-						<div class="project-links">
-							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
-							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://www.youtube.com" target="_blank">YouTube</a></span>
-						</div>
-					</div>
-				</article>
-				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
-					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
-					</figure>
-					<div class="project-content">
-						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
-						<div class="project-links">
-							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
-							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://www.youtube.com" target="_blank">YouTube</a></span>
-						</div>
-					</div>
-				</article>
-				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
-					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
@@ -107,7 +68,7 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</article>
 				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
@@ -120,10 +81,10 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
-						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
+						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript and lot's of practice on the weekends</h2>
 						<div class="project-links">
 							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
@@ -133,7 +94,7 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
@@ -146,7 +107,7 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</article>
 				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
@@ -159,7 +120,46 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/screenshot.png" alt="Heidi the Sheltie is looking out the window.">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
+					</figure>
+					<div class="project-content">
+						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
+						<div class="project-links">
+							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
+							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
+							<span class="link-item"><a href="https://www.youtube.com" target="_blank">YouTube</a></span>
+						</div>
+					</div>
+				</article>
+				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
+					<figure class="image">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
+					</figure>
+					<div class="project-content">
+						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
+						<div class="project-links">
+							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
+							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
+							<span class="link-item"><a href="https://www.youtube.com" target="_blank">YouTube</a></span>
+						</div>
+					</div>
+				</article>
+				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
+					<figure class="image">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
+					</figure>
+					<div class="project-content">
+						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
+						<div class="project-links">
+							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
+							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
+							<span class="link-item"><a href="https://www.youtube.com" target="_blank">YouTube</a></span>
+						</div>
+					</div>
+				</article>
+				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
+					<figure class="image">
+						<img src="<?php echo BASE_URL; ?>images/the-ocean.png" alt="Heidi the Sheltie is looking out the window.">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Modal Window: HTML, SCSS &amp; JavaScript</h2>
