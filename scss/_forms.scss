@@ -1,13 +1,48 @@
 .contact {
-	padding: 50px 10px 0;
+	padding: 3rem;
+	background-image: url("images/low-poly-geometric.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-	.wrap {
-		max-width: 50rem;
+.wrap {
+	.contact & {
+		position: relative;
+		max-width: 60rem;
+		padding: 4rem;
 		margin: 0 auto;
-	}
+		background-color: rgba($color: $white, $alpha: 0.65);
+		z-index: 0;
 
-	.secondary-heading {
-		color: $teal;
+		&::before {
+			content: "";
+			display: block;
+			width: calc(100% - 4rem);
+			height: calc(100% - 4rem);
+			position: absolute;
+			top: 2rem;
+			left: 2rem;
+			border: 3px dotted $mint;
+			z-index: -1;
+		}
+	}
+}
+
+.primary-heading {
+	.contact & {
+		margin: 0 0 1rem;
+		color: $navy;
+		text-align: center;
+		line-height: 1;
+
+		&::after {
+			content: "";
+			display: block;
+			width: 275px;
+			max-width: 100%;
+			margin: 1rem auto 2rem;
+			border-bottom: 3px dotted $yellow;
+		}
 	}
 }
 
@@ -23,6 +58,12 @@
 		width: 100%;
 		padding: 1.5rem;
 		border: 3px solid $teal;
+	}
+
+	.button {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 
 	@media (max-width: 960px) {
