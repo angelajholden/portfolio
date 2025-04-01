@@ -13,8 +13,8 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 			<div class="wrap">
 				<header class="content-header">
 					<h1 class="primary-heading">Contact Me</h1>
+					<p>Got a question, idea, or opportunity? Send me a message using the form below—I check my inbox regularly and respond as soon as I can. I'm always happy to set up a Zoom meeting if you'd like to connect live, especially if you're a prospective client or employer. No need to be formal—I appreciate thoughtful, direct messages.</p>
 				</header>
-				<!-- modify this form HTML and place wherever you want your form -->
 				<form class="form" action="https://formspree.io/f/xyzyqyve" method="POST">
 					<div class="form-inputs">
 						<label class="access-hidden" for="name">Name</label>
@@ -26,7 +26,6 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</div>
 					<label class="access-hidden" for="message">Message</label>
 					<textarea id="message" name="message" placeholder="Message*" rows="7" required="required"></textarea>
-					<!-- your other form fields go here -->
 					<button class="button teal-solid" type="submit">Submit</button>
 				</form>
 			</div>

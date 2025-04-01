@@ -322,7 +322,6 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</div>
 				</article>
 			</div>
-			<?php include_once dirname(__DIR__) . '/includes/author.php'; ?>
 		</section>
 	</main>
 	<?php include_once dirname(__DIR__) . '/includes/footer.php'; ?>
