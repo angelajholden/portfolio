@@ -14,7 +14,6 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				<header class="content-header">
 					<h1 class="primary-heading">Contact Me</h1>
 				</header>
-				<!-- modify this form HTML and place wherever you want your form -->
 				<form class="form" action="https://formspree.io/f/xyzyqyve" method="POST">
 					<div class="form-inputs">
 						<label class="access-hidden" for="name">Name</label>
@@ -26,7 +25,6 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 					</div>
 					<label class="access-hidden" for="message">Message</label>
 					<textarea id="message" name="message" placeholder="Message*" rows="7" required="required"></textarea>
-					<!-- your other form fields go here -->
 					<button class="button teal-solid" type="submit">Submit</button>
 				</form>
 			</div>

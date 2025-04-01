@@ -4,10 +4,10 @@
 			<h3 class="tertiary-heading">Information</h3>
 			<nav class="footer-nav">
 				<ul>
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Contact Me</a></li>
-					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Accessibility Statement</a></li>
 					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Style Guide</a></li>
+					<li><a href="#">Terms &amp; Conditions</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -15,7 +15,7 @@
 		<div class="footer-item">
 			<section class="footer-about">
 				<h3 class="tertiary-heading">About Me</h3>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus iste rerum, repudiandae reprehenderit dolor sed, in odit, deserunt iure magnam temporibus animi! At atque voluptatibus nisi quaerat? Modi, aliquid?</p>
+				<p>I'm a frontend developer based in Saint Paul, Minnesota, where I live with my Sheltie, Heidi. After more than a decade of building websites, I'm focused on sharing what I've learned through tutorials, live streams, and articles about code, creativity, and life behind the screen.</p>
 			</section>
 			<section class="social-icons">
 				<nav class="social-nav">
