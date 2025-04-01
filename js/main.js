@@ -84,8 +84,17 @@ function articleFilter() {
 	});
 }
 
+function copyright() {
+	const date = document.getElementById("date");
+	const year = new Date().getFullYear();
+	if (date) {
+		date.innerHTML = year;
+	}
+}
+
 document.addEventListener("DOMContentLoaded", () => {
 	videoBanner();
 	animateOnScroll();
 	articleFilter();
+	copyright();
 });

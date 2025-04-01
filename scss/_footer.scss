@@ -1,44 +1,168 @@
 .footer {
-	padding: 50px 0;
+	background-color: $navy;
+}
 
-	.copyright {
+.wrap {
+	.footer & {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+}
+
+.footer-item {
+	.footer & {
+		width: 33.333%;
+		padding: 3rem;
+		border-left: 1px solid darken($navy, 10%);
+
+		&:first-of-type {
+			border-left: none;
+		}
+
+		&:nth-of-type(2) {
+			padding: 0;
+		}
+	}
+}
+
+.tertiary-heading {
+	.footer & {
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1rem;
+		text-transform: uppercase;
 		text-align: center;
+		letter-spacing: 2px;
+		margin: 0 0 1rem;
+		color: $white;
+
+		&::after {
+			content: "";
+			display: block;
+			width: 100px;
+			max-width: 100%;
+			margin: 0.5rem auto 0;
+			border-bottom: 3px dotted $yellow;
+		}
+	}
+}
+
+.footer-nav {
+	.footer & {
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+
+		li {
+			text-align: center;
+			margin: 0.5rem 0;
+		}
+
+		a {
+			font-family: "Lato", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 1rem;
+			color: $white;
+			text-decoration-thickness: 1px;
+			text-decoration-color: $white;
+			letter-spacing: 0.5px;
+
+			&:hover,
+			&:active,
+			&:focus {
+				text-decoration-color: transparent;
+			}
+		}
+	}
+}
+
+.footer-about {
+	.footer & {
+		padding: 3rem;
+		border-bottom: 1px solid darken($navy, 10%);
+
+		p {
+			font-size: 1rem;
+			color: $white;
+		}
 	}
 }
 
 .social-icons {
-	padding: 0 0 20px;
+	.footer & {
+		padding: 3rem;
+	}
+}
 
-	.social-nav ul {
+.social-nav ul {
+	.footer & {
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
 		text-align: center;
 	}
+}
 
-	.social-nav li {
+.social-nav li {
+	.footer & {
 		display: inline-block;
-		width: 65px;
-		height: 65px;
+		width: 35px;
+		height: 35px;
 		margin: 0 10px;
 
 		a {
 			display: block;
-			width: 65px;
-			height: 65px;
+			width: 35px;
+			height: 35px;
 
 			&:hover,
 			&:active,
 			&:focus {
 				& > svg {
-					fill: $green;
+					fill: darken($navy, 10%);
 				}
 			}
 		}
 
 		svg {
-			fill: $navy;
+			fill: $white;
 			transition: fill 300ms ease-in-out;
 		}
+	}
+}
+
+.form {
+	.footer & {
+		margin: 1.5rem 0 0;
+
+		input,
+		button {
+			width: 100%;
+			padding: 0.75rem;
+			font-size: 1rem;
+		}
+
+		input {
+			border-color: $white;
+		}
+
+		button {
+			margin: 0;
+		}
+	}
+}
+
+.copyright {
+	.footer & {
+		padding: 3rem;
+		color: $white;
+		text-align: center;
+		border-top: 1px solid darken($navy, 10%);
 	}
 }
