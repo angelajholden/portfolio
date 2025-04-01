@@ -4,10 +4,10 @@
 			<h3 class="tertiary-heading">Information</h3>
 			<nav class="footer-nav">
 				<ul>
-					<li><a href="#">Accessibility Statement</a></li>
-					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">Style Guide</a></li>
-					<li><a href="#">Terms &amp; Conditions</a></li>
+					<li><a href="<?php echo BASE_URL; ?>accessibility/">Accessibility Statement</a></li>
+					<li><a href="<?php echo BASE_URL; ?>privacy-policy/">Privacy Policy</a></li>
+					<li><a href="<?php echo BASE_URL; ?>style-guide/">Style Guide</a></li>
+					<li><a href="<?php echo BASE_URL; ?>terms-conditions/">Terms &amp; Conditions</a></li>
 				</ul>
 			</nav>
 		</div>

@@ -9,7 +9,7 @@
 		justify-content: space-between;
 		align-items: stretch;
 
-		@media (max-width: 768px) {
+		@media (max-width: 960px) {
 			flex-flow: column nowrap;
 		}
 	}
@@ -17,7 +17,7 @@
 
 .footer-item {
 	.footer & {
-		width: 30%;
+		width: 32.5%;
 		padding: 3rem;
 		border-left: 1px solid darken($navy, 10%);
 
@@ -26,11 +26,11 @@
 		}
 
 		&:nth-of-type(2) {
-			width: 40%;
+			width: 35%;
 			padding: 0;
 		}
 
-		@media (max-width: 768px) {
+		@media (max-width: 960px) {
 			width: 100%;
 			padding: 1.5rem;
 			border-left: none;
@@ -108,7 +108,7 @@
 			color: $white;
 		}
 
-		@media (max-width: 768px) {
+		@media (max-width: 960px) {
 			padding: 1.5rem;
 		}
 	}
@@ -118,7 +118,7 @@
 	.footer & {
 		padding: 3rem;
 
-		@media (max-width: 768px) {
+		@media (max-width: 960px) {
 			padding: 1.5rem;
 		}
 	}
@@ -164,21 +164,28 @@
 .form {
 	.footer & {
 		margin: 1.5rem 0 0;
+		font-size: 1rem;
 
 		input,
-		button {
+		.button {
 			width: 100%;
 			min-width: 100%;
 			padding: 0.75rem;
-			font-size: 1rem;
+			border-width: 2px;
 		}
 
 		input {
 			border-color: $white;
 		}
 
-		button {
+		.button {
 			margin: 0;
+
+			&:hover,
+			&:active,
+			&:focus {
+				border-width: 2px;
+			}
 		}
 	}
 }
@@ -190,7 +197,7 @@
 		text-align: center;
 		border-top: 1px solid darken($navy, 10%);
 
-		@media (max-width: 768px) {
+		@media (max-width: 960px) {
 			padding: 1rem;
 
 			.bullet {
