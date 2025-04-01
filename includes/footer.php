@@ -63,5 +63,5 @@
 			</form>
 		</div>
 	</div>
-	<div class="copyright">Copyright &copy; <span id="date"></span> • Angela J Holden</div>
+	<div class="copyright">Copyright &copy; <span id="date"></span> <span class="bullet">•</span> <span class="footer-name">Angela J Holden</span></div>
 </footer>
