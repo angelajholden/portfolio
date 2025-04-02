@@ -1,3 +1,18 @@
+const button = document.querySelector(".mobile-menu");
+const menu = document.querySelector(".navigation");
+function mobileNavigation() {
+	button.classList.toggle("active");
+	menu.classList.toggle("active");
+}
+
+function escapeNavigation() {
+	document.addEventListener("keydown", function (event) {
+		if (event.key === "Escape" && menu.classList.contains("active")) {
+			mobileNavigation();
+		}
+	});
+}
+
 function videoBanner() {
 	const supportsVideo = !!document.createElement("video").canPlayType;
 	if (supportsVideo) {
@@ -43,8 +58,9 @@ function animateOnScroll() {
 			if (entry.isIntersecting) {
 				const target = entry.target;
 				const animation = target.getAttribute("data-animation");
-				target.classList.add(animation);
-
+				if (animation) {
+					target.classList.add(animation);
+				}
 				// Optional: Remove the observer after the animation is triggered
 				observer.unobserve(target);
 			}
@@ -97,4 +113,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	animateOnScroll();
 	articleFilter();
 	copyright();
+	button.addEventListener("click", mobileNavigation);
+	escapeNavigation();
 });
