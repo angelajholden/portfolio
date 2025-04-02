@@ -6,5 +6,5 @@
 		<img src="<?php echo BASE_URL ?>images/ajh-selfie.jpg" alt="Author, Angela J Holden">
 	</figure>
 	<h4 class="author-name">Angela J Holden</h4>
-	<p>After more than a decade as a frontend developer, I've worked on thousands of projects—ranging from small business sites to large-scale university schools and colleges—with experience in both building from scratch, and optimizing legacy code.</p>
+	<p>After more than a decade as a frontend developer, I've worked on thousands of projects, ranging from small business sites to large-scale university web apps, with experience in both building from scratch, and optimizing legacy code.</p>
 </div>

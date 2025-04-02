@@ -1,5 +1,5 @@
 <header class="header">
-	<nav class="skip-nav"><a href="#content">Skip to Content</a></nav>
+	<nav class="skip-nav" aria-label="Skip navigation"><a href="#content">Skip to Content</a></nav>
 	<div class="primary-heading"><a href="<?php echo BASE_URL; ?>index.php">Angela J Holden</a></div>
 	<button class="mobile-button" aria-label="Menu" aria-controls="mobile-menu">
 		<span class="access-hidden">Menu</span>
