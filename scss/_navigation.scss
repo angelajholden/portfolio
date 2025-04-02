@@ -93,6 +93,7 @@
 		text-decoration-color: transparent;
 		transition: text-decoration-color 300ms ease-in-out;
 
+		&.active,
 		&:hover,
 		&:active,
 		&:focus {

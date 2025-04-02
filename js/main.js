@@ -2,6 +2,17 @@ const button = document.querySelector(".mobile-button");
 const menu = document.querySelector(".navigation");
 const breakpoint = 960;
 
+function youAreHere() {
+	const links = document.querySelectorAll(".nav_item");
+	const pathname = window.location.pathname;
+	links.forEach((link) => {
+		// console.log(link.pathname);
+		if (link.pathname === pathname) {
+			link.classList.add("active");
+		}
+	});
+}
+
 function toggleMobileNavigation() {
 	const isExpanded = button.getAttribute("aria-expanded") === "true";
 
@@ -145,4 +156,5 @@ document.addEventListener("DOMContentLoaded", () => {
 	articleFilter();
 	copyright();
 	initMobileNavigation();
+	youAreHere();
 });
