@@ -4,10 +4,10 @@ const breakpoint = 960;
 
 function youAreHere() {
 	const links = document.querySelectorAll(".nav_item");
-	const pathname = window.location.pathname;
+	const href = window.location.href;
 	links.forEach((link) => {
-		// console.log(link.pathname);
-		if (link.pathname === pathname) {
+		// console.log(link.href);
+		if (link.href === href) {
 			link.classList.add("active");
 		}
 	});
