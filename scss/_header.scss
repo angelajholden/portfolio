@@ -82,12 +82,6 @@
 			transition: transform 350ms ease, width 200ms ease;
 		}
 
-		&:hover > div {
-			&:nth-of-type(2) {
-				width: 20px;
-			}
-		}
-
 		&:active > div,
 		&.active > div {
 			&:nth-of-type(1) {
