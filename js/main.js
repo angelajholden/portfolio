@@ -1,16 +1,47 @@
-const button = document.querySelector(".mobile-menu");
+const button = document.querySelector(".mobile-button");
 const menu = document.querySelector(".navigation");
-function mobileNavigation() {
-	button.classList.toggle("active");
-	menu.classList.toggle("active");
+const breakpoint = 960;
+
+function toggleMobileNavigation() {
+	const isExpanded = button.getAttribute("aria-expanded") === "true";
+
+	button.setAttribute("aria-expanded", String(!isExpanded));
+	button.setAttribute("aria-label", isExpanded ? "Open Menu" : "Close Menu");
+	button.classList.toggle("active", !isExpanded);
+
+	menu.setAttribute("aria-hidden", String(isExpanded));
+	menu.classList.toggle("active", !isExpanded);
 }
 
-function escapeNavigation() {
-	document.addEventListener("keydown", function (event) {
-		if (event.key === "Escape" && menu.classList.contains("active")) {
-			mobileNavigation();
-		}
-	});
+function handleEscapeKey(event) {
+	if (event.key === "Escape" && button.getAttribute("aria-expanded") === "true") {
+		toggleMobileNavigation();
+	}
+}
+
+function handleResize() {
+	if (window.innerWidth >= breakpoint) {
+		// Desktop: reset to visible and neutral ARIA state
+		menu.removeAttribute("aria-hidden");
+		button.removeAttribute("aria-expanded");
+		button.setAttribute("aria-label", "Menu");
+		button.classList.remove("active");
+		menu.classList.remove("active");
+	} else {
+		// Mobile: ensure closed state is correctly set
+		menu.setAttribute("aria-hidden", "true");
+		button.setAttribute("aria-expanded", "false");
+		button.setAttribute("aria-label", "Open Menu");
+		button.classList.remove("active");
+		menu.classList.remove("active");
+	}
+}
+
+function initMobileNavigation() {
+	button.addEventListener("click", toggleMobileNavigation);
+	document.addEventListener("keydown", handleEscapeKey);
+	window.addEventListener("resize", handleResize);
+	handleResize(); // Run on load too
 }
 
 function videoBanner() {
@@ -113,6 +144,5 @@ document.addEventListener("DOMContentLoaded", () => {
 	animateOnScroll();
 	articleFilter();
 	copyright();
-	button.addEventListener("click", mobileNavigation);
-	escapeNavigation();
+	initMobileNavigation();
 });
