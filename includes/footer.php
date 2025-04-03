@@ -64,3 +64,5 @@
 	</div>
 	<div class="copyright">Copyright &copy; <span id="date"></span> <span class="bullet">•</span> <span class="footer-name">Angela J Holden</span></div>
 </footer>
+<script src="<?php echo BASE_URL; ?>js/prism.js"></script>
+<script src="<?php echo BASE_URL; ?>js/main.js"></script>
