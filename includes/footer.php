@@ -14,7 +14,7 @@
 		<div class="footer-item">
 			<section class="footer-about">
 				<h3 class="tertiary-heading">About Me</h3>
-				<p>I'm a frontend developer in Saint Paul, Minnesota where I live with my dog, Heidi. After more than a decade of building websites, I'm focused on sharing what I've learned through tutorials, live streams, and articles about code, creativity, and life behind the screen.</p>
+				<p>I'm a software engineer and frontend developer in Saint Paul, Minnesota where I live with my dog, Heidi. After more than a decade of building websites, I'm focused on sharing what I've learned through tutorials, live streams, and articles about code, creativity, and life behind the screen.</p>
 			</section>
 			<section class="social-icons">
 				<nav class="social-nav" aria-label="Social media links">
