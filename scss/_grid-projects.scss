@@ -106,21 +106,28 @@
 	.grid-projects & {
 		position: relative;
 		width: 100%;
-		padding: 1.5rem 2rem 2rem 2.5rem;
+		padding: 1rem 2.5rem;
 		border-top: 1px solid $gray;
 
 		&::before {
 			content: "";
 			position: absolute;
-			top: 1.75rem;
-			left: 1.25rem;
+			top: 1.5rem;
+			left: calc(1.25rem - 2.5px);
 			width: 5px;
 			height: 75px;
 			background: linear-gradient(to bottom, #1d506f 0%, #1d506f 25%, #44878c 25%, #44878c 50%, #89bfac 50%, #89bfac 75%, #d7cc8e 75%, #d7cc8e 100%);
 		}
 
-		@media (max-width: 768px) {
-			padding: 1rem;
+		@media (max-width: 960px) {
+			padding: 1rem 1.5rem;
+
+			&::before {
+				width: 4px;
+				height: 55px;
+				top: 1.1rem;
+				left: calc(0.75rem - 2.5px);
+			}
 		}
 	}
 }

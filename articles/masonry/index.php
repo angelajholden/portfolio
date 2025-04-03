@@ -40,7 +40,6 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 				</div>
 				<footer class="content-footer">
 					<?php include_once dirname(__DIR__) . '/../includes/author.php'; ?>
-					<?php // include_once dirname(__DIR__) . '/../includes/comments.php'; ?>
 					<?php include_once dirname(__DIR__) . '/../includes/comment-form.php'; ?>
 				</footer>
 			</div>
@@ -48,6 +47,5 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 	</main>
 	<?php include_once dirname(__DIR__) . '/../includes/footer.php'; ?>
 </body>
-<script src="<?php echo BASE_URL; ?>js/main.js"></script>
 
 </html>

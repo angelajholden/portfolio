@@ -1,13 +1,13 @@
-<!-- fixed header with a gradient, stays fixed on scroll -->
 <header class="header">
-	<nav class="skip-nav"><a href="#content">Skip to Content</a></nav>
+	<nav class="skip-nav" aria-label="Skip navigation"><a href="#content">Skip to Content</a></nav>
 	<div class="primary-heading"><a href="<?php echo BASE_URL; ?>index.php">Angela J Holden</a></div>
-	<button class="mobile-menu" aria-label="Menu">
+	<button class="mobile-button" aria-label="Menu" aria-controls="mobile-menu">
+		<span class="access-hidden">Menu</span>
 		<div></div>
 		<div></div>
 		<div></div>
 	</button>
-	<nav class="navigation">
+	<nav id="mobile-menu" class="navigation" aria-label="Main navigation">
 		<ul class="wrap">
 			<li><a class="nav_item" href="<?php echo BASE_URL; ?>">Home</a></li>
 			<li><a class="nav_item" href="<?php echo BASE_URL; ?>about/">About Me</a></li>

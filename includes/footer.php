@@ -2,11 +2,10 @@
 	<div class="wrap">
 		<div class="footer-item">
 			<h3 class="tertiary-heading">Information</h3>
-			<nav class="footer-nav">
+			<nav class="footer-nav" aria-label="Footer navigation">
 				<ul>
 					<li><a href="<?php echo BASE_URL; ?>accessibility/">Accessibility Statement</a></li>
 					<li><a href="<?php echo BASE_URL; ?>privacy-policy/">Privacy Policy</a></li>
-					<li><a href="<?php echo BASE_URL; ?>style-guide/">Style Guide</a></li>
 					<li><a href="<?php echo BASE_URL; ?>terms-conditions/">Terms &amp; Conditions</a></li>
 				</ul>
 			</nav>
@@ -15,10 +14,10 @@
 		<div class="footer-item">
 			<section class="footer-about">
 				<h3 class="tertiary-heading">About Me</h3>
-				<p>I'm a frontend developer based in Saint Paul, Minnesota, where I live with my Sheltie, Heidi. After more than a decade of building websites, I'm focused on sharing what I've learned through tutorials, live streams, and articles about code, creativity, and life behind the screen.</p>
+				<p>I'm a software engineer and frontend developer in Saint Paul, Minnesota where I live with my dog, Heidi. After more than a decade of coding, I'm focused on sharing what I've learned through tutorials and streaming. I also write about creativity and life as a developer.</p>
 			</section>
 			<section class="social-icons">
-				<nav class="social-nav">
+				<nav class="social-nav" aria-label="Social media links">
 					<ul>
 						<li>
 							<a href="https://www.linkedin.com/in/angelajholden" target="_blank">
@@ -65,3 +64,5 @@
 	</div>
 	<div class="copyright">Copyright &copy; <span id="date"></span> <span class="bullet">•</span> <span class="footer-name">Angela J Holden</span></div>
 </footer>
+<script src="<?php echo BASE_URL; ?>js/prism.js"></script>
+<script src="<?php echo BASE_URL; ?>js/main.js"></script>

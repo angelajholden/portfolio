@@ -8,7 +8,16 @@
 	background-image: linear-gradient(to right, lighten($navy, 10%), $navy);
 	z-index: 1;
 
-	.skip-nav {
+	@media (max-width: 960px) {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.skip-nav {
+	.header & {
 		position: fixed;
 		top: 0;
 		left: 50%;
@@ -30,8 +39,10 @@
 			}
 		}
 	}
+}
 
-	.primary-heading {
+.primary-heading {
+	.header & {
 		display: block;
 		margin: 0;
 		padding: 0 1rem;
@@ -49,13 +60,16 @@
 			text-decoration: none;
 		}
 	}
+}
 
-	.mobile-menu {
+.mobile-button {
+	.header & {
 		display: none;
 		position: relative;
 		padding: 0.333rem 1rem;
 		border: none;
 		background-color: transparent;
+		cursor: pointer;
 		z-index: 1;
 
 		div {
@@ -63,46 +77,28 @@
 			height: 2px;
 			margin: 0.5rem 0;
 			background-color: $white;
+			transform-origin: center center;
+			transform: rotateZ(0) translate(0, 0);
+			transition: transform 350ms ease, width 200ms ease;
 		}
-	}
 
-	@media (max-width: 960px) {
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: space-between;
-		align-items: center;
+		&:active > div,
+		&.active > div {
+			&:nth-of-type(1) {
+				transform: rotateZ(45deg) translate(6.5px, 6px);
+			}
 
-		.mobile-menu {
+			&:nth-of-type(2) {
+				width: 0;
+			}
+
+			&:nth-of-type(3) {
+				transform: rotateZ(-45deg) translate(8px, -8px);
+			}
+		}
+
+		@media (max-width: 960px) {
 			display: block;
 		}
 	}
-
-	// .button {
-	// 	min-width: auto;
-	// 	margin: 0;
-	// 	padding: 0.5rem 1.5rem;
-	// 	color: $white;
-	// 	text-decoration: none;
-	// 	transition: all 300ms ease-in-out;
-
-	// 	&:hover,
-	// 	&:active,
-	// 	&:focus {
-	// 		color: $navy;
-
-	// 		& > svg {
-	// 			fill: $navy;
-	// 		}
-	// 	}
-
-	// 	svg {
-	// 		display: inline-block;
-	// 		vertical-align: text-bottom;
-	// 		width: 25px;
-	// 		height: 25px;
-	// 		margin-right: 10px;
-	// 		fill: $white;
-	// 		transition: fill 300ms ease-in-out;
-	// 	}
-	// }
 }
