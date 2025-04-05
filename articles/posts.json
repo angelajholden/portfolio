@@ -1,0 +1,24 @@
+[
+	{
+		"title": "Build a Perfect Masonry Layout with HTML and CSS",
+		"slug": "build-a-perfect-masonry-layout-with-html-and-css",
+		"date": "2025-04-05",
+		"category": "Tutorials",
+		"excerpt": "A masonry layout arranges items in columns rather than rows. It's called masonry because the layout loosely mimics bricks stacking tightly together.",
+		"filename": "build-a-perfect-masonry-layout.php",
+		"image": "",
+		"alt": "",
+		"author": "Angela"
+	},
+	{
+		"title": "Five Tips for Junior Developers",
+		"slug": "five-tips-for-junior-developers",
+		"date": "2025-04-05",
+		"category": "Tips &amp; Advice",
+		"excerpt": "I've been a frontend developer for 11 years, many of those as a hiring manager, and these are all things that helped me to get a job.",
+		"filename": "five-tips-for-junior-developers.php",
+		"image": "",
+		"alt": "",
+		"author": "Angela"
+	}
+]
