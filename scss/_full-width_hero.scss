@@ -161,6 +161,11 @@
 
 .content-item {
 	.full-width_content & {
+		h2 {
+			color: $green;
+			line-height: 1.25;
+		}
+
 		p:first-of-type {
 			@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
 				&::first-letter {

@@ -36,8 +36,9 @@ include_once dirname(__DIR__) . '/includes/head.php' ?>
 				</header>
 				<div class="content-item">
 					<p>Everything I share here—including tutorials, articles, PDFs, and code snippets—is offered freely and in good faith. You're welcome to use and adapt what you find, but I can't make guarantees about results or fitness for a particular purpose. Please use your best judgment when applying anything to your own projects.</p>
-					<p>All content on this site is my original work unless otherwise noted. Please don't republish it elsewhere without permission. Sharing links is always appreciated!</p>
-					<p>If you have any questions, please reach out through the <a href="../contact/">contact form</a>.</p>
+					<p>All content on this site is my original work unless otherwise noted. Please don't republish it without permission. Sharing links is always appreciated! If you have any questions, please reach out through the <a href="../contact/">contact form</a>.</p>
+					<h2>Affiliate Disclosure</h2>
+					<p>Some links on this site are affiliate links — <em>like the one for <a href="https://m.do.co/c/510e633915b2" target="_blank" rel="nofollow noopener">DigitalOcean</a>.</em> If you sign up through them, I may earn a small commission at no cost to you. I only recommend what I use and love.</p>
 				</div>
 				<footer class="content-footer">
 					<?php include_once dirname(__DIR__) . '/includes/author.php'; ?>

@@ -9,6 +9,7 @@
 					<li><a href="<?php echo BASE_URL; ?>terms-conditions/">Terms &amp; Conditions</a></li>
 				</ul>
 			</nav>
+			<p class="digital-ocean"><a href="https://www.digitalocean.com/?refcode=510e633915b2&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" target="_blank" rel="nofollow noopener"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a></p>
 		</div>
 
 		<div class="footer-item">
