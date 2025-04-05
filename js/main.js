@@ -142,6 +142,13 @@ function articleFilter() {
 	});
 }
 
+function urlField() {
+	const urlField = document.getElementById("page_url");
+	if (urlField) {
+		urlField.value = window.location.href;
+	}
+}
+
 function copyright() {
 	const date = document.getElementById("date");
 	const year = new Date().getFullYear();
@@ -157,4 +164,5 @@ document.addEventListener("DOMContentLoaded", () => {
 	copyright();
 	initMobileNavigation();
 	youAreHere();
+	urlField();
 });
