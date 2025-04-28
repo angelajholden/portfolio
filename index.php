@@ -9,8 +9,40 @@ include_once __DIR__ . '/includes/head.php' ?>
 <body>
 	<?php include_once __DIR__ . '/includes/header.php'; ?>
 	<main id="content" class="main">
-		<section class="three-card_hero animate__animated animate__fadeIn">
-			<h1 class="primary-heading">Angela J Holden | Software Engineer &amp; Frontend Developer</h1>
+		<h1 class="access-hidden">Angela J Holden | Software Engineer &amp; Frontend Developer</h1>
+		<section class="top-banner_hero animate__animated animate__fadeIn">
+			<div class="wrap">
+				<div class="text-wrap_hero">
+					<h2 class="secondary-heading">
+						<span>Design.</span>
+						<span>Develop.</span>
+						<span>Deploy.</span>
+					</h2>
+					<p>I'm Angela Holden. I build accessible, responsive web apps that perform across devices and browsers.</p>
+				</div>
+				<figure class="image">
+					<img src="<?php echo BASE_URL; ?>images/heidi-sheltie-dog-park-angelajholden.jpg" alt="Heidi the Sheltie at the dog park on a sunny day.">
+					<figcaption>Heidi the Sheltie at the dog park on a sunny day.</figcaption>
+				</figure>
+			</div>
+		</section>
+		<section class="three-content_section animate__animated" data-animation="animate__fadeInUp">
+			<div class="wrap">
+				<article class="content-item">
+					<h3 class="tertiary-heading">Design</h3>
+					<p>My design approach begins with content, images and branding. I find the design process so much easier when I spend time on the messaging first.</p>
+				</article>
+				<article class="content-item">
+					<h3 class="tertiary-heading">Develop</h3>
+					<p>I love HTML, CSS and JavaScript. The development process is my favorite part of every project. At this point in my career I think I can write CSS in my sleep, with both hands tied behind my back.</p>
+				</article>
+				<article class="content-item">
+					<h3 class="tertiary-heading">Deploy</h3>
+					<p>Often overlooked by new frontend developers, DevOps is an important skill to have. Best practices include version control and deployment, and an understanding of how to see one's own work in the broswer.</p>
+				</article>
+			</div>
+		</section>
+		<section class="three-card_hero animate__animated" data-animation="animate__fadeInUp">
 			<div class="wrap">
 				<article class="hero-item">
 					<figure class="image">

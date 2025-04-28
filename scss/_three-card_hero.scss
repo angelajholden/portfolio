@@ -1,8 +1,9 @@
 .three-card_hero {
-	padding: 25px 0 50px;
-	background-image: url("images/low-poly-geometric.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	padding: 50px 0;
+	background-image: linear-gradient(to right, darken($teal, 15%), $teal);
+	// background-image: url("images/low-poly-geometric.jpg");
+	// background-repeat: no-repeat;
+	// background-size: cover;
 
 	@media (max-width: 960px) {
 		padding: 0.5rem 1rem;
