@@ -1,5 +1,5 @@
 .top-banner_hero {
-	padding: 50px 0 calc(50px + 0.333rem);
+	padding: 70px 0 85px;
 	background-image: linear-gradient(to right, rgba(darken($teal, 15%), 0.9) 0%, rgba(darken($teal, 15%), 0.45) 75%, transparent 100%), url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -84,8 +84,8 @@
 		}
 
 		figcaption {
-			position: relative;
-			top: calc(100% + 0.333rem);
+			position: absolute;
+			top: calc(100% + 0.666rem);
 			font-size: 1.1rem;
 			font-style: italic;
 			line-height: 1;
@@ -112,6 +112,15 @@
 
 			img {
 				object-position: left 0 bottom 50px;
+			}
+
+			figcaption {
+				clip: rect(0 0 0 0);
+				clip-path: inset(50%);
+				height: 1px;
+				overflow: hidden;
+				white-space: nowrap;
+				width: 1px;
 			}
 
 			&::after {

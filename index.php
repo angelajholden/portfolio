@@ -18,11 +18,11 @@ include_once __DIR__ . '/includes/head.php' ?>
 						<span>Develop.</span>
 						<span>Deploy.</span>
 					</h2>
-					<p>I'm Angela Holden. I build accessible, responsive web apps that perform across all devices and browsers. This is Heidi the Sheltie, my silent partner.</p>
+					<p>I'm Angela Holden. I build accessible, responsive web apps that perform across all devices and browsers.</p>
 				</div>
 				<figure class="image">
 					<img src="<?php echo BASE_URL; ?>images/heidi-sheltie-dog-park-angelajholden.jpg" alt="Heidi the Sheltie at the dog park on a sunny day.">
-					<figcaption>Heidi the Sheltie at the dog park on a sunny day.</figcaption>
+					<figcaption>Heidi the Sheltie at the dog park on a sunny day. She's my silent partner.</figcaption>
 				</figure>
 			</div>
 		</section>
@@ -42,9 +42,18 @@ include_once __DIR__ . '/includes/head.php' ?>
 				</article>
 			</div>
 		</section>
-		<section class="three-card_hero animate__animated" data-animation="animate__fadeInUp">
+		<div class="dots">
 			<div class="wrap">
-				<article class="hero-item">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
+		</div>
+		<section class="three-card_hero">
+			<div class="wrap">
+				<article class="hero-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
 						<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Low Poly Geometric">
 					</figure>
@@ -74,7 +83,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 						</p>
 					</div>
 				</article>
-				<article class="hero-item">
+				<article class="hero-item animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<figure class="image">
 						<img src="<?php echo BASE_URL; ?>images/downtown-mpls-hero.jpg" alt="Low Poly Geometric">
 					</figure>
@@ -104,7 +113,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 						</p>
 					</div>
 				</article>
-				<article class="hero-item">
+				<article class="hero-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
 						<img src="<?php echo BASE_URL; ?>images/ust-background.jpg" alt="Low Poly Geometric">
 					</figure>
