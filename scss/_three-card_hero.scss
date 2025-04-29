@@ -86,13 +86,13 @@
 	.three-card_hero & {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: center;
 		font-family: "Lato", sans-serif;
 		font-weight: 400;
 		font-style: normal;
 		font-size: clamp(0.9rem, 1vw, 0.95rem);
-		letter-spacing: 0.5px;
+		letter-spacing: 0.25px;
 
 		a {
 			color: $navy;
