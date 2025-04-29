@@ -6,7 +6,7 @@
 	background-image: linear-gradient(to right, darken($teal, 15%), $teal);
 
 	@media (max-width: 960px) {
-		padding: 1rem;
+		padding: 1rem 0;
 	}
 }
 
@@ -24,6 +24,7 @@
 	.three-card_hero & {
 		max-width: none;
 		width: 75rem;
+		padding: 0;
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-around;
@@ -31,6 +32,7 @@
 
 		@media (max-width: 960px) {
 			justify-content: space-between;
+			padding: 0 1rem;
 		}
 	}
 }
