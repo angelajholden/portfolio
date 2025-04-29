@@ -1,12 +1,10 @@
 .three-card_hero {
 	padding: 50px 0;
+	overflow-x: auto;
 	background-image: linear-gradient(to right, darken($teal, 15%), $teal);
-	// background-image: url("images/low-poly-geometric.jpg");
-	// background-repeat: no-repeat;
-	// background-size: cover;
 
 	@media (max-width: 960px) {
-		padding: 0.5rem 1rem;
+		padding: 1rem;
 	}
 }
 
@@ -22,13 +20,17 @@
 
 .wrap {
 	.three-card_hero & {
+		max-width: none;
+		width: 75rem;
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-around;
 		align-items: stretch;
+		scroll-snap-type: x mandatory;
+		-webkit-overflow-scrolling: touch;
 
 		@media (max-width: 960px) {
-			flex-flow: column nowrap;
+			justify-content: space-between;
 		}
 	}
 }
@@ -36,13 +38,13 @@
 .hero-item {
 	.three-card_hero & {
 		width: 32%;
+		scroll-snap-align: start;
 		background-color: $white;
 		border-bottom: 5px solid $mint;
 		box-shadow: 0 1px 1px 1px rgba($color: $black, $alpha: 0.1);
 
 		@media (max-width: 960px) {
-			width: 100%;
-			margin: 0.5rem auto;
+			width: calc(33.333% - 0.667rem);
 		}
 	}
 }

@@ -1,6 +1,5 @@
 .top-banner_hero {
 	padding: 50px 0 calc(50px + 0.333rem);
-	// background-image: linear-gradient(to right, darken($teal, 15%), $teal);
 	background-image: url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -14,6 +13,10 @@
 	@media (max-width: 768px) {
 		padding: 1rem 0 50px;
 	}
+
+	@media (max-width: 600px) {
+		padding: 1rem 0 0;
+	}
 }
 
 .wrap {
@@ -23,6 +26,10 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 0 1rem;
+
+		@media (max-width: 600px) {
+			padding: 0;
+		}
 	}
 }
 
@@ -49,10 +56,12 @@
 
 .text-wrap_hero {
 	.top-banner_hero & {
-		width: 49%;
+		width: 47%;
+		padding: 0;
 
 		@media (max-width: 600px) {
 			width: 100%;
+			padding: 0 1rem;
 		}
 	}
 }
@@ -60,8 +69,9 @@
 .image {
 	.top-banner_hero & {
 		position: relative;
-		width: 49%;
+		width: 50%;
 		aspect-ratio: 1 / 1;
+		overflow: visible;
 		margin: 0;
 		box-shadow: 2px 2px 2px 1px rgba($color: $black, $alpha: 0.1);
 		z-index: 0;
@@ -70,6 +80,7 @@
 			position: absolute;
 			inset: 0;
 			object-fit: cover;
+			object-position: center;
 		}
 
 		figcaption {
@@ -96,6 +107,16 @@
 
 		@media (max-width: 600px) {
 			width: 100%;
+			aspect-ratio: 8 / 5;
+			overflow: hidden;
+
+			img {
+				object-position: left 0 bottom 50px;
+			}
+
+			&::after {
+				border: none;
+			}
 		}
 	}
 }

@@ -1,12 +1,16 @@
 .three-content_section {
-	padding: 50px 0;
+	padding: 50px 0 60px;
+
+	@media (max-width: 768px) {
+		padding: 1.5rem;
+	}
 }
 
 .wrap {
 	.three-content_section & {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: flex-start;
 	}
 }
@@ -14,29 +18,37 @@
 .content-item {
 	.three-content_section & {
 		width: 30%;
+		margin: 0;
 
 		p {
 			position: relative;
 			padding-left: 1.25rem;
+			font-size: 1rem;
 			line-height: 1.75;
 
 			&::before {
 				content: "";
 				position: absolute;
-				top: 0.5rem;
+				top: 0;
 				left: 0;
 				width: 5px;
-				height: 125px;
+				height: 100%;
 				background: linear-gradient(to bottom, #1d506f 0%, #1d506f 25%, #44878c 25%, #44878c 50%, #89bfac 50%, #89bfac 75%, #d7cc8e 75%, #d7cc8e 100%);
 			}
+		}
+
+		@media (max-width: 768px) {
+			width: 100%;
+			margin: 0 0 1.5rem;
 		}
 	}
 }
 
 .tertiary-heading {
 	.three-content_section & {
-		border-bottom: 3px dotted $yellow;
-		padding: 0 0 0.333rem;
+		line-height: 1;
+		padding: 0 0 1rem;
 		margin: 0 0 1rem;
+		border-bottom: 3px dotted $yellow;
 	}
 }
