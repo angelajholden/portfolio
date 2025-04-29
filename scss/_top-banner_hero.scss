@@ -1,6 +1,6 @@
 .top-banner_hero {
 	padding: 50px 0 calc(50px + 0.333rem);
-	background-image: url("images/low-poly-geometric.jpg");
+	background-image: linear-gradient(to right, rgba(darken($teal, 15%), 0.9) 0%, rgba(darken($teal, 15%), 0.45) 75%, transparent 100%), url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 
