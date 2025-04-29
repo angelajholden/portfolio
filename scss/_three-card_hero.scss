@@ -122,6 +122,8 @@
 
 		a {
 			position: relative;
+			display: inline-block;
+			width: 100%;
 			z-index: 0;
 			transform: translateZ(0); // force new stacking context for iOS
 
