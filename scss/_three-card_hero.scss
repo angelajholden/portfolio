@@ -122,7 +122,7 @@
 
 		a {
 			position: relative;
-			display: inline-block;
+			display: inline-block; // this element needs to use the box model for positioning to work correctly
 			width: 100%;
 			z-index: 0;
 			transform: translateZ(0); // force new stacking context for iOS
