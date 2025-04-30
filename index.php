@@ -26,7 +26,48 @@ include_once __DIR__ . '/includes/head.php' ?>
 				</figure>
 			</div>
 		</section>
+		<section class="featured-video_section">
+			<div class="heading-wrap">
+				<h2 class="secondary-heading">Featured Project</h2>
+			</div>
+			<div class="wrap">
+				<figure class="image animate__animated" data-animation="animate__fadeInUp">
+					<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpeg" alt="YouTube thumbnail for Frontend is from Hell video">
+				</figure>
+				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
+					<h3 class="tertiary-heading">Frontend is from Hell</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut incidunt a laborum sed minus ratione aliquid reiciendis facilis quae nam labore corrupti, saepe veniam neque? Voluptatem ab aliquam reprehenderit soluta.</p>
+					<p>
+						<a class="cta-link" href="<?php echo BASE_URL; ?>projects/">More frontend projects like this
+							<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
+						</a>
+					</p>
+				</div>
+			</div>
+		</section>
+		<div class="dots">
+			<div class="wrap">
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+			</div>
+		</div>
 		<section class="three-content_section">
+			<div class="heading-wrap">
+				<h2 class="secondary-heading">Frontend Philosophy</h2>
+			</div>
 			<div class="wrap">
 				<article class="content-item animate__animated" data-animation="animate__fadeInUp">
 					<h3 class="tertiary-heading">Design</h3>
@@ -42,17 +83,11 @@ include_once __DIR__ . '/includes/head.php' ?>
 				</article>
 			</div>
 		</section>
-		<div class="dots">
-			<div class="wrap">
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
-				<span class="dot"></span>
+		<section class="three-card_hero animate__animated" data-animation="animate__fadeIn">
+			<div class="heading-wrap">
+				<h2 class="secondary-heading">Latest Articles</h2>
 			</div>
-		</div>
-		<section class="three-card_hero">
-			<div class="wrap animate__animated" data-animation="animate__fadeInUp">
+			<div class="wrap">
 				<article class="hero-item">
 					<figure class="image">
 						<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Low Poly Geometric">

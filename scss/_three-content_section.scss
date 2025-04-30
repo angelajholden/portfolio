@@ -6,12 +6,19 @@
 	}
 }
 
+.heading-wrap {
+	.three-content_section & {
+		text-align: center;
+	}
+}
+
 .wrap {
 	.three-content_section & {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-around;
 		align-items: flex-start;
+		max-width: clamp(65rem, 90vw, 75rem);
 	}
 }
 
@@ -46,9 +53,10 @@
 
 .tertiary-heading {
 	.three-content_section & {
+		display: inline-block;
 		line-height: 1;
 		padding: 0 0 1rem;
 		margin: 0 0 1rem;
-		border-bottom: 3px dotted $yellow;
+		border-bottom: 3px dotted $mint;
 	}
 }
