@@ -57,11 +57,6 @@ include_once __DIR__ . '/includes/head.php' ?>
 				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
 				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
 				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
-				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
-				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
-				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
-				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
-				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
 			</div>
 		</div>
 		<section class="three-content_section">
@@ -84,6 +79,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 			</div>
 		</section>
 		<section class="three-card_hero animate__animated" data-animation="animate__fadeIn">
+			<div class="dot-bg animate__animated animate__slow" data-animation="animate__fadeInLeft"></div>
 			<div class="heading-wrap">
 				<h2 class="secondary-heading">Latest Articles</h2>
 			</div>

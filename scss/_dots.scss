@@ -1,7 +1,10 @@
 .dots {
-	padding: 25px 0;
-	border-top: 3px dotted $gray;
-	border-bottom: 3px dotted $gray;
+	padding: 65px 0;
+	background-color: $lt-gray;
+
+	@media (max-width: 768px) {
+		padding: 30px 0;
+	}
 }
 
 .wrap {
@@ -16,12 +19,12 @@
 
 .dot {
 	.dots & {
-		width: 2%;
+		width: 3%;
 		aspect-ratio: 1 / 1;
 		border-radius: 50%;
 
 		&:nth-of-type(5n + 1) {
-			background-color: $navy;
+			background-color: lighten($navy, 10%);
 		}
 
 		&:nth-of-type(5n + 2) {
