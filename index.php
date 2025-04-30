@@ -22,21 +22,21 @@ include_once __DIR__ . '/includes/head.php' ?>
 				</div>
 				<figure class="image">
 					<img src="<?php echo BASE_URL; ?>images/heidi-sheltie-dog-park-angelajholden.jpg" alt="Heidi the Sheltie at the dog park on a sunny day.">
-					<figcaption>Heidi the Sheltie at the dog park on a sunny day. She's my silent partner.</figcaption>
+					<figcaption>Heidi the Sheltie at the dog park on a sunny day.</figcaption>
 				</figure>
 			</div>
 		</section>
-		<section class="three-content_section animate__animated" data-animation="animate__fadeInUp">
+		<section class="three-content_section">
 			<div class="wrap">
-				<article class="content-item">
+				<article class="content-item animate__animated" data-animation="animate__fadeInUp">
 					<h3 class="tertiary-heading">Design</h3>
 					<p>My design approach begins with content, images and branding. I find the design process so much easier when I spend time on the messaging and branding before any code is written.</p>
 				</article>
-				<article class="content-item">
+				<article class="content-item animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<h3 class="tertiary-heading">Develop</h3>
 					<p>I love HTML, CSS and JavaScript. The development process is my favorite part of every project. At this point in my career, I think I can write CSS in my sleep, with both hands tied behind my back.</p>
 				</article>
-				<article class="content-item">
+				<article class="content-item animate__animated" data-animation="animate__fadeInUp">
 					<h3 class="tertiary-heading">Deploy</h3>
 					<p>Often overlooked, DevOps is an important skill to have. Best practices must include version control and deployment, and an understanding of how to see one's own work in the broswer.</p>
 				</article>
@@ -52,8 +52,8 @@ include_once __DIR__ . '/includes/head.php' ?>
 			</div>
 		</div>
 		<section class="three-card_hero">
-			<div class="wrap">
-				<article class="hero-item animate__animated" data-animation="animate__fadeInUp">
+			<div class="wrap animate__animated" data-animation="animate__fadeInUp">
+				<article class="hero-item">
 					<figure class="image">
 						<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Low Poly Geometric">
 					</figure>
@@ -83,7 +83,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 						</p>
 					</div>
 				</article>
-				<article class="hero-item animate__animated animate__fast" data-animation="animate__fadeInUp">
+				<article class="hero-item">
 					<figure class="image">
 						<img src="<?php echo BASE_URL; ?>images/downtown-mpls-hero.jpg" alt="Low Poly Geometric">
 					</figure>
@@ -113,7 +113,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 						</p>
 					</div>
 				</article>
-				<article class="hero-item animate__animated" data-animation="animate__fadeInUp">
+				<article class="hero-item">
 					<figure class="image">
 						<img src="<?php echo BASE_URL; ?>images/ust-background.jpg" alt="Low Poly Geometric">
 					</figure>

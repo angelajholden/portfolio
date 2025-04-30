@@ -1,9 +1,9 @@
 .three-card_hero {
 	padding: 50px 0;
 	overflow-x: auto;
-	background-image: url("svg/dot-3px.svg"), linear-gradient(to right, darken($teal, 15%), $teal);
+	background-image: url("svg/dot-2px.svg"), linear-gradient(to right, darken($teal, 15%), $teal);
 	background-repeat: repeat;
-	background-position: top center;
+	background-position: center center;
 	background-size: auto, cover;
 	@media (max-width: 960px) {
 		padding: 1rem 0;
