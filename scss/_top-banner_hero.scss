@@ -1,0 +1,131 @@
+.top-banner_hero {
+	padding: 70px 0 85px;
+	background-image: linear-gradient(to right, rgba(darken($teal, 15%), 0.9) 0%, rgba(darken($teal, 15%), 0.45) 75%, transparent 100%), url("images/low-poly-geometric.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	p {
+		color: $white;
+		margin: 0;
+		text-shadow: 2px 2px 1px rgba($color: $black, $alpha: 0.33);
+	}
+
+	@media (max-width: 600px) {
+		padding: 1rem 0 0;
+
+		p {
+			margin: 0 0 1.5rem;
+		}
+	}
+}
+
+.wrap {
+	.top-banner_hero & {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 1rem;
+
+		@media (max-width: 600px) {
+			padding: 0;
+		}
+	}
+}
+
+.secondary-heading {
+	.top-banner_hero & {
+		font-size: clamp(1.5rem, 9vw, 7rem);
+		line-height: 1;
+		color: $white;
+		text-shadow: 2px 2px 1px rgba($color: $black, $alpha: 0.33);
+
+		span {
+			display: block;
+		}
+
+		@media (max-width: 600px) {
+			margin: 0 0 1rem;
+
+			span {
+				display: inline;
+			}
+		}
+	}
+}
+
+.text-wrap_hero {
+	.top-banner_hero & {
+		width: 47%;
+		padding: 0;
+
+		@media (max-width: 600px) {
+			width: 100%;
+			padding: 0 1rem;
+		}
+	}
+}
+
+.image {
+	.top-banner_hero & {
+		position: relative;
+		width: 50%;
+		aspect-ratio: 1 / 1;
+		overflow: visible;
+		margin: 0;
+		box-shadow: 2px 2px 2px 1px rgba($color: $black, $alpha: 0.1);
+		z-index: 0;
+
+		img {
+			position: absolute;
+			inset: 0;
+			object-fit: cover;
+			object-position: center;
+		}
+
+		figcaption {
+			position: absolute;
+			top: calc(100% + 0.666rem);
+			font-size: 1.1rem;
+			font-style: italic;
+			line-height: 1;
+			color: $white;
+			text-shadow: 2px 2px 1px rgba($color: $black, $alpha: 0.33);
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: -0.65rem;
+			left: -0.65rem;
+			display: block;
+			width: 100%;
+			height: 100%;
+			border: 2px solid $yellow;
+			z-index: -1;
+		}
+
+		@media (max-width: 600px) {
+			width: 100%;
+			aspect-ratio: 8 / 5;
+			overflow: hidden;
+
+			img {
+				object-position: left 0 bottom 50px;
+			}
+
+			figcaption {
+				clip: rect(0 0 0 0);
+				clip-path: inset(50%);
+				height: 1px;
+				overflow: hidden;
+				white-space: nowrap;
+				width: 1px;
+			}
+
+			&::after {
+				border: none;
+			}
+		}
+	}
+}

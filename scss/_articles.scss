@@ -26,15 +26,24 @@
 			margin: 1rem auto 2rem;
 			border-bottom: 3px dotted $yellow;
 		}
+
+		@media (max-width: 960px) {
+			&::after {
+				width: 150px;
+				margin: 1rem auto;
+			}
+		}
 	}
 }
 
 .article-buttons {
 	.masonry-articles & {
+		display: block;
 		text-align: center;
 		margin: 0 0 2rem;
 
 		.button {
+			width: auto;
 			min-width: 160px;
 			margin: 0;
 			font-size: clamp(1rem, 2vw, 1.25rem);
@@ -47,11 +56,22 @@
 		}
 
 		@media (max-width: 960px) {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			align-items: center;
+			margin: 0 0 1rem;
+
 			.button {
 				display: block;
-				width: 100%;
-				margin: 0.5rem 0;
+				width: 49%;
+				min-width: auto;
+				margin: 0.25rem 0;
 				padding: 0.65rem;
+
+				&:first-of-type {
+					width: 100%;
+				}
 			}
 		}
 	}

@@ -103,11 +103,7 @@
 			flex-flow: column nowrap;
 			justify-content: space-around;
 			align-items: flex-start;
-			width: 135px;
-		}
-
-		@media (max-width: 350px) {
-			padding-left: 10px;
+			width: auto;
 		}
 	}
 }
@@ -161,6 +157,11 @@
 
 .content-item {
 	.full-width_content & {
+		h2 {
+			color: $green;
+			line-height: 1.25;
+		}
+
 		p:first-of-type {
 			@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
 				&::first-letter {

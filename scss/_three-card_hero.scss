@@ -1,11 +1,26 @@
 .three-card_hero {
-	padding: 25px 0 50px;
-	background-image: url("images/low-poly-geometric.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	position: relative;
+	padding: 50px 0;
+	overflow-x: auto;
+	background-image: linear-gradient(to right, darken($teal, 15%), $teal);
+	z-index: 0;
 
 	@media (max-width: 960px) {
-		padding: 0.5rem 1rem;
+		padding: 1rem 0;
+	}
+}
+
+.dot-bg {
+	.three-card_hero & {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("svg/dot-2px.svg");
+		background-repeat: repeat;
+		background-position: center center;
+		background-size: auto;
+		z-index: -1;
 	}
 }
 
@@ -21,28 +36,21 @@
 
 .wrap {
 	.three-card_hero & {
+		max-width: none;
+		width: clamp(65rem, 90vw, 75rem);
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-around;
 		align-items: stretch;
-
-		@media (max-width: 960px) {
-			flex-flow: column nowrap;
-		}
 	}
 }
 
 .hero-item {
 	.three-card_hero & {
-		width: 32%;
+		width: 31.333%;
 		background-color: $white;
 		border-bottom: 5px solid $mint;
 		box-shadow: 0 1px 1px 1px rgba($color: $black, $alpha: 0.1);
-
-		@media (max-width: 960px) {
-			width: 100%;
-			margin: 0.5rem auto;
-		}
 	}
 }
 
@@ -77,13 +85,14 @@
 
 		a {
 			color: $navy;
-			text-decoration-color: $navy;
-			transition: text-decoration-color 300ms ease-in-out;
+			text-decoration: none;
+			border-bottom: 2px solid $navy;
+			transition: border-bottom 300ms ease-in-out;
 
 			&:hover,
 			&:active,
 			&:focus {
-				text-decoration-color: transparent;
+				border-bottom: 2px solid transparent;
 			}
 		}
 	}
@@ -93,13 +102,13 @@
 	.three-card_hero & {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		align-items: center;
 		font-family: "Lato", sans-serif;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 0.95rem;
-		letter-spacing: 0.5px;
+		font-size: clamp(0.9rem, 1vw, 0.95rem);
+		letter-spacing: 0.25px;
 
 		a {
 			color: $navy;
@@ -129,7 +138,10 @@
 
 		a {
 			position: relative;
+			display: inline-block; // this element needs to use the box model for positioning to work correctly
+			width: 100%;
 			z-index: 0;
+			transform: translateZ(0); // force new stacking context for iOS
 
 			&::before {
 				content: "";

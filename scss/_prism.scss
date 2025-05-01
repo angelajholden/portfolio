@@ -6,16 +6,16 @@ pre[class*="language-"] {
 	background: 0 0;
 	text-shadow: 0 1px #fff;
 	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-	font-size: 1em;
+	font-size: 1rem;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
+	-moz-tab-size: 0.5;
+	-o-tab-size: 0.5;
+	tab-size: 0.5;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -153,6 +153,7 @@ pre[class*="language-"] {
 }
 div.code-toolbar {
 	position: relative;
+	margin: 0 0 1rem;
 }
 div.code-toolbar > .toolbar {
 	position: absolute;

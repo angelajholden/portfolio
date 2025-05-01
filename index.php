@@ -9,8 +9,80 @@ include_once __DIR__ . '/includes/head.php' ?>
 <body>
 	<?php include_once __DIR__ . '/includes/header.php'; ?>
 	<main id="content" class="main">
-		<section class="three-card_hero animate__animated animate__fadeIn">
-			<h1 class="primary-heading">Angela J Holden | Software Engineer &amp; Frontend Developer</h1>
+		<h1 class="access-hidden">Angela J Holden | Software Engineer &amp; Frontend Developer</h1>
+		<section class="top-banner_hero animate__animated animate__fadeIn">
+			<div class="wrap">
+				<div class="text-wrap_hero">
+					<h2 class="secondary-heading">
+						<span>Design.</span>
+						<span>Develop.</span>
+						<span>Deploy.</span>
+					</h2>
+					<p>I'm Angela Holden. I build accessible, responsive web apps that perform across all devices and browsers.</p>
+				</div>
+				<figure class="image">
+					<img src="<?php echo BASE_URL; ?>images/heidi-sheltie-dog-park-angelajholden.jpg" alt="Heidi the Sheltie at the dog park on a sunny day.">
+					<figcaption>Heidi the Sheltie at the dog park on a sunny day.</figcaption>
+				</figure>
+			</div>
+		</section>
+		<section class="featured-video_section">
+			<div class="heading-wrap">
+				<h2 class="secondary-heading">Featured Project</h2>
+			</div>
+			<div class="wrap">
+				<figure class="image animate__animated" data-animation="animate__fadeInUp">
+					<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpeg" alt="YouTube thumbnail for Frontend is from Hell video">
+				</figure>
+				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
+					<h3 class="tertiary-heading">Frontend is from Hell</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut incidunt a laborum sed minus ratione aliquid reiciendis facilis quae nam labore corrupti, saepe veniam neque? Voluptatem ab aliquam reprehenderit soluta.</p>
+					<p>
+						<a class="cta-link" href="<?php echo BASE_URL; ?>projects/">More frontend projects like this
+							<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
+						</a>
+					</p>
+				</div>
+			</div>
+		</section>
+		<div class="dots">
+			<div class="wrap">
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+			</div>
+		</div>
+		<section class="three-content_section">
+			<div class="heading-wrap">
+				<h2 class="secondary-heading">Frontend Philosophy</h2>
+			</div>
+			<div class="wrap">
+				<article class="content-item animate__animated" data-animation="animate__fadeInUp">
+					<h3 class="tertiary-heading">Design</h3>
+					<p>My design approach begins with content, images and branding. I find the design process so much easier when I spend time on the messaging and branding before any code is written.</p>
+				</article>
+				<article class="content-item animate__animated animate__fast" data-animation="animate__fadeInUp">
+					<h3 class="tertiary-heading">Develop</h3>
+					<p>I love HTML, CSS and JavaScript. The development process is my favorite part of every project. At this point in my career, I think I can write CSS in my sleep, with both hands tied behind my back.</p>
+				</article>
+				<article class="content-item animate__animated" data-animation="animate__fadeInUp">
+					<h3 class="tertiary-heading">Deploy</h3>
+					<p>Often overlooked, DevOps is an important skill to have. Best practices must include version control and deployment, and an understanding of how to see one's own work in the broswer.</p>
+				</article>
+			</div>
+		</section>
+		<section class="three-card_hero animate__animated" data-animation="animate__fadeIn">
+			<div class="dot-bg animate__animated animate__slow" data-animation="animate__fadeInLeft"></div>
+			<div class="heading-wrap">
+				<h2 class="secondary-heading">Latest Articles</h2>
+			</div>
 			<div class="wrap">
 				<article class="hero-item">
 					<figure class="image">
