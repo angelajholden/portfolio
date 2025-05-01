@@ -24,9 +24,27 @@
 
 .image {
 	.featured-video_section & {
+		position: relative;
 		flex: 1 1 clamp(400px, 50vw, 600px);
 		margin: 0;
 		padding: 0 1rem;
+		z-index: 0;
+
+		&::after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: -0.65rem;
+			left: 0.35rem;
+			width: calc(100% - 2rem);
+			height: 100%;
+			border: 2px solid $mint;
+			z-index: -1;
+		}
+
+		img {
+			box-shadow: 1px 1px 1px 0 rgba($color: $black, $alpha: 0.2);
+		}
 	}
 }
 
@@ -43,7 +61,12 @@
 
 .tertiary-heading {
 	.featured-video_section & {
-		margin: 0.5rem 0;
+		display: inline-block;
+		line-height: 1;
+		padding: 0 0 1rem;
+		margin: 0 0 1rem;
+		border-bottom: 3px dotted $mint;
+		// margin: 0.5rem 0;
 	}
 }
 
