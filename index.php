@@ -79,7 +79,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 			</div>
 		</section>
 		<section class="three-card_hero animate__animated" data-animation="animate__fadeIn">
-			<div class="dot-bg animate__animated animate__slow" data-animation="animate__fadeInLeft"></div>
+			<!-- <div class="dot-bg animate__animated animate__slow" data-animation="animate__fadeInLeft"></div> -->
 			<div class="heading-wrap">
 				<h2 class="secondary-heading">Latest Articles</h2>
 			</div>
