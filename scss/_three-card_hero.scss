@@ -78,7 +78,7 @@
 	}
 }
 
-.secondary-heading {
+.tertiary-heading {
 	.three-card_hero & {
 		font-size: 1.5rem;
 		line-height: 1.5;
@@ -174,5 +174,14 @@
 			background-color: $white;
 			transition: all 300ms ease-in-out;
 		}
+	}
+}
+
+.button {
+	.three-card_hero & {
+		text-align: center;
+		margin-top: 2rem;
+		margin-left: 50%;
+		transform: translateX(-50%);
 	}
 }

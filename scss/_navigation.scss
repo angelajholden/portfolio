@@ -101,9 +101,17 @@
 		}
 
 		@media (max-width: 960px) {
-			display: block;
+			display: inline-block;
 			padding: 1rem;
 			text-align: center;
 		}
+	}
+
+	svg {
+		display: inline-block;
+		vertical-align: sub;
+		width: 20px;
+		height: 20px;
+		margin-left: 2px;
 	}
 }

@@ -58,12 +58,18 @@
 
 		<div class="footer-item">
 			<h3 class="tertiary-heading">Newsletter</h3>
-			<form action="#" class="form">
-				<label class="access-hidden" for="name">Name</label>
-				<input id="name" type="text" placeholder="Name">
+			<p>Smart frontend content, practical tutorials, and honest updates, every once in a while.</p>
+			<form action="https://angelajholden.us4.list-manage.com/subscribe/post?u=f792c8f7b713ce406dfcc49ad&amp;id=e075a780fe" method="POST" novalidate class="form">
+				<label class="access-hidden" for="fname">First Name</label>
+				<input id="fname" type="text" name="FNAME" placeholder="First Name" required>
+				<label class="access-hidden" for="lname">Last Name</label>
+				<input id="lname" type="text" name="LNAME" placeholder="Last Name" required>
 				<label class="access-hidden" for="email">Email</label>
-				<input id="email" type="email" placeholder="Email">
-				<button class="button white-hollow-blue">Subscribe</button>
+				<input id="email" type="email" name="EMAIL" placeholder="Email" required>
+				<div style="position:absolute; left:-9999px;" aria-hidden="true">
+					<input type="text" name="b_f792c8f7b713ce406dfcc49ad_e075a780fe" tabindex="-1" autocomplete="off">
+				</div>
+				<button type="submit" class="button white-hollow-blue">Subscribe</button>
 			</form>
 		</div>
 	</div>
