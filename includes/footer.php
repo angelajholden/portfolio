@@ -58,6 +58,7 @@
 
 		<div class="footer-item">
 			<h3 class="tertiary-heading">Newsletter</h3>
+			<p>Smart frontend content, practical tutorials, and honest updates, every once in a while.</p>
 			<form action="https://angelajholden.us4.list-manage.com/subscribe/post?u=f792c8f7b713ce406dfcc49ad&amp;id=e075a780fe" method="POST" novalidate class="form">
 				<label class="access-hidden" for="fname">First Name</label>
 				<input id="fname" type="text" name="FNAME" placeholder="First Name" required>

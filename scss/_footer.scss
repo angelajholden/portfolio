@@ -1,5 +1,10 @@
 .footer {
 	background-color: $navy;
+
+	p {
+		font-size: 1rem;
+		color: $white;
+	}
 }
 
 .wrap {
@@ -110,11 +115,6 @@
 	.footer & {
 		padding: 3rem;
 		border-bottom: 1px solid darken($navy, 10%);
-
-		p {
-			font-size: 1rem;
-			color: $white;
-		}
 
 		@media (max-width: 960px) {
 			padding: 1.5rem;
