@@ -36,7 +36,25 @@
 	font-size: clamp(2rem, 4vw, 3rem);
 	line-height: 1.25;
 	color: $navy;
-	margin: 0 0 2rem;
+	margin: 0 0 clamp(1.5rem, 3vw, 2rem);
+}
+
+.secondary-heading {
+	.heading-wrap & {
+		&.dark {
+			color: $white;
+			text-align: center;
+		}
+
+		&::after {
+			content: "";
+			display: block;
+			width: 150px;
+			padding-bottom: 1rem;
+			margin: 0 auto;
+			border-bottom: 5px dotted $yellow;
+		}
+	}
 }
 
 .tertiary-heading {

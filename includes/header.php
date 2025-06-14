@@ -24,7 +24,9 @@
 			</li>
 			<li><a class="nav_item" href="<?php echo BASE_URL; ?>articles/">Articles</a></li>
 			<li><a class="nav_item" href="<?php echo BASE_URL; ?>projects/">Projects</a></li>
-			<li><a class="nav_item" href="https://practicelayouts.com" target="_blank">Practice Layouts</a></li>
+			<li><a class="nav_item" href="https://www.youtube.com/@angelajholden" target="_blank">YouTube
+					<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+				</a></li>
 		</ul>
 	</nav>
 </header>

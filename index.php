@@ -21,7 +21,9 @@ include_once __DIR__ . '/includes/head.php' ?>
 					<p>I'm Angela Holden. I build accessible, responsive web apps that perform across all devices and browsers.</p>
 				</div>
 				<figure class="image">
-					<img src="<?php echo BASE_URL; ?>images/heidi-sheltie-dog-park-angelajholden.jpg" alt="Heidi the Sheltie at the dog park on a sunny day.">
+					<div class="image-container">
+						<img src="<?php echo BASE_URL; ?>images/heidi-sheltie-dog-park-angelajholden.jpg" alt="Heidi the Sheltie at the dog park on a sunny day.">
+					</div>
 					<figcaption>Heidi the Sheltie at the dog park on a sunny day.</figcaption>
 				</figure>
 			</div>
@@ -35,10 +37,10 @@ include_once __DIR__ . '/includes/head.php' ?>
 					<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpeg" alt="YouTube thumbnail for Frontend is from Hell video">
 				</figure>
 				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
-					<h3 class="tertiary-heading">Frontend is from Hell</h3>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut incidunt a laborum sed minus ratione aliquid reiciendis facilis quae nam labore corrupti, saepe veniam neque? Voluptatem ab aliquam reprehenderit soluta.</p>
+					<h3 class="tertiary-heading">Let's Talk About Frontend 😈</h3>
+					<p>Frontend development: love it or hate it, you can't ignore it. In this stream, I'm reacting to two very different takes on the frontend world. We'll talk about the good, the bad, and the hilarious truths about working in frontend, plus dive into the never-ending drama around frameworks.</p>
 					<p>
-						<a class="cta-link" href="<?php echo BASE_URL; ?>projects/">More frontend projects like this
+						<a class="cta-link" href="https://www.youtube.com/live/8Di4M3GBS3I?si=mI6cBB0rUYTk3Md7&t=60" target="_blank">Watch the video on YouTube
 							<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
 						</a>
 					</p>
@@ -81,7 +83,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 		<section class="three-card_hero animate__animated" data-animation="animate__fadeIn">
 			<!-- <div class="dot-bg animate__animated animate__slow" data-animation="animate__fadeInLeft"></div> -->
 			<div class="heading-wrap">
-				<h2 class="secondary-heading">Latest Articles</h2>
+				<h2 class="secondary-heading dark">Latest Articles</h2>
 			</div>
 			<div class="wrap">
 				<article class="hero-item">
@@ -89,9 +91,9 @@ include_once __DIR__ . '/includes/head.php' ?>
 						<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Low Poly Geometric">
 					</figure>
 					<div class="item-content">
-						<h2 class="secondary-heading">
+						<h3 class="tertiary-heading">
 							<a href="#">Perfecting a Masonry Layout with a CSS Only Solution and No JavaScript Needed</a>
-						</h2>
+						</h3>
 						<div class="item-meta">
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
@@ -119,9 +121,9 @@ include_once __DIR__ . '/includes/head.php' ?>
 						<img src="<?php echo BASE_URL; ?>images/downtown-mpls-hero.jpg" alt="Low Poly Geometric">
 					</figure>
 					<div class="item-content">
-						<h2 class="secondary-heading">
+						<h3 class="tertiary-heading">
 							<a href="#">Perfecting a Masonry Layout</a>
-						</h2>
+						</h3>
 						<div class="item-meta">
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
@@ -149,9 +151,9 @@ include_once __DIR__ . '/includes/head.php' ?>
 						<img src="<?php echo BASE_URL; ?>images/ust-background.jpg" alt="Low Poly Geometric">
 					</figure>
 					<div class="item-content">
-						<h2 class="secondary-heading">
+						<h3 class="tertiary-heading">
 							<a href="#">Perfecting a Masonry Layout with CSS; JavaScript not Required</a>
-						</h2>
+						</h3>
 						<div class="item-meta">
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
@@ -175,6 +177,7 @@ include_once __DIR__ . '/includes/head.php' ?>
 					</div>
 				</article>
 			</div>
+			<a class="button white-border-green" href="<?php echo BASE_URL; ?>articles/">All Articles</a>
 		</section>
 	</main>
 	<?php include_once __DIR__ . '/includes/footer.php'; ?>
