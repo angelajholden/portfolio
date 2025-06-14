@@ -113,16 +113,14 @@
 	}
 
 	&.white-border-green {
-		background-color: $white;
-		opacity: 0;
+		background-color: transparent;
 		border: 3px solid $white;
 		color: $white;
-		transition: opacity 300ms ease-in-out, color 300ms ease-in-out;
 
 		&:hover,
 		&:active,
 		&:focus {
-			opacity: 1;
+			background-color: $white;
 			border: 3px solid $white;
 			color: $green;
 		}
