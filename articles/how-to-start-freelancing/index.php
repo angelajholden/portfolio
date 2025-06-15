@@ -59,6 +59,10 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 
 					<p>The point here is this: finding clients requires creativity and a willingness to talk to people, wherever you find yourself.</p>
 
+					<figure>
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake" />
+					</figure>
+
 					<h2>Understanding Client Needs</h2>
 					<p>Once people show interest in your services, then what? Well, you need to figure out what problem you help them solve.</p>
 
@@ -146,6 +150,9 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 
 					<p>If you found this helpful, you can <a href="https://www.youtube.com/watch?v=KsjGVL6-MJk&t=3s" target="_blank">watch the original video on my YouTube channel</a> and leave a comment with any freelancing topics you'd like me to cover next. I've got plenty of stories and tips to share!</p>
 
+					<h3>Photo Credit:</h3>
+					<p>Photo by <a href="https://unsplash.com/@stewardesign?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Steward Masweneng</a> on <a href="https://unsplash.com/photos/brown-cake-on-white-ceramic-plate-AULRIvENksc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+					</p>
 				</div>
 				<footer class="content-footer">
 					<?php include_once dirname(__DIR__) . '/../includes/author.php'; ?>

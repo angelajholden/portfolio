@@ -47,6 +47,12 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 
 					<p>But burnout? I don't think burnout comes from working on too many projects. I think it comes from a lack of balance and poor boundaries.</p>
 
+					<figure>
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine" />
+					</figure>
+
+					<p>&nbsp;</p>
+
 					<p>Here's an example: I used to tell one of my clients, Alan, when I was taking the afternoon off. Without fail, he'd call me with an “emergency.” That's not just a scheduling problem—it's a boundary problem.</p>
 
 					<p>Burnout happens when I don't take breaks, when I work too long without moving my body, when I stop seeing friends, when I stop cooking my meals and walking my dog. If I ignore my own needs for too long, I burn out.</p>
@@ -102,6 +108,9 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 
 					<p>If you've got more freelancing questions, feel free to leave them in the comments or <a href="https://www.youtube.com/watch?v=ZWImXd0ptLI&t=1s" target="_blank" rel="noopener">drop them on my YouTube channel</a>. I'm happy to share what I've learned—especially the hard lessons.</p>
 
+					<h3>Photo Credit:</h3>
+					<p>Photo by <a href="https://unsplash.com/@creatd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Tyler Delgado</a> on <a href="https://unsplash.com/photos/clear-wine-glass-with-clear-liquid-A1kXxn2KVCM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+					</p>
 				</div>
 				<footer class="content-footer">
 					<?php include_once dirname(__DIR__) . '/../includes/author.php'; ?>

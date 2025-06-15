@@ -6,6 +6,13 @@
 $title = 'Perfecting a Masonry Layout with CSS; JavaScript not Required | Angela J Holden | Software Engineer &amp; Frontend Developer';
 include_once dirname(__DIR__) . '/../includes/head.php' ?>
 
+<?php 
+$title = 'Copy Me Template | Angela J Holden | Software Engineer &amp; Frontend Developer';
+$description = '';
+$noindex = true; // or true, if you want to block this specific page
+include_once dirname(__DIR__) . '/includes/head.php';
+?>
+
 <body>
 	<?php include_once dirname(__DIR__) . '/../includes/header.php'; ?>
 	<main id="content" class="main">
@@ -13,7 +20,7 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 		<article class="full-width_content animate__animated animate__fadeIn">
 			<div class="wrap">
 				<header class="content-header">
-					<h1 class="primary-heading">Perfecting a Masonry Layout with CSS; JavaScript not Required</h1>
+					<h1 class="primary-heading">Copy Me Template</h1>
 					<div class="content-meta">
 						<div class="meta-item by-author">
 							<figure class="meta-image">

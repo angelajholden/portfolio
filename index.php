@@ -6,7 +6,7 @@
 $title = 'Angela J Holden | Software Engineer &amp; Frontend Developer';
 $description = '';
 $noindex = false; // or true, if you want to block this specific page
-include_once dirname(__DIR__) . '/includes/head.php';
+include_once (__DIR__) . '/includes/head.php';
 ?>
 
 <body>
