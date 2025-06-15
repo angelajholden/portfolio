@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<!-- Main Index Pages -->
+	<url>
+		<loc>https://angelajholden.com/articles/</loc>
+	</url>
+	<!-- Articles -->
+	<url>
+		<loc>https://angelajholden.com/articles/answering-your-freelancing-questions/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/articles/how-to-practice-javascript/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/articles/how-to-start-freelancing/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/articles/five-tips-for-junior-developers/</loc>
+	</url>
+	<!-- Static Pages -->
+	<url>
+		<loc>https://angelajholden.com/404/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/about/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/accessibility/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/contact/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/privacy-policy/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/projects/</loc>
+	</url>
+	<url>
+		<loc>https://angelajholden.com/terms-conditions/</loc>
+	</url>
+</urlset>

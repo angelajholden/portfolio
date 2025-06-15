@@ -2,6 +2,16 @@ const button = document.querySelector(".mobile-button");
 const menu = document.querySelector(".navigation");
 const breakpoint = 960;
 
+function noOpener() {
+	const target = document.querySelectorAll('a[target="_blank"]');
+	target.forEach((link) => {
+		const rel = link.getAttribute("rel") || "";
+		if (!rel.includes("noopener")) {
+			link.setAttribute("rel", `${rel} noopener`.trim());
+		}
+	});
+}
+
 function youAreHere() {
 	const links = document.querySelectorAll(".nav_item");
 	const href = window.location.href;
@@ -164,5 +174,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	copyright();
 	initMobileNavigation();
 	youAreHere();
+	noOpener();
 	urlField();
 });

@@ -47,6 +47,10 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 					<p>This is a skill you'll lean heavily on in your career, because it is exceedingly rare that you will be handed clear instructions on every project you work on.</p>
 					<p>A personal website is your chance to make anything you want! It's your chance to experiment with your own sense of design and practice building things no one else will ask you to build. And It will give prospective employers a good idea of what you're capable of.</p>
 
+					<figure>
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/clifford-VobvKmG-StA-unsplash.jpg" alt="The interioe of a coffee shop" />
+					</figure>
+
 					<h2>Two: Create a portfolio of projects</h2>
 					<p>This one piggy backs off of building your own website. It's never been easier to show off your skills as a frontend developer. It's totally fine if you don't freelance or do client work. But you should still be practicing building user interfaces or UI elements and putting those in your portfolio of projects.</p>
 					<p>When you work on small projects that include a Github repository and then deploy it to a server or even something like Heroku, that will stand out to prospective employers. When you have a Github with a readme to explain the project, and a URL to see the project deployed, those things are part of your portfolio, in addition to being great practice for keeping your skills fresh.</p>
@@ -101,6 +105,9 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 					<h2>Conclusion</h2>
 					<p>Think of these things as an organic process for how you work. Start with building a personal website with a header, body and a footer. As you continue to practice your frontend skills, add the projects you're working on to your website as a portfolio. If you have a framework you love using, that's great! But it's okay to practice being really good at HTML, CSS and JavaScript. Those three things are literally the backbone of the internet. Have a flexible attitude and try building different things, from entire web pages and layouts to specific types of UI elements. Then deploy it in a way that you can easily show it off in a portfolio, and give prospective employers a chance to see your work in the browser.</p>
 					<p>If you need inspiration, it's all around you. Pick a site you like and build the homepage layout. Pick another site and use it as inspiration for a header. Observe how it behaves on desktop vs mobile, and try to build it. I mean, this is what you're trying to convince a prospective employer that you can do for them, right? So go do it!</p>
+					<h3>Photo Credit:</h3>
+					<p>Photo by <a href="https://unsplash.com/@cyzx?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Clifford</a> on <a href="https://unsplash.com/photos/person-taking-picture-inside-of-restaurant-VobvKmG-StA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a></p>
+
 				</div>
 				<footer class="content-footer">
 					<?php include_once dirname(__DIR__) . '/../includes/author.php'; ?>

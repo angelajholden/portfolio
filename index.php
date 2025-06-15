@@ -4,7 +4,10 @@
 
 <?php 
 $title = 'Angela J Holden | Software Engineer &amp; Frontend Developer';
-include_once __DIR__ . '/includes/head.php' ?>
+$description = '';
+$noindex = false; // or true, if you want to block this specific page
+include_once (__DIR__) . '/includes/head.php';
+?>
 
 <body>
 	<?php include_once __DIR__ . '/includes/header.php'; ?>

@@ -3,8 +3,11 @@
 <html lang="en">
 
 <?php 
-$title = 'Contact Me | Angela J Holden | Software Engineer &amp; Frontend Developer';
-include_once dirname(__DIR__) . '/includes/head.php' ?>
+$title = 'Contact | Angela J Holden | Software Engineer &amp; Frontend Developer';
+$description = '';
+$noindex = false; // or true, if you want to block this specific page
+include_once dirname(__DIR__) . '/includes/head.php';
+?>
 
 <body>
 	<?php include_once dirname(__DIR__) . '/includes/header.php'; ?>
