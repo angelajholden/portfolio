@@ -162,6 +162,11 @@
 			line-height: 1.25;
 		}
 
+		h3 {
+			color: $navy;
+			line-height: 1.25;
+		}
+
 		p:first-of-type {
 			@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
 				&::first-letter {
