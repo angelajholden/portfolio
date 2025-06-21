@@ -36,18 +36,23 @@
 	.grid-projects & {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
+		justify-content: flex-start;
 		align-items: stretch;
+		gap: 2rem;
+
+		@media (max-width: 1230px) {
+			gap: 1rem;
+		}
 	}
 }
 
 .project-item {
 	.grid-projects & {
-		width: calc(33.333% - 1.333rem);
+		width: calc((100% - 4rem) / 3);
 		display: flex;
 		flex-flow: column nowrap;
 		align-items: center;
-		margin: 0 0 2rem;
+		margin: 0;
 		background-color: $white;
 		box-shadow: 1px 1px 1px 0 rgba($color: $black, $alpha: 0.2);
 		border-bottom: 5px solid transparent;
@@ -68,16 +73,15 @@
 			border-color: $mint;
 		}
 
-		@media (max-width: 960px) {
-			width: calc(50% - 1rem);
+		@media (max-width: 1230px) {
+			width: calc((100% - 2rem) / 3);
 		}
 
-		@media (max-width: 768px) {
-			width: calc(50% - 0.5rem);
-			margin: 0 0 1rem;
+		@media (max-width: 1024px) {
+			width: calc((100% - 1rem) / 2);
 		}
 
-		@media (max-width: 500px) {
+		@media (max-width: 600px) {
 			width: 100%;
 		}
 	}
@@ -88,7 +92,7 @@
 		position: relative;
 		width: 100%;
 		max-width: 600px;
-		aspect-ratio: 8 / 5;
+		aspect-ratio: 16 / 9;
 		margin: 0;
 		overflow: hidden;
 
@@ -98,6 +102,7 @@
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			object-position: top center;
 		}
 	}
 }

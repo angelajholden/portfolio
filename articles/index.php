@@ -26,7 +26,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 			<div class="masonry-wrap">
 				<article class="article-item animate__animated" data-category="tips" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine" />
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tips &amp; Advice</div>
@@ -36,7 +36,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="article-item animate__animated" data-category="tips" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake" />
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tips &amp; Advice</div>
@@ -46,7 +46,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="article-item animate__animated" data-category="tutorials" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/folco-masi-erUcICg2LYE-unsplash.jpg" alt="A tennis player with pink tennis balls" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/folco-masi-erUcICg2LYE-unsplash.jpg" alt="A tennis player with pink tennis balls" />
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
@@ -56,7 +56,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="article-item animate__animated" data-category="tips" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/clifford-VobvKmG-StA-unsplash.jpg" alt="The interioe of a coffee shop" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/clifford-VobvKmG-StA-unsplash.jpg" alt="The interioe of a coffee shop" />
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tips &amp; Advice</div>
