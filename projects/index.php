@@ -39,7 +39,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVumb3GPMVk2JYG687ysA3vN9" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/blog" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://blog-website-3dcdb76fe42e.herokuapp.com/home/" target="_blank">DemoSite</a></span>
+							<span class="link-item"><a href="https://blog-website-3dcdb76fe42e.herokuapp.com/home/" target="_blank">Demo Site</a></span>
 
 						</div>
 					</div>
@@ -53,7 +53,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVukAKceS2BLcQa11-zHuXbg4" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/style-guide" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://style-guide-2be1404dfe00.herokuapp.com/" target="_blank">DemoSite</a></span>
+							<span class="link-item"><a href="https://style-guide-2be1404dfe00.herokuapp.com/" target="_blank">Demo Site</a></span>
 						</div>
 					</div>
 				</article>
@@ -64,9 +64,9 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<div class="project-content">
 						<h2 class="secondary-heading">Frontend Mentor: Product List with Cart</h2>
 						<div class="project-links">
-							<span class="link-item"><a href="https://www.youtube.com" target="_blank">YouTube</a></span>
-							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">DemoSite</a></span>
+							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVul29O86zSMm1sN2JlEItpp7" target="_blank">YouTube</a></span>
+							<span class="link-item"><a href="https://github.com/angelajholden/product-list-with-cart" target="_blank">GitHub</a></span>
+							<span class="link-item"><a href="https://product-list-with-cart-cbacd611a250.herokuapp.com/" target="_blank">Demo Site</a></span>
 						</div>
 					</div>
 				</article>
@@ -79,7 +79,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVunx37nAsnwD4k8TM_MmUcWN" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/delta-layout" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://delta-layout-69096c0ff255.herokuapp.com/" target="_blank">DemoSite</a></span>
+							<span class="link-item"><a href="https://delta-layout-69096c0ff255.herokuapp.com/" target="_blank">Demo Site</a></span>
 						</div>
 					</div>
 				</article>
@@ -92,7 +92,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVumRhxEce2kz82XR-aa9FIGD" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/masonry" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://masonry-454c1d7e5728.herokuapp.com/" target="_blank">DemoSite</a></span>
+							<span class="link-item"><a href="https://masonry-454c1d7e5728.herokuapp.com/" target="_blank">Demo Site</a></span>
 						</div>
 					</div>
 				</article>
@@ -105,7 +105,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVumXKmJ96pB18ytpBHQtyAcr" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/modal-window" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">DemoSite</a></span>
+							<span class="link-item"><a href="https://modal-window-f0e67a700e40.herokuapp.com/" target="_blank">Demo Site</a></span>
 						</div>
 					</div>
 				</article>
@@ -118,7 +118,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVumTx-jL21z8rgjdQ-JKQNs7" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/soho-layout" target="_blank">GitHub</a></span>
-							<span class="link-item"><a href="https://soho-layout-9cc211b0fd69.herokuapp.com/" target="_blank">DemoSite</a></span>
+							<span class="link-item"><a href="https://soho-layout-9cc211b0fd69.herokuapp.com/" target="_blank">Demo Site</a></span>
 						</div>
 					</div>
 				</article>
