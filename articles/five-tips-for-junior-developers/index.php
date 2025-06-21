@@ -48,7 +48,7 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 					<p>A personal website is your chance to make anything you want! It's your chance to experiment with your own sense of design and practice building things no one else will ask you to build. And It will give prospective employers a good idea of what you're capable of.</p>
 
 					<figure>
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/clifford-VobvKmG-StA-unsplash.jpg" alt="The interioe of a coffee shop" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/clifford-VobvKmG-StA-unsplash.jpg" alt="The interioe of a coffee shop" />
 					</figure>
 
 					<h2>Two: Create a portfolio of projects</h2>

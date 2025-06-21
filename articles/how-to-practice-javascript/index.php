@@ -48,7 +48,7 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 					<p>Next, I don't think you should worry about needing to look at examples, although I totally understand the frustration of not remembering something. This is why I take really good notes and I version control most things I do. So I don't have to remember everything. Because even when I do something so well I can do it from memory, if I don't do it again for six months or a year, I sometimes forget and have to look it up.</p>
 
 					<figure>
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/folco-masi-erUcICg2LYE-unsplash.jpg" alt="A tennis player with pink tennis balls" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/folco-masi-erUcICg2LYE-unsplash.jpg" alt="A tennis player with pink tennis balls" />
 					</figure>
 
 					<p>&nbsp;</p>

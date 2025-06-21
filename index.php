@@ -91,11 +91,11 @@ include_once (__DIR__) . '/includes/head.php';
 			<div class="wrap">
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Low Poly Geometric">
+						<img src="<?php echo BASE_URL; ?>images/articles/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">
-							<a href="#">Perfecting a Masonry Layout with a CSS Only Solution and No JavaScript Needed</a>
+							<a href="articles/answering-your-freelancing-questions/">Freelancing Q&A: Boundaries, Burnout, Niching Down, and Lessons Learned</a>
 						</h3>
 						<div class="item-meta">
 							<span>
@@ -104,7 +104,7 @@ include_once (__DIR__) . '/includes/head.php';
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
-								<time datetime="2025-03-19">Mar 19, 2025</time>
+								<time datetime="2025-06-15">Jun 15, 2025</time>
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
@@ -112,8 +112,8 @@ include_once (__DIR__) . '/includes/head.php';
 							</span>
 						</div>
 						<p class="read-more-link">
-							<a href="#">
-								<span class="access-hidden">Read more about: Perfecting a Masonry Layout with CSS; JavaScript not Required</span>
+							<a href="articles/answering-your-freelancing-questions/">
+								<span class="access-hidden">Read more about: Freelancing Q&A: Boundaries, Burnout, Niching Down, and Lessons Learned</span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
 							</a>
 						</p>
@@ -121,11 +121,11 @@ include_once (__DIR__) . '/includes/head.php';
 				</article>
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/downtown-mpls-hero.jpg" alt="Low Poly Geometric">
+						<img src="<?php echo BASE_URL; ?>images/articles/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">
-							<a href="#">Perfecting a Masonry Layout</a>
+							<a href="articles/how-to-start-freelancing/">How to Start Freelancing as a Frontend Developer</a>
 						</h3>
 						<div class="item-meta">
 							<span>
@@ -134,7 +134,7 @@ include_once (__DIR__) . '/includes/head.php';
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
-								<time datetime="2025-03-19">Mar 19, 2025</time>
+								<time datetime="2025-06-15">Jun 15, 2025</time>
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
@@ -142,8 +142,8 @@ include_once (__DIR__) . '/includes/head.php';
 							</span>
 						</div>
 						<p class="read-more-link">
-							<a href="#">
-								<span class="access-hidden">Read more about: Perfecting a Masonry Layout with CSS; JavaScript not Required</span>
+							<a href="articles/how-to-start-freelancing/">
+								<span class="access-hidden">Read more about: How to Start Freelancing as a Frontend Developer</span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
 							</a>
 						</p>
@@ -151,11 +151,11 @@ include_once (__DIR__) . '/includes/head.php';
 				</article>
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/ust-background.jpg" alt="Low Poly Geometric">
+						<img src="<?php echo BASE_URL; ?>images/articles/folco-masi-erUcICg2LYE-unsplash.jpg" alt="Tennis player practing with pink tennis balls">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">
-							<a href="#">Perfecting a Masonry Layout with CSS; JavaScript not Required</a>
+							<a href="articles/how-to-practice-javascript/">How to Practice JavaScript, with an Example</a>
 						</h3>
 						<div class="item-meta">
 							<span>
@@ -164,16 +164,16 @@ include_once (__DIR__) . '/includes/head.php';
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
-								<time datetime="2025-03-19">Mar 19, 2025</time>
+								<time datetime="2025-06-15">Jun 15, 2025</time>
 							</span>
 							<span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
-								Tutorial
+								Tutorials
 							</span>
 						</div>
 						<p class="read-more-link">
-							<a href="#">
-								<span class="access-hidden">Read more about: Perfecting a Masonry Layout with CSS; JavaScript not Required</span>
+							<a href="articles/how-to-practice-javascript/">
+								<span class="access-hidden">Read more about: How to Practice JavaScript, with an Example</span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
 							</a>
 						</p>
