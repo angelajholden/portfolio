@@ -49,7 +49,7 @@
 						<li>
 							<a href="https://x.com/_angelajholden" target="_blank">
 								<span class="access-hidden">X</span>
-								<svg aria-hidden="true" viewBox="0 0 811 811" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M556.99 196.963h74.464l-162.68 185.934 191.38 253.014h-149.85L392.937 482.459 258.64 635.911h-74.509l174.004-198.877-183.593-240.07h153.654l106.09 140.26 122.703-140.26zm-26.134 394.378h41.261l-266.34-352.149H261.5l269.356 352.149z" fill-rule="nonzero"/></svg>
+								<svg class="no-padding" aria-hidden="true" viewBox="0 0 811 811" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M556.99 196.963h74.464l-162.68 185.934 191.38 253.014h-149.85L392.937 482.459 258.64 635.911h-74.509l174.004-198.877-183.593-240.07h153.654l106.09 140.26 122.703-140.26zm-26.134 394.378h41.261l-266.34-352.149H261.5l269.356 352.149z" fill-rule="nonzero"/></svg>
 							</a>
 						</li>
 						<li>

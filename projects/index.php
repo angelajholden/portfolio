@@ -38,7 +38,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">The Ocean: Blog website with HTML, SCSS & JavaScript</h2>
-						<p>This is a simple, clean blog site built with HTML, CSS, and vanilla JavaScript. It's based on a Photoshop mockup called Ocean - Personal Blog Template for Travelers and Dreamers, purchased from Envato/ThemeForest.</p>
+						<p>This is a simple, clean blog site built with HTML, SCSS, and vanilla JavaScript. It's based on a Photoshop mockup called Ocean - Personal Blog Template for Travelers and Dreamers, purchased from Envato/ThemeForest.</p>
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVumb3GPMVk2JYG687ysA3vN9" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/blog" target="_blank">GitHub</a></span>
@@ -81,7 +81,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Blog Layout with Category Filter | Photoshop to Finish</h2>
-						<p>Follow along as I build a responsive blog-style layout from a Photoshop mockup using HTML, CSS, and JavaScript. In this series, I cover key steps from design setup to clean, accessible code, perfect for anyone looking to sharpen their front-end skills.</p>
+						<p>Follow along as I build a responsive blog-style layout from a Photoshop mockup using HTML, SCSS, and JavaScript. In this series, I cover key steps from design setup to clean, accessible code, perfect for anyone looking to sharpen their front-end skills.</p>
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVunx37nAsnwD4k8TM_MmUcWN" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/delta-layout" target="_blank">GitHub</a></span>
@@ -95,7 +95,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Pinterest Masonry Layout</h2>
-						<p>In this 2-part live stream series, watch as I walk through the step-by-step process of building a responsive masonry layout using HTML, CSS, and JavaScript. From setting up the structure to creating a dynamic, Pinterest-style grid, you'll learn how to create a beautiful and functional layout that adapts to different screen sizes.</p>
+						<p>In this 2-part live stream series, watch as I walk through the step-by-step process of building a responsive masonry layout using HTML, SCSS, and JavaScript. From setting up the structure to creating a dynamic, Pinterest-style grid, you'll learn how to create a beautiful and functional layout that adapts to different screen sizes.</p>
 						<div class="project-links">
 							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVumRhxEce2kz82XR-aa9FIGD" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/masonry" target="_blank">GitHub</a></span>
