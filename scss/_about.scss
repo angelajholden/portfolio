@@ -1,0 +1,60 @@
+.about-header {
+	padding: 3rem;
+	background-image: linear-gradient(to right, rgba(darken($teal, 15%), 0.9) 0%, rgba(darken($teal, 15%), 0.45) 75%, transparent 100%), url("images/low-poly-geometric.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@media (max-width: 960px) {
+		padding: 1rem;
+	}
+}
+
+.content-header {
+	.about-header & {
+		margin-bottom: 1rem;
+		color: $white;
+
+		p {
+			color: $white;
+			margin: 0 auto 2rem;
+		}
+
+		p:first-of-type {
+			@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+				&::first-letter {
+					font-family: "Cormorant", serif;
+					-webkit-initial-letter: 2;
+					initial-letter: 2;
+					color: $yellow;
+					font-weight: 600;
+					margin-right: 0.5rem;
+				}
+			}
+		}
+	}
+}
+
+.primary-heading {
+	.about-header & {
+		margin: 0;
+		color: $white;
+		text-align: center;
+		line-height: 1;
+
+		&::after {
+			content: "";
+			display: block;
+			width: 275px;
+			max-width: 100%;
+			margin: 1rem auto 2rem;
+			border-bottom: 3px dotted $yellow;
+		}
+
+		@media (max-width: 960px) {
+			&::after {
+				width: 125px;
+				margin: 1rem auto;
+			}
+		}
+	}
+}

@@ -12,10 +12,11 @@ include_once dirname(__DIR__) . '/includes/head.php';
 <body>
 	<?php include_once dirname(__DIR__) . '/includes/header.php'; ?>
 	<main id="content" class="main">
-		<section class="contact">
-			<div class="wrap">
-				<h2 class="secondary-heading">About Me</h2>
-			</div>
+		<section class="about-header">
+			<header class="content-header">
+				<h1 class="primary-heading">About Me</h1>
+				<p>These are frontend projects I built live on stream, with full access to the source code, working demos, and YouTube build playlists. Every project is made with HTML, SCSS, and JavaScript—no frameworks, just clean, accessible code.</p>
+			</header>
 		</section>
 		<section class="skills-experience">
 			<div class="wrap">

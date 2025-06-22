@@ -3,8 +3,8 @@
 <html lang="en">
 
 <?php 
-$title = 'Angela J Holden | Software Engineer &amp; Frontend Developer';
-$description = '';
+$title = 'Angela J Holden | Frontend Developer &amp; Software Engineer';
+$description = 'Hi, I\'m Angela Holden. I build accessible, responsive websites and share the process through live streams, tutorials and developer mentorship.';
 $noindex = false; // or true, if you want to block this specific page
 include_once (__DIR__) . '/includes/head.php';
 ?>
@@ -21,7 +21,7 @@ include_once (__DIR__) . '/includes/head.php';
 						<span>Develop.</span>
 						<span>Deploy.</span>
 					</h2>
-					<p>I'm Angela Holden. I build accessible, responsive web apps that perform across all devices and browsers.</p>
+					<p>I'm Angela Holden. I build accessible, responsive web apps—and share the process through live streams, tutorials and mentorship.</p>
 				</div>
 				<figure class="image">
 					<div class="image-container">

@@ -3,8 +3,8 @@
 <html lang="en">
 
 <?php 
-$title = 'Contact | Angela J Holden | Software Engineer &amp; Frontend Developer';
-$description = '';
+$title = 'Contact | Angela J Holden';
+$description = 'Have a question or idea? Send a message—I check my inbox often and always welcome thoughtful, direct conversations.';
 $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>

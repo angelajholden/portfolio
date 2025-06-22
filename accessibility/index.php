@@ -3,8 +3,8 @@
 <html lang="en">
 
 <?php 
-$title = 'Accessibility Statement | Angela J Holden | Software Engineer &amp; Frontend Developer';
-$description = '';
+$title = 'Accessibility Statement | Angela J Holden';
+$description = 'This site follows WCAG 2.1 AA guidelines and is built with accessibility in mind. Feedback is welcome as improvements continue.';
 $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>

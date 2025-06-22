@@ -6,8 +6,8 @@ http_response_code(404);
 <html lang="en">
 
 <?php 
-$title = 'Error 404 | Angela J Holden | Software Engineer &amp; Frontend Developer';
-$description = '';
+$title = 'Error 404 | Angela J Holden';
+$description = 'Heidi couldn\'t find this page either. 🐾 If you have any questions, please reach out through the contact form.';
 $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
@@ -45,7 +45,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<p>Heidi couldn't find this page either. 🐾 If you have any questions, please reach out through the <a href="../contact/">contact form</a>.</p>
 					</div>
 					<figure class="image-with-background">
-						<img src="<?php echo BASE_URL; ?>images/heidi-the-sheltie-looking-out-window.jpg" alt="Heidi the Sheltie looking out the window." />
+						<img src="<?php echo BASE_URL; ?>images/heidi-the-sheltie-looking-out-window.jpeg" alt="Heidi the Sheltie looking out the window." />
 					</figure>
 				</div>
 				<footer class="content-footer">

@@ -48,7 +48,7 @@
 
 .project-item {
 	.grid-projects & {
-		width: calc((100% - 4rem) / 3);
+		width: calc((100% - 4rem) / 2);
 		display: flex;
 		flex-flow: column nowrap;
 		align-items: center;
@@ -74,14 +74,10 @@
 		}
 
 		@media (max-width: 1230px) {
-			width: calc((100% - 2rem) / 3);
+			width: calc((100% - 2rem) / 2);
 		}
 
-		@media (max-width: 1024px) {
-			width: calc((100% - 1rem) / 2);
-		}
-
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			width: 100%;
 		}
 	}
@@ -91,7 +87,6 @@
 	.grid-projects & {
 		position: relative;
 		width: 100%;
-		max-width: 600px;
 		aspect-ratio: 16 / 9;
 		margin: 0;
 		overflow: hidden;
@@ -124,6 +119,14 @@
 			background: linear-gradient(to bottom, #1d506f 0%, #1d506f 25%, #44878c 25%, #44878c 50%, #89bfac 50%, #89bfac 75%, #d7cc8e 75%, #d7cc8e 100%);
 		}
 
+		p {
+			font-size: 1rem;
+			line-height: 1.65;
+			padding: 0 0 1rem;
+			margin: 0 0 0.5rem;
+			border-bottom: 3px dotted $gray;
+		}
+
 		@media (max-width: 960px) {
 			padding: 1rem 1.5rem;
 
@@ -140,7 +143,7 @@
 .secondary-heading {
 	.grid-projects & {
 		font-size: clamp(1.25rem, 2vw, 1.75rem);
-		margin: 0 0 1rem;
+		margin: 0.5rem 0 1rem;
 	}
 }
 
