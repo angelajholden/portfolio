@@ -62,6 +62,11 @@ include_once (__DIR__) . '/includes/head.php';
 				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
 				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
 				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated" data-animation="animate__fadeInUp"></div>
+				<div class="dot animate__animated animate__fast" data-animation="animate__fadeInUp"></div>
 			</div>
 		</div>
 		<section class="three-content_section">
