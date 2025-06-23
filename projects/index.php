@@ -133,6 +133,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 			</div>
 		</section>
+		<div class="dot-bg"></div>
 	</main>
 	<?php include_once dirname(__DIR__) . '/includes/footer.php'; ?>
 </body>
