@@ -48,7 +48,7 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 					<p>But burnout? I don't think burnout comes from working on too many projects. I think it comes from a lack of balance and poor boundaries.</p>
 
 					<figure>
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine" />
 					</figure>
 
 					<p>&nbsp;</p>

@@ -12,10 +12,11 @@ include_once dirname(__DIR__) . '/includes/head.php';
 <body>
 	<?php include_once dirname(__DIR__) . '/includes/header.php'; ?>
 	<main id="content" class="main">
-		<section class="contact">
-			<div class="wrap">
-				<h2 class="secondary-heading">About Me</h2>
-			</div>
+		<section class="about-header">
+			<header class="content-header">
+				<h1 class="primary-heading">About Me</h1>
+				<p>Hi, I'm Angela—a software engineer and frontend dev with a passion for accessible UI, clean code, and real-time builds. I've spent over a decade writing code, mentoring devs, and solving real problems across a wide range of projects. These days, I'm focused on teaching, streaming, and creating tools and content that help others grow.</p>
+			</header>
 		</section>
 		<section class="skills-experience">
 			<div class="wrap">

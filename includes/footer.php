@@ -47,6 +47,12 @@
 							</a>
 						</li>
 						<li>
+							<a href="https://x.com/_angelajholden" target="_blank">
+								<span class="access-hidden">X</span>
+								<svg class="no-padding" aria-hidden="true" viewBox="0 0 811 811" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M556.99 196.963h74.464l-162.68 185.934 191.38 253.014h-149.85L392.937 482.459 258.64 635.911h-74.509l174.004-198.877-183.593-240.07h153.654l106.09 140.26 122.703-140.26zm-26.134 394.378h41.261l-266.34-352.149H261.5l269.356 352.149z" fill-rule="nonzero"/></svg>
+							</a>
+						</li>
+						<li>
 							<a href="https://www.youtube.com/@angelajholden" target="_blank">
 								<span class="access-hidden">YouTube</span>
 								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149 1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z" /></svg>

@@ -28,6 +28,18 @@
 }
 */
 
+.content-header {
+	p {
+		max-width: 80ch;
+		text-align: center;
+		line-height: 1.75;
+
+		&:last-of-type {
+			margin: 0 auto 2rem;
+		}
+	}
+}
+
 .primary-heading {
 	font-size: clamp(2.5rem, 5vw, 4rem);
 }

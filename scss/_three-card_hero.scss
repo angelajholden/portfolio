@@ -1,6 +1,6 @@
 .three-card_hero {
 	position: relative;
-	padding: 50px 0;
+	padding: 75px 0;
 	overflow-x: auto;
 	background-image: linear-gradient(to right, darken($teal, 15%), $teal);
 	z-index: 0;
@@ -10,19 +10,19 @@
 	}
 }
 
-// .dot-bg {
-// 	.three-card_hero & {
-// 		position: absolute;
-// 		inset: 0;
-// 		width: 100%;
-// 		height: 100%;
-// 		background-image: url("svg/heart.svg");
-// 		background-repeat: no-repeat;
-// 		background-position: 40px 40px;
-// 		background-size: 25px auto;
-// 		z-index: -1;
-// 	}
-// }
+.dot-bg {
+	.three-card_hero & {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("svg/dot.svg");
+		background-repeat: repeat;
+		background-position: center center;
+		background-size: 9px auto;
+		z-index: -1;
+	}
+}
 
 .primary-heading {
 	.three-card_hero & {
@@ -74,7 +74,11 @@
 
 .item-content {
 	.three-card_hero & {
-		padding: 1.5rem;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: space-between;
+		height: 263px;
+		padding: 1.5rem 1.5rem 0;
 	}
 }
 
@@ -82,6 +86,7 @@
 	.three-card_hero & {
 		font-size: 1.5rem;
 		line-height: 1.5;
+		margin: 0;
 
 		a {
 			color: $navy;
@@ -121,11 +126,16 @@
 			}
 		}
 
+		span {
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+		}
+
 		svg {
-			display: inline-block;
-			vertical-align: text-bottom;
 			width: 18px;
 			height: 18px;
+			margin-right: 5px;
 			fill: $mint;
 			stroke: $mint;
 		}
@@ -134,8 +144,6 @@
 
 .read-more-link {
 	.three-card_hero & {
-		margin-top: 2rem;
-
 		a {
 			position: relative;
 			display: inline-block; // this element needs to use the box model for positioning to work correctly

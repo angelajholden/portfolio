@@ -3,8 +3,8 @@
 <html lang="en">
 
 <?php 
-$title = 'Articles | Angela J Holden | Software Engineer &amp; Frontend Developer';
-$description = '';
+$title = 'Articles &amp; Resources | Angela J Holden';
+$description = 'From coding tutorials and tech tips to lifestyle posts and free PDF handouts — this archive is a mix of everything I create and share.';
 $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
@@ -15,6 +15,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="masonry-articles">
 			<header class="content-header">
 				<h1 class="primary-heading">Articles</h1>
+				<p>This is the full archive of everything I've written—coding tutorials, tech advice, lifestyle content, and the occasional free PDF handout. Filter by category to find exactly what you need.</p>
 				<div class="article-buttons">
 					<button class="button blue-hollow active" data-category="all">All Articles</button>
 					<button class="button blue-hollow" data-category="pdfs">Free PDFs</button>
@@ -26,7 +27,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 			<div class="masonry-wrap">
 				<article class="article-item animate__animated" data-category="tips" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine" />
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tips &amp; Advice</div>
@@ -36,7 +37,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="article-item animate__animated" data-category="tips" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake" />
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tips &amp; Advice</div>
@@ -46,7 +47,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="article-item animate__animated" data-category="tutorials" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/folco-masi-erUcICg2LYE-unsplash.jpg" alt="A tennis player with pink tennis balls" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/folco-masi-erUcICg2LYE-unsplash.jpg" alt="A tennis player with pink tennis balls" />
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tutorials</div>
@@ -56,7 +57,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="article-item animate__animated" data-category="tips" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/clifford-VobvKmG-StA-unsplash.jpg" alt="The interioe of a coffee shop" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/clifford-VobvKmG-StA-unsplash.jpg" alt="The interior of a coffee shop" />
 					</figure>
 					<div class="article-wrap">
 						<div class="article-category">Tips &amp; Advice</div>

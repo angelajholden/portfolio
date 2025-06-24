@@ -1,7 +1,7 @@
 .grid-projects {
 	position: relative;
 	padding: 3rem;
-	background-color: $lt-gray;
+	background-color: transparent;
 	background-image: url("svg/ajh_v2.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -12,6 +12,19 @@
 		padding: 1rem;
 		background-position: center top;
 	}
+}
+
+.grid-projects + .dot-bg {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("svg/dot-gray.svg");
+	background-repeat: repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 9px auto;
+	z-index: -1;
 }
 
 .primary-heading {
@@ -36,18 +49,23 @@
 	.grid-projects & {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
+		justify-content: flex-start;
 		align-items: stretch;
+		gap: 2rem;
+
+		@media (max-width: 1230px) {
+			gap: 1rem;
+		}
 	}
 }
 
 .project-item {
 	.grid-projects & {
-		width: calc(33.333% - 1.333rem);
+		width: calc((100% - 4rem) / 2);
 		display: flex;
 		flex-flow: column nowrap;
 		align-items: center;
-		margin: 0 0 2rem;
+		margin: 0;
 		background-color: $white;
 		box-shadow: 1px 1px 1px 0 rgba($color: $black, $alpha: 0.2);
 		border-bottom: 5px solid transparent;
@@ -68,16 +86,11 @@
 			border-color: $mint;
 		}
 
-		@media (max-width: 960px) {
-			width: calc(50% - 1rem);
+		@media (max-width: 1230px) {
+			width: calc((100% - 2rem) / 2);
 		}
 
 		@media (max-width: 768px) {
-			width: calc(50% - 0.5rem);
-			margin: 0 0 1rem;
-		}
-
-		@media (max-width: 500px) {
 			width: 100%;
 		}
 	}
@@ -87,8 +100,7 @@
 	.grid-projects & {
 		position: relative;
 		width: 100%;
-		max-width: 600px;
-		aspect-ratio: 8 / 5;
+		aspect-ratio: 16 / 9;
 		margin: 0;
 		overflow: hidden;
 
@@ -98,6 +110,7 @@
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			object-position: center -2px;
 		}
 	}
 }
@@ -119,6 +132,14 @@
 			background: linear-gradient(to bottom, #1d506f 0%, #1d506f 25%, #44878c 25%, #44878c 50%, #89bfac 50%, #89bfac 75%, #d7cc8e 75%, #d7cc8e 100%);
 		}
 
+		p {
+			font-size: 1rem;
+			line-height: 1.65;
+			padding: 0 0 1rem;
+			margin: 0 0 0.5rem;
+			border-bottom: 3px dotted $gray;
+		}
+
 		@media (max-width: 960px) {
 			padding: 1rem 1.5rem;
 
@@ -135,7 +156,7 @@
 .secondary-heading {
 	.grid-projects & {
 		font-size: clamp(1.25rem, 2vw, 1.75rem);
-		margin: 0 0 1rem;
+		margin: 0.5rem 0 1rem;
 	}
 }
 

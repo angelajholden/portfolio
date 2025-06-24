@@ -60,7 +60,7 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 					<p>The point here is this: finding clients requires creativity and a willingness to talk to people, wherever you find yourself.</p>
 
 					<figure>
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake" />
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake" />
 					</figure>
 
 					<h2>Understanding Client Needs</h2>
