@@ -1,5 +1,5 @@
 .about-header {
-	padding: 3rem;
+	padding: 6rem 3rem 3rem;
 	background-image: linear-gradient(to right, rgba(darken($teal, 15%), 0.9) 0%, rgba(darken($teal, 15%), 0.45) 75%, transparent 100%), url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -11,12 +11,13 @@
 
 .content-header {
 	.about-header & {
-		margin-bottom: 1rem;
+		max-width: 60rem;
+		margin: 0 auto 1rem;
 		color: $white;
 
 		p {
 			color: $white;
-			margin: 0 auto 2rem;
+			margin: 0 0 2rem;
 		}
 
 		p:first-of-type {
@@ -38,8 +39,8 @@
 	.about-header & {
 		margin: 0;
 		color: $white;
-		text-align: center;
 		line-height: 1;
+		text-align: center;
 
 		&::after {
 			content: "";
@@ -55,6 +56,177 @@
 				width: 125px;
 				margin: 1rem auto;
 			}
+		}
+	}
+}
+
+.inspiration {
+	padding: 3rem;
+	background-color: $lt-gray;
+}
+
+.content_wrap {
+	.inspiration & {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+}
+
+.inspiration_content {
+	order: 2;
+	width: 70%;
+
+	p {
+		font-size: 1rem;
+		line-height: 1.65;
+		margin: 0 0 1rem;
+	}
+}
+
+.inspiration_sidebar {
+	order: 1;
+	width: 25%;
+
+	p {
+		font-size: 0.95rem;
+		line-height: 1.55;
+	}
+}
+
+.secondary-header {
+	.inspiration & {
+		margin: 0 0 1rem;
+		color: $green;
+	}
+}
+
+.tertiary-header {
+	.inspiration & {
+		font-family: "Lato", sans-serif;
+		font-size: 1.1rem;
+		font-weight: 400;
+		font-style: normal;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		color: $navy;
+		margin: 1rem 0;
+	}
+}
+
+.image {
+	.inspiration & {
+		position: relative;
+		aspect-ratio: 16 / 9;
+		width: 100%;
+		height: auto;
+		margin: 0 0 2rem;
+		z-index: 0;
+
+		&::before {
+			content: "";
+			position: absolute;
+			right: -0.75rem;
+			bottom: -0.75rem;
+			width: 200px;
+			height: 200px;
+			background-color: $yellow;
+			z-index: -1;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: -1rem;
+			left: -1rem;
+			width: 100%;
+			height: 100%;
+			border: 4px dotted $teal;
+			z-index: -1;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.lawtubers {
+	padding: 3rem;
+}
+
+.heading-wrap {
+	.lawtubers & {
+		text-align: center;
+	}
+}
+
+.wrap {
+	.lawtubers & {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: stretch;
+		max-width: 75rem;
+		margin: 0 auto;
+		gap: 2rem;
+	}
+}
+
+.tertiary-header {
+	.lawtubers & {
+		margin: 1.5rem 0 1rem;
+	}
+}
+
+.lawtuber-item {
+	.lawtubers & {
+		width: calc((100% - 4rem) / 3);
+
+		p {
+			font-size: 1rem;
+			line-height: 1.65;
+		}
+	}
+}
+
+.image {
+	.lawtubers & {
+		position: relative;
+		aspect-ratio: 4 / 3;
+		width: 100%;
+		height: auto;
+		z-index: 0;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -0.75rem;
+			right: -0.75rem;
+			width: 100%;
+			height: 100%;
+			border: 4px dotted $navy;
+			z-index: -1;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -0.35rem;
+			left: -0.35rem;
+			width: 50px;
+			height: 50px;
+			background-color: $green;
+			z-index: -1;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
 	}
 }

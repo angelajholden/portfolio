@@ -29,9 +29,10 @@
 */
 
 .content-header {
+	max-width: 60rem;
+	margin: 0 auto;
+
 	p {
-		max-width: 80ch;
-		text-align: center;
 		line-height: 1.75;
 
 		&:last-of-type {
@@ -63,7 +64,7 @@
 			display: block;
 			width: 150px;
 			padding-bottom: 1rem;
-			margin: 0 auto;
+			margin: 0 auto 3rem;
 			border-bottom: 5px dotted $yellow;
 		}
 	}
