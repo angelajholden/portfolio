@@ -3,7 +3,7 @@
 <html lang="en">
 
 <?php 
-$title = 'Site Map | Angela J Holden | Software Engineer &amp; Frontend Developer';
+$title = 'Site Map | Angela J Holden';
 $description = 'A complete list of pages and articles on my website, organized by category and date.';
 $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';

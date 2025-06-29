@@ -3,8 +3,8 @@
 <html lang="en">
 
 <?php 
-$title = 'Terms &amp; Conditions | Angela J Holden | Software Engineer &amp; Frontend Developer';
-$description = '';
+$title = 'Terms &amp; Conditions | Angela J Holden';
+$description = 'Everything I share here—including tutorials, articles, PDFs, and code snippets—is offered freely and in good faith.';
 $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>

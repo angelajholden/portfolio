@@ -3,8 +3,11 @@
 <html lang="en">
 
 <?php 
-$title = 'How to Practice JavaScript | Angela J Holden | Software Engineer &amp; Frontend Developer';
-include_once dirname(__DIR__) . '/../includes/head.php' ?>
+$title = 'How to Practice JavaScript | Angela J Holden';
+$description = 'Could you make a video with tips on learning JavaScript? I\'m familiar with the basics and concepts, but I find JavaScript more challenging.';
+$noindex = false; // or true, if you want to block this specific page
+include_once dirname(__DIR__) . '/includes/head.php';
+?>
 
 <body>
 	<?php include_once dirname(__DIR__) . '/../includes/header.php'; ?>

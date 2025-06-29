@@ -3,8 +3,11 @@
 <html lang="en">
 
 <?php 
-$title = 'How to Start Freelancing as a Frontend Developer | Angela J Holden | Software Engineer &amp; Frontend Developer';
-include_once dirname(__DIR__) . '/../includes/head.php' ?>
+$title = 'How to Start Freelancing as a Frontend Developer | Angela J Holden';
+$description = 'As soon as I learned HTML and CSS, I started freelancing. Thank god I was naive, because if I\'d known what I was getting into, I wouldn\'t have tried.';
+$noindex = false; // or true, if you want to block this specific page
+include_once dirname(__DIR__) . '/includes/head.php';
+?>
 
 <body>
 	<?php include_once dirname(__DIR__) . '/../includes/header.php'; ?>
@@ -35,7 +38,7 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 					</div>
 				</header>
 				<div class="content-item">
-					<p>As soon as I started to learn HTML and CSS, I started freelancing. Thank god I was naive—because if I'd known what I was getting into, I probably wouldn't have tried at all.</p>
+					<p>As soon as I started to learn HTML and CSS, I started freelancing. Thank god I was naive, because if I'd known what I was getting into, I probably wouldn't have tried at all.</p>
 					<p>It's the hardest thing I've ever done, and that includes actually writing code. From actually finding clients — to understanding what they need — to getting paid. It is either exhilarating or it will make you want to sit in the corner and cry.</p>
 					<p>This isn't an exhaustive guide. It's meant to be a starting point. I'll be expanding on these topics in future videos, so drop your questions in the comments if there's something you want me to dive deeper into.</p>
 

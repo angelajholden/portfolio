@@ -3,8 +3,11 @@
 <html lang="en">
 
 <?php 
-$title = 'Five Tips for Junior Developers | Angela J Holden | Software Engineer &amp; Frontend Developer';
-include_once dirname(__DIR__) . '/../includes/head.php' ?>
+$title = 'Five Tips for Junior Developers | Angela J Holden';
+$description = 'I\'ve been a frontend developer for 12 years, many of those as a hiring manager, and these are all things that helped me to get a job.';
+$noindex = false; // or true, if you want to block this specific page
+include_once dirname(__DIR__) . '/includes/head.php';
+?>
 
 <body>
 	<?php include_once dirname(__DIR__) . '/../includes/header.php'; ?>
@@ -35,7 +38,7 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 					</div>
 				</header>
 				<div class="content-item">
-					<p>I've been a frontend developer for 11 years, many of those as a hiring manager, and these are all things that helped me to get a job.</p>
+					<p>I've been a frontend developer for 12 years, many of those as a hiring manager, and these are all things that helped me to get a job.</p>
 					<p><em>Note: This post contains affiliate links. If you use these links to sign up, I may earn a commission at no extra cost to you. I only recommend tools I personally use and love.</em></p>
 
 					<h2>One: Make a personal website</h2>
