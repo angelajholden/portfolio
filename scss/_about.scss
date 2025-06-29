@@ -63,6 +63,10 @@
 .inspiration {
 	padding: 6rem 3rem 3rem;
 	background-color: $lt-gray;
+
+	@media (max-width: 960px) {
+		padding: 3rem 1rem;
+	}
 }
 
 .content_wrap {
@@ -95,10 +99,18 @@
 	}
 }
 
-.secondary-header {
-	.inspiration & {
-		margin: 0 0 1rem;
-		color: $green;
+@media (max-width: 960px) {
+	.inspiration_content {
+		order: 1;
+		width: 100%;
+		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+		border-bottom: 3px dotted $yellow;
+	}
+
+	.inspiration_sidebar {
+		order: 2;
+		width: 100%;
 	}
 }
 
@@ -127,10 +139,11 @@
 		&::before {
 			content: "";
 			position: absolute;
-			right: -0.75rem;
-			bottom: -0.75rem;
-			width: 200px;
-			height: 200px;
+			right: -1vw;
+			bottom: -1vw;
+			width: 20%;
+			height: auto;
+			aspect-ratio: 1 / 1;
 			background-color: $yellow;
 			z-index: -1;
 		}
@@ -138,8 +151,8 @@
 		&::after {
 			content: "";
 			position: absolute;
-			top: -1rem;
-			left: -1rem;
+			top: -1.5vw;
+			left: -1.5vw;
 			width: 100%;
 			height: 100%;
 			border: 4px dotted $teal;
@@ -156,6 +169,10 @@
 
 .lawtubers {
 	padding: 3rem;
+
+	@media (max-width: 960px) {
+		padding: 3rem 1rem;
+	}
 }
 
 .heading-wrap {
@@ -193,17 +210,26 @@
 
 .tertiary-header {
 	.lawtubers & {
-		margin: 1.5rem 0 1rem;
+		margin: 1.25rem 0 1rem;
+		padding: 0 1.5rem;
 	}
 }
 
 .lawtuber-item {
 	.lawtubers & {
 		width: calc((100% - 4rem) / 3);
+		background-color: $white;
+		border-bottom: 5px solid $mint;
+		box-shadow: 0 2px 2px 0 rgba($color: $black, $alpha: 0.25);
+
+		@media (max-width: 960px) {
+			width: 100%;
+		}
 
 		p {
 			font-size: 1rem;
 			line-height: 1.65;
+			padding: 0 1.5rem 1rem;
 		}
 	}
 }
@@ -219,22 +245,11 @@
 		&::before {
 			content: "";
 			position: absolute;
-			top: -0.75rem;
-			right: -0.75rem;
+			top: -1.333vw;
+			right: -1.333vw;
 			width: 100%;
 			height: 100%;
-			border: 4px dotted $navy;
-			z-index: -1;
-		}
-
-		&::after {
-			content: "";
-			position: absolute;
-			bottom: -0.35rem;
-			left: -0.35rem;
-			width: 50px;
-			height: 50px;
-			background-color: $green;
+			border: 3px dotted $navy;
 			z-index: -1;
 		}
 

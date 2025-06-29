@@ -54,3 +54,77 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+ul {
+	font-family: "Lato", sans-serif;
+	font-size: 1.25rem;
+	font-weight: 400;
+	font-style: normal;
+
+	li {
+		line-height: 2;
+	}
+}
+
+.list {
+	font-family: "Lato", sans-serif;
+	font-size: clamp(1rem, 2vw, 1.25rem);
+	font-weight: 400;
+	font-style: normal;
+
+	@media (max-width: 960px) {
+		margin: 0;
+		padding: 0 0 0 2rem;
+	}
+
+	li {
+		padding-bottom: 0.85rem;
+		margin-bottom: 0.85rem;
+		line-height: 1.65;
+
+		strong {
+			display: block;
+			margin-bottom: 0.5rem;
+		}
+
+		&:nth-of-type(3n + 1) {
+			border-bottom: 3px dotted $teal;
+		}
+
+		&:nth-of-type(3n + 2) {
+			border-bottom: 3px dotted $mint;
+		}
+
+		&:nth-of-type(3n + 3) {
+			border-bottom: 3px dotted $yellow;
+		}
+
+		&:last-of-type {
+			border-bottom: none;
+		}
+	}
+}
+
+/*
+if I have 5 colors
+change the color of the ::marker pseudo class on the li
+and have it repeat every nth of type
+*/
+
+.list li:nth-of-type(1n) {
+	&::marker {
+		color: $teal;
+	}
+}
+
+.list li:nth-of-type(2n) {
+	&::marker {
+		color: $mint;
+	}
+}
+
+.list li:nth-of-type(3n) {
+	&::marker {
+		color: $yellow;
+	}
+}

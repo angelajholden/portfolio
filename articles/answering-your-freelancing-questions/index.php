@@ -6,7 +6,7 @@
 $title = 'Freelancing Q&amp;A: Boundaries, Burnout, Niching Down, and Lessons Learned | Angela J Holden';
 $description = 'I got some really thoughtful questions after my last freelancing video, so I\'m answering them here in blog form for anyone who prefers to read.';
 $noindex = false; // or true, if you want to block this specific page
-include_once dirname(__DIR__) . '/includes/head.php';
+include_once dirname(__DIR__) . '/../includes/head.php';
 ?>
 
 <body>

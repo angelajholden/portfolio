@@ -6,7 +6,7 @@
 $title = 'Five Tips for Junior Developers | Angela J Holden';
 $description = 'I\'ve been a frontend developer for 12 years, many of those as a hiring manager, and these are all things that helped me to get a job.';
 $noindex = false; // or true, if you want to block this specific page
-include_once dirname(__DIR__) . '/includes/head.php';
+include_once dirname(__DIR__) . '/../includes/head.php';
 ?>
 
 <body>

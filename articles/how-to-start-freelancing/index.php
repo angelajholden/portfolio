@@ -6,7 +6,7 @@
 $title = 'How to Start Freelancing as a Frontend Developer | Angela J Holden';
 $description = 'As soon as I learned HTML and CSS, I started freelancing. Thank god I was naive, because if I\'d known what I was getting into, I wouldn\'t have tried.';
 $noindex = false; // or true, if you want to block this specific page
-include_once dirname(__DIR__) . '/includes/head.php';
+include_once dirname(__DIR__) . '/../includes/head.php';
 ?>
 
 <body>

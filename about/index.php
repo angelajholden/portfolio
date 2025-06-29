@@ -24,27 +24,27 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Selfie of Angela J Holden from a video still frame." />
 				</figure>
 				<div class="text-container animate__animated animate__slow" data-animation="animate__fadeInRight">
-					<h2 class="secondary-heading">Tech Stack, Tools &amp; Skills</h2>
+					<h2 class="secondary-heading">Tech Stack &amp; Tools</h2>
 					<ul class="list">
 						<li>
-							<strong>Frontend Development:</strong>
-							HTML, CSS, SCSS, PostCSS, Vanilla JavaScript, jQuery, Vue JS, Angular, Astro, Twig (this project!), responsive design, accessibility (a11y), search engine optimization (SEO).
+							<strong>Languages &amp; Frontend:</strong>
+							HTML, CSS, SCSS, Vanilla JavaScript, Velocity, PHP, Twig, Velocity, PHP, responsive design, accessibility (a11y), search engine optimization (SEO)
 						</li>
 						<li>
-							<strong>Backend Development:</strong>
-							Node.js, Express.js, LAMP stack, Velocity, PHP, MySQL, NoSQL.
+							<strong>Frameworks &amp; Libraries:</strong>
+							jQuery, Vue JS, Angular, Node.js, Express.js
 						</li>
 						<li>
-							<strong>APIs and Data:</strong>
-							REST APIs, Relational Databases, Python (web scraping and data extraction).
+							<strong>Backend &amp; Databases:</strong>
+							REST APIs, MongoDB, NoSQL, MySQL, Python, Java
 						</li>
 						<li>
-							<strong>Tools and Workflows:</strong>
-							Git, GitHub Actions, Grunt, Bash/Zsh Terminal, CI/CD pipelines.
+							<strong>DevOps &amp; Workflows:</strong>
+							Git, GitHub, GitHub Actions, Apache, Ubuntu, Linux, Heroku, DigitalOcean, NPM, NVM, Composer, Homebrew
 						</li>
 						<li>
-							<strong>Leadership and Collaboration:</strong>
-							Mentoring junior developers, leading frontend projects, writing documentation, conducting code reviews, establishing frontend development best practices, promoting accessibility (a11y) and DevOps knowledge among frontend teams.
+							<strong>Extras:</strong>
+							Markdown, VS Code, Terminal, OBS Studio
 						</li>
 					</ul>
 				</div>
@@ -57,7 +57,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</figure>
 				<div class="content_wrap">
 					<article class="inspiration_content">
-						<h2 class="secondary-header">Allow myself to introduce... myself.</h2>
+						<h2 class="secondary-heading">Allow myself to introduce... myself.</h2>
 						<p>I build UIs with HTML, CSS, SCSS, and JavaScript live on YouTube. No frameworks and no libraries. Real projects built in real-time, from a frontend developer who's been doing this work for years.</p>
 						<p>I came to tech from a completely different career, corporate law, and I've learned how powerful it is to take ownership of my time, my work, and my standards. That's what I try to model here.</p>
 						<p>This is a space for people who take the work seriously. That doesn't mean you have to know everything; it means you're here to grow, ask better questions, and learn with an open mind.</p>
@@ -68,8 +68,8 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<aside class="inspiration_sidebar">
 						<h3 class="tertiary-header">Frontend is from Hell 😈</h3>
 						<p><time datetime="2024-12-13">December 13, 2024</time></p>
-						<p>Frontend development: love it or hate it, you can't ignore it. In this stream, I'm reacting to two very different takes on the frontend world. We'll talk about the good, the bad, and the hilarious truths about working in frontend, plus dive into the never-ending drama around frameworks.</p>
-						<p><a href="https://www.youtube.com/watch?v=8Di4M3GBS3I" target="_blank">Watch "Frontend is from Hell"</a></p>
+						<p>Frontend development; love it or hate it, you can't ignore it. In this stream, I'm reacting to two very different takes on the frontend world. We'll talk about the good, the bad, and the never-ending drama around frameworks.</p>
+						<p><a class="cta-link blue-solid" href="https://www.youtube.com/watch?v=DSoZbY6c3_8" target="_blank">Watch on YouTube</a></p>
 					</aside>
 				</div>
 			</div>
@@ -95,7 +95,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<figure class="image">
 						<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="alt text goes here">
 					</figure>
-					<h3 class="tertiary-header"><a href="#">Attorney Melanie Litte</a></h3>
+					<h3 class="tertiary-header"><a href="#">Attorney Melanie Little</a></h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus atque amet nemo modi quia consectetur quam repellendus. Sint culpa molestiae fugit similique quas eos? Laudantium quae mollitia quidem vero cupiditate.</p>
 				</article>
 				<article class="lawtuber-item">
