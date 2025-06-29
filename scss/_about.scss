@@ -11,12 +11,13 @@
 
 .content-header {
 	.about-header & {
-		margin-bottom: 1rem;
+		max-width: 60rem;
+		margin: 0 auto 1rem;
 		color: $white;
 
 		p {
 			color: $white;
-			margin: 0 auto 2rem;
+			margin: 0 0 2rem;
 		}
 
 		p:first-of-type {
@@ -38,8 +39,8 @@
 	.about-header & {
 		margin: 0;
 		color: $white;
-		text-align: center;
 		line-height: 1;
+		text-align: center;
 
 		&::after {
 			content: "";
@@ -55,6 +56,327 @@
 				width: 125px;
 				margin: 1rem auto;
 			}
+		}
+	}
+}
+
+.skills-experience {
+	padding: 6rem 3rem;
+	background-color: $lt-gray;
+
+	.wrap {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.image-with-background {
+		position: relative;
+		width: 35%;
+		height: 0;
+		margin: 0;
+		padding-bottom: 50%;
+		z-index: 0;
+
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		// low poly bg image
+		&::before {
+			content: "";
+			position: absolute;
+			top: -40px;
+			left: -100px;
+			width: 100%;
+			height: calc(100% + 80px);
+			background-image: url("images/low-poly-bg.jpg");
+			background-size: cover;
+			z-index: -2;
+
+			@media (max-width: 960px) {
+				top: -20px;
+				left: -20px;
+				height: calc(100% + 40px);
+			}
+		}
+
+		// gold border
+		&::after {
+			content: "";
+			position: absolute;
+			top: -75px;
+			left: -30px;
+			width: 100%;
+			height: 100%;
+			border: 3px solid $yellow;
+			z-index: -1;
+
+			@media (max-width: 960px) {
+				top: -35px;
+				left: -10px;
+			}
+		}
+	}
+
+	.text-container {
+		width: 65%;
+		padding-left: 50px;
+	}
+
+	@media (max-width: 960px) {
+		padding: 3rem 0 0;
+
+		.wrap {
+			flex-flow: column wrap;
+
+			.image-with-background {
+				width: 90%;
+				margin: 0 auto 3rem;
+				padding-left: 0;
+			}
+
+			.text-container {
+				width: 90%;
+				margin: 0 auto;
+				padding-left: 0;
+			}
+		}
+	}
+}
+
+.inspiration {
+	padding: 6rem 3rem 3rem;
+
+	@media (max-width: 960px) {
+		padding: 3rem 1rem;
+	}
+}
+
+.content_wrap {
+	.inspiration & {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+}
+
+.inspiration_content {
+	order: 2;
+	width: 70%;
+
+	p {
+		font-size: 1rem;
+		line-height: 1.65;
+		margin: 0 0 1rem;
+	}
+}
+
+.inspiration_sidebar {
+	order: 1;
+	width: 25%;
+
+	p {
+		font-size: 0.95rem;
+		line-height: 1.55;
+	}
+}
+
+@media (max-width: 960px) {
+	.inspiration_content {
+		order: 1;
+		width: 100%;
+		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+		border-bottom: 3px dotted $yellow;
+	}
+
+	.inspiration_sidebar {
+		order: 2;
+		width: 100%;
+	}
+}
+
+.tertiary-header {
+	.inspiration & {
+		font-family: "Lato", sans-serif;
+		font-size: 1.1rem;
+		font-weight: 400;
+		font-style: normal;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+		color: $navy;
+		margin: 1rem 0;
+	}
+}
+
+.image {
+	.inspiration & {
+		position: relative;
+		aspect-ratio: 16 / 9;
+		width: 100%;
+		height: auto;
+		margin: 0 0 2rem;
+		z-index: 0;
+
+		&::before {
+			content: "";
+			position: absolute;
+			right: -8px;
+			bottom: -8px;
+			width: 15%;
+			height: auto;
+			aspect-ratio: 1 / 1;
+			background-color: $yellow;
+			z-index: -1;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: -12px;
+			left: -12px;
+			width: 100%;
+			height: 100%;
+			border: 3px dotted $teal;
+			z-index: -1;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.lawtubers {
+	padding: 3rem;
+	background-color: $lt-gray;
+
+	@media (max-width: 960px) {
+		padding: 3rem 1rem;
+	}
+}
+
+.heading-wrap {
+	.lawtubers & {
+		text-align: center;
+	}
+}
+
+.wrap {
+	.lawtubers & {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: stretch;
+		max-width: 75rem;
+		margin: 0 auto;
+		gap: 2rem;
+	}
+}
+
+.secondary-heading {
+	.lawtubers & {
+		.love-heart {
+			display: inline-block;
+			vertical-align: sub;
+			width: 50px;
+			height: 50px;
+		}
+
+		svg {
+			fill: $red;
+		}
+	}
+}
+
+.tertiary-heading {
+	.lawtubers & {
+		margin: 1.25rem 0 1rem;
+		padding: 0 1.5rem;
+
+		a {
+			font-size: clamp(1.5rem, 2.5vw, 2rem);
+			font-style: normal;
+			color: $navy;
+			text-decoration-color: $navy;
+
+			&:hover,
+			&:active,
+			&:focus {
+				text-decoration-color: transparent;
+			}
+
+			svg {
+				fill: $navy;
+			}
+		}
+	}
+}
+
+.lawtuber-item {
+	.lawtubers & {
+		width: calc((100% - 4rem) / 3);
+		background-color: $white;
+		border-bottom: 5px solid $mint;
+		box-shadow: 0 2px 2px 0 rgba($color: $black, $alpha: 0.25);
+
+		@media (max-width: 960px) {
+			width: 100%;
+		}
+
+		p {
+			font-size: 1rem;
+			line-height: 1.65;
+			padding: 0 1.5rem 1rem;
+		}
+	}
+}
+
+.image {
+	.lawtubers & {
+		position: relative;
+		aspect-ratio: 16 / 9;
+		width: 100%;
+		height: auto;
+		z-index: 0;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -10px;
+			right: -10px;
+			width: 100%;
+			height: 100%;
+			border: 3px dotted $navy;
+			z-index: -1;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -6px;
+			left: -6px;
+			width: 20%;
+			height: auto;
+			aspect-ratio: 1 / 1;
+			background-color: $yellow;
+			z-index: -1;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
 	}
 }

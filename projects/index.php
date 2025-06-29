@@ -4,7 +4,7 @@
 
 <?php 
 $title = 'Projects | Angela J Holden';
-$description = 'Every project here was built live on stream. View the code, visit the dev sites, or watch the full build process on YouTube.';
+$description = 'These are frontend projects I built during live streams, with links to full access to source code, working demos, and YouTube playlists.';
 $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
@@ -15,7 +15,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="grid-projects animate__animated animate__fadeIn">
 			<header class="content-header">
 				<h1 class="primary-heading">Projects</h1>
-				<p>These are frontend projects I built live on stream, with full access to the source code, working demos, and YouTube build playlists. Every project is made with HTML, SCSS, and JavaScript—no frameworks, just clean, accessible code.</p>
+				<p>These are frontend projects I built during live streams, with links to full access to source code, working demos, and YouTube playlists. Every project is made with HTML, CSS/SCSS, and JavaScript. No frameworks, just clean, accessible code.</p>
 			</header>
 			<div class="wrap">
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">

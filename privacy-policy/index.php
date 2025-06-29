@@ -3,8 +3,8 @@
 <html lang="en">
 
 <?php 
-$title = 'Privacy Policy | Angela J Holden | Software Engineer &amp; Frontend Developer';
-$description = '';
+$title = 'Privacy Policy | Angela J Holden';
+$description = 'I collect as little personal information as possible, just what\'s needed to keep in touch.';
 $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
@@ -38,7 +38,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</div>
 				</header>
 				<div class="content-item">
-					<p>I collect as little personal information as possible—just what's needed to keep in touch. If you fill out the contact form or sign up for the newsletter, your name and email address may be stored securely through my form service or email provider. I don't sell or share your information, and you can unsubscribe at any time.</p>
+					<p>I collect as little personal information as possible, just what's needed to keep in touch. If you fill out the contact form or sign up for the newsletter, your name and email address may be stored securely through my form service or email provider. I don't sell or share your information, and you can unsubscribe at any time.</p>
 					<p>If you have any questions or concerns about your data, feel free to reach out through the <a href="../contact/">contact form</a>. I'm committed to keeping this space safe, respectful and transparent.</p>
 				</div>
 				<footer class="content-footer">

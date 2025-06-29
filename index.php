@@ -37,14 +37,13 @@ include_once (__DIR__) . '/includes/head.php';
 			</div>
 			<div class="wrap">
 				<figure class="image animate__animated" data-animation="animate__fadeInUp">
-					<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpeg" alt="YouTube thumbnail for Frontend is from Hell video">
+					<img src="<?php echo BASE_URL; ?>images/frontend-mentor-product-cart-list.jpg" alt="YouTube thumbnail for Frontend Mentor: Product List with Cart, Full 9.5 Hour Build">
 				</figure>
 				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
-					<h3 class="tertiary-heading">Let's Talk About Frontend 😈</h3>
-					<p>Frontend development: love it or hate it, you can't ignore it. In this stream, I'm reacting to two very different takes on the frontend world. We'll talk about the good, the bad, and the hilarious truths about working in frontend, plus dive into the never-ending drama around frameworks.</p>
+					<h3 class="tertiary-heading">Frontend Mentor: Product List with Cart, Full 9.5 Hour Build</h3>
+					<p>Built in real time, this full-length video captures the entire process of developing a Product List with Cart challenge from Frontend Mentor. No frameworks, no shortcuts, just pure HTML, CSS, and JavaScript.</p>
 					<p>
-						<a class="cta-link" href="https://www.youtube.com/live/8Di4M3GBS3I?si=mI6cBB0rUYTk3Md7&t=60" target="_blank">Watch the video on YouTube
-							<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
+						<a class="cta-link blue-solid" href="https://www.youtube.com/watch?v=DSoZbY6c3_8" target="_blank">Watch on YouTube
 						</a>
 					</p>
 				</div>

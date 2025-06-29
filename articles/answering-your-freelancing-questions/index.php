@@ -3,8 +3,11 @@
 <html lang="en">
 
 <?php 
-$title = 'Freelancing Q&A: Boundaries, Burnout, Niching Down, and Lessons Learned | Angela J Holden | Software Engineer &amp; Frontend Developer';
-include_once dirname(__DIR__) . '/../includes/head.php' ?>
+$title = 'Freelancing Q&amp;A: Boundaries, Burnout, Niching Down, and Lessons Learned | Angela J Holden';
+$description = 'I got some really thoughtful questions after my last freelancing video, so I\'m answering them here in blog form for anyone who prefers to read.';
+$noindex = false; // or true, if you want to block this specific page
+include_once dirname(__DIR__) . '/../includes/head.php';
+?>
 
 <body>
 	<?php include_once dirname(__DIR__) . '/../includes/header.php'; ?>
@@ -13,7 +16,7 @@ include_once dirname(__DIR__) . '/../includes/head.php' ?>
 		<article class="full-width_content animate__animated animate__fadeIn">
 			<div class="wrap">
 				<header class="content-header">
-					<h1 class="primary-heading">Freelancing Q&A: Boundaries, Burnout, Niching Down, and Lessons Learned</h1>
+					<h1 class="primary-heading">Freelancing Q&amp;A: Boundaries, Burnout, Niching Down, and Lessons Learned</h1>
 					<div class="content-meta">
 						<div class="meta-item by-author">
 							<figure class="meta-image">

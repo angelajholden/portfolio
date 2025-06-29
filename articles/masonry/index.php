@@ -3,12 +3,8 @@
 <html lang="en">
 
 <?php 
-$title = 'Perfecting a Masonry Layout with CSS; JavaScript not Required | Angela J Holden | Software Engineer &amp; Frontend Developer';
-include_once dirname(__DIR__) . '/../includes/head.php' ?>
-
-<?php 
-$title = 'Copy Me Template | Angela J Holden | Software Engineer &amp; Frontend Developer';
-$description = '';
+$title = 'Articles Template | Angela J Holden';
+// $description = '';
 $noindex = true; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>

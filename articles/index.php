@@ -15,7 +15,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="masonry-articles">
 			<header class="content-header">
 				<h1 class="primary-heading">Articles</h1>
-				<p>This is the full archive of everything I've written—coding tutorials, tech advice, lifestyle content, and the occasional free PDF handout. Filter by category to find exactly what you need.</p>
+				<p>This is the full archive of everything I've written, including tutorials, advice, lifestyle content, and the occasional free PDF handout. Filter by category to find exactly what you need.</p>
 				<div class="article-buttons">
 					<button class="button blue-hollow active" data-category="all">All Articles</button>
 					<button class="button blue-hollow" data-category="pdfs">Free PDFs</button>
