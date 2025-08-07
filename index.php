@@ -37,7 +37,7 @@ include_once (__DIR__) . '/includes/head.php';
 			</div>
 			<div class="wrap">
 				<figure class="image animate__animated" data-animation="animate__fadeInUp">
-					<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-resume-website.jpg" alt="YouTube thumbnail for Build a Printable Resume Website, HTML, CSS + JS Tutorial">
+					<img src="<?php echo BASE_URL; ?>images/angelajholden-resume-website.jpg" alt="YouTube thumbnail for Build a Printable Resume Website, HTML, CSS + JS Tutorial">
 				</figure>
 				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<h3 class="tertiary-heading">Build a Printable Resume Website</h3>
