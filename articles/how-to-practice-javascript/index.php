@@ -50,12 +50,6 @@ include_once dirname(__DIR__) . '/../includes/head.php';
 
 					<p>Next, I don't think you should worry about needing to look at examples, although I totally understand the frustration of not remembering something. This is why I take really good notes and I version control most things I do. So I don't have to remember everything. Because even when I do something so well I can do it from memory, if I don't do it again for six months or a year, I sometimes forget and have to look it up.</p>
 
-					<figure>
-						<img loading="lazy" src="<?php echo BASE_URL; ?>images/articles/folco-masi-erUcICg2LYE-unsplash.jpg" alt="A tennis player with pink tennis balls" />
-					</figure>
-
-					<p>&nbsp;</p>
-
 					<p>I think MDN and W3Schools are both excellent resources. I also recommend Learn JavaScript which I'll link below. This is one of the best JavaScript tutorials I've ever worked on and it's structured in a way that makes you solve real problems over and over again.</p>
 
 					<p>Again, the best thing you can do to build your skills is practice and repetition. Think of all the user interface elements that require JavaScript. Things like tabs, accordions, sliders, navigation… those are all things that are done with JavaScript. I promise that if you practice building these things, you'll get much more comfortable and confident with JavaScript.</p>
@@ -139,10 +133,6 @@ include_once dirname(__DIR__) . '/../includes/head.php';
 						<li><a target="_blank" href="https://www.w3schools.com/js/">W3 Schools JavaScript Tutorial</a></li>
 						<li><a target="_blank" href="https://learnjavascript.online/">Learn JavaScript Online</a></li>
 					</ul>
-
-					<h3>Photo Credit:</h3>
-					<p>Photo by <a href="https://unsplash.com/@folcomasi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Folco Masi</a> on <a href="https://unsplash.com/photos/a-person-standing-on-a-tennis-court-with-a-racket-erUcICg2LYE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a></p>
-
 				</div>
 				<footer class="content-footer">
 					<?php include_once dirname(__DIR__) . '/../includes/author.php'; ?>

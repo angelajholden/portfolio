@@ -15,7 +15,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="about-header animate__animated animate__fadeIn">
 			<header class="content-header">
 				<h1 class="primary-heading">About Me</h1>
-				<p>Hi, I'm Angela, a software engineer and frontend developer. I've spent over a decade writing code, mentoring devs, and solving real problems across a wide range of projects. These days, I'm focused on teaching, streaming, and creating tools and content that help others learn.</p>
+				<p>Hello! I'm Angela, a software engineer and frontend developer in Saint Paul, MN. I've spent over a decade writing code, mentoring devs, and solving real problems across a wide range of projects. These days, I'm focused on teaching, streaming, and creating tools and content that help others learn.</p>
 			</header>
 		</section>
 		<section class="skills-experience">
@@ -52,9 +52,6 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		</section>
 		<section class="inspiration">
 			<div class="wrap">
-				<figure class="image animate__animated" data-animation="animate__fadeInUp">
-					<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpeg" alt="Thumbnail for YouTube Video 'Frontend is from Hell'">
-				</figure>
 				<div class="content_wrap">
 					<article class="inspiration_content animate__animated animate__fast" data-animation="animate__fadeInUp">
 						<h2 class=" secondary-heading">Allow myself to introduce... myself.</h2>
@@ -65,7 +62,10 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<p>We also talk about devops, design inspiration, freelancing, and honestly, anything I feel like talking about. Because as much as I love being a developer, I'm also a real human.</p>
 						<svg class="signatureSVG" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="145px" height="94.469px" viewBox="0 0 145 94.469" enable-background="new 0 0 145 94.469" xml:space="preserve"><path d="M36.6,25.984c-0.084-7.937-0.898-20.638-9.965-23.872C20.648-0.023,13.98,1.422,9.348,5.71c-6.203,5.742-7.453,15.776-7.948,23.724c-0.62,9.946,0.248,20.474,4.435,29.608c2.728,5.953,8.422,12.167,15.522,9.121c7.511-3.222,11.028-11.226,13.722-18.437c2.592-6.937,5.823-17.759,1.023-24.436c-2.231-3.104-5.597-2.396-7.443,0.595c-3.494,5.66-3.977,14.827-3.805,21.33c0.142,5.339,2.768,16.454,10.101,15.857c5.945-0.483,10.264-5.366,13.243-10.113c3.057-4.869,6.384-13.218,2.097-18.321c-0.294-0.35-1.559,0.12-1.786,0.397c-2.597,3.163-1.958,8.792-1.579,12.528c0.339,3.335,1.271,10.401,5.398,11.41c8.736,2.134,13.233-10.014,14.939-16.425c0.137-0.515-1.689-0.024-1.908,0.332c-4.222,6.86,0.029,20.396,9.782,15.921c3.687-1.692,6.692-4.711,8.727-8.191c1.659-2.839,1.004-5.81-2.716-5.605c-2.978,0.164-8.471,0.785-10.131,3.855c-2.206,4.08,1.771,8.627,4.241,11.626c3.751,4.557,7.646,8.472,9.928,14.056c3.216,7.868,1.254,16.308-8.122,18.01c-0.78,0.142-1.704,0.992-0.35,0.746c6.691-1.215,11.717-4.785,11.898-12.063c0.208-8.328-5.8-14.838-10.891-20.656c-2.437-2.786-5.918-6.719-5.353-10.754c0.477-3.403,8.971-6.012,10.444-2.551c0.577,1.356-0.632,3.279-1.281,4.391c-2.798,4.787-8.732,9.404-13.69,4.657c-3.645-3.49-2.965-9.896-0.579-13.773c-0.636,0.11-1.272,0.222-1.908,0.332c-1.245,4.678-8.966,22.703-14.442,12.219c-2.44-4.671-4.297-15.757-0.654-20.193c-0.596,0.133-1.19,0.266-1.786,0.397c4.252,5.063,0.682,13.148-2.187,17.987c-1.78,3.004-4.154,5.758-7.063,7.713c-4.377,2.942-7.89-0.044-9.862-3.963c-3.381-6.717-2.781-14.363-1.675-21.518c0.496-3.207,1.2-6.465,2.582-9.416c2.27-4.853,5.283,1.62,5.873,4.247c2.036,9.076-2.557,20.268-6.737,28.136c-2.678,5.041-7.831,11.925-14.534,8.672c-4.829-2.344-7.365-8.656-9.015-13.396C1.226,40.462-0.283-4.063,24.145,2.554c9.579,2.594,10.439,16.003,10.523,23.948C34.672,26.849,36.605,26.554,36.6,25.984L36.6,25.984z"/><path d="M86.852,58.607c5.507-0.78,10.146-4.369,10.641-10.173c0.029-0.349-0.315-0.447-0.602-0.468c-6.907-0.484-12.04,7.337-9.349,13.584c2.53,5.877,9.522,5.229,14.217,3.013c12.082-5.707,19.728-18.113,21.533-30.889c0.716-5.068,1.648-12.387-1.498-16.865c-2.78-3.959-8.366,0.339-10.689,2.409c-5.988,5.339-8.373,14.526-9.662,22.101c-1.321,7.77-1.486,17.331,3.294,24.018c0.406,0.568,2.273-0.098,1.789-0.775c-7.407-10.361-3.718-27.581,1.326-38.183c1.448-3.046,8.194-13.309,12.154-8.794c2.815,3.21,1.977,9.796,1.655,13.608c-0.823,9.785-3.839,17.023-10.477,24.272c-3.937,4.298-10.245,10.514-16.625,9.543c-3.847-0.585-6.037-4.734-5.843-8.264c0.121-2.215,1.433-4.251,2.867-5.841c3.811-2.012,4.826-1.507,3.046,1.516c-1.262,2.898-4.562,4.628-7.532,5.049C86.142,57.604,85.52,58.796,86.852,58.607L86.852,58.607z"/><path d="M134.201,51.717c3.652-6.345-4.3-5.973-8.275-4.631c-6.271,2.115-12.847,7.855-10.071,15.041c0.198,0.513,0.975,0.498,1.383,0.271c2.466-1.37,3.577-1.936,4.014-4.861c-0.65,0.057-1.301,0.113-1.951,0.17c-0.962,11.115,15.236,14.77,23.621,12.943c1.207-0.264,0.856-1.501-0.332-1.242c-7.548,1.644-22.194-1.975-21.338-11.871c0.083-0.964-1.831-0.635-1.951,0.17c-0.268,1.791-1.348,2.771-2.896,3.633c0.461,0.09,0.922,0.181,1.383,0.271c-2.189-5.668,1.782-10.01,6.611-12.481c2.818-1.442,11.38-3.519,7.968,2.409C131.841,52.449,133.804,52.407,134.201,51.717L134.201,51.717z"/></svg>
 					</article>
-					<aside class="inspiration_sidebar animate__animated" data-animation="animate__fadeInUp"">
+					<aside class="inspiration_sidebar animate__animated" data-animation="animate__fadeInUp">
+						<figure class=" image animate__animated" data-animation="animate__fadeInUp">
+							<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpeg" alt="Thumbnail for YouTube Video 'Frontend is from Hell'">
+						</figure>
 						<h3 class=" tertiary-header">Frontend is from Hell 😈</h3>
 						<p><time datetime="2024-12-13">December 13, 2024</time></p>
 						<p>Frontend development; love it or hate it, you can't ignore it. In this stream, I'm reacting to two very different takes on the frontend world. We'll talk about the good, the bad, and the never-ending drama around frameworks.</p>
