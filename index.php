@@ -37,13 +37,19 @@ include_once (__DIR__) . '/includes/head.php';
 			</div>
 			<div class="wrap">
 				<figure class="image animate__animated" data-animation="animate__fadeInUp">
-					<img src="<?php echo BASE_URL; ?>images/frontend-mentor-product-cart-list.jpg" alt="YouTube thumbnail for Frontend Mentor: Product List with Cart, Full 9.5 Hour Build">
+					<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-resume-website.jpg" alt="YouTube thumbnail for Build a Printable Resume Website, HTML, CSS + JS Tutorial">
 				</figure>
 				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
-					<h3 class="tertiary-heading">Frontend Mentor: Product List with Cart, Full 9.5 Hour Build</h3>
-					<p>Built in real time, this full-length video captures the entire process of developing a Product List with Cart challenge from Frontend Mentor. No frameworks, no shortcuts, just pure HTML, CSS, and JavaScript.</p>
+					<h3 class="tertiary-heading">Build a Printable Resume Website</h3>
+					<p>In this real-time project build, we'll create a one-page resume site that's printable, accessible, and powered by vanilla HTML, CSS and JavaScript. You'll learn how to:</p>
+					<ul>
+						<li>Use @media print to create a printable layout</li>
+						<li>Trigger the print dialog with JavaScript</li>
+						<li>Structure a semantic one-page resume</li>
+						<li>Style the layout using CSS Grid</li>
+					</ul>
 					<p>
-						<a class="cta-link blue-solid" href="https://www.youtube.com/watch?v=DSoZbY6c3_8" target="_blank">Watch on YouTube
+						<a class="cta-link blue-solid" href="https://youtu.be/QoT0m1zvROM" target="_blank">Watch on YouTube
 						</a>
 					</p>
 				</div>
