@@ -15,12 +15,40 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="grid-projects animate__animated animate__fadeIn">
 			<header class="content-header">
 				<h1 class="primary-heading">Projects</h1>
-				<p>These are frontend projects I built during live streams, with links to full access to source code, working demos, and YouTube playlists. Every project is made with HTML, CSS/SCSS, and JavaScript. No frameworks, just clean, accessible code.</p>
+				<p>These are frontend projects I built during live streams, with links to full access to source code, working demos, and YouTube playlists or videos. Every project is made with HTML, CSS (sometimes SCSS) and JavaScript. No frameworks, just clean, accessible code.</p>
 			</header>
 			<div class="wrap">
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-portfolio-website.jpg" alt="Screenshot of project portfolio website">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-resume-website.jpg" alt="Screenshot of project portfolio website">
+					</figure>
+					<div class="project-content">
+						<h2 class="secondary-heading">Printable Resume Website (HTML CSS JS)</h2>
+						<p>This resume website is printable, accessible, responsive, and powered by vanilla HTML, CSS and JavaScript. It's part of a Photoshop mockup called Hilltop - PSD Template for Creative Professionals, purchased from Envato/ThemeForest.</p>
+						<div class="project-links">
+							<span class="link-item"><a href="https://youtu.be/QoT0m1zvROM" target="_blank">YouTube</a></span>
+							<span class="link-item"><a href="https://github.com/angelajholden/resume-layout" target="_blank">GitHub</a></span>
+							<span class="link-item"><a href="https://angelajholden.github.io/resume-layout/" target="_blank">Demo Site</a></span>
+						</div>
+					</div>
+				</article>
+				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
+					<figure class="image">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-hilltop-landing-page.jpg" alt="Screenshot of project portfolio website">
+					</figure>
+					<div class="project-content">
+						<h2 class="secondary-heading">Hilltop: Landing Page Website with HTML, Vanilla CSS + JavaScript</h2>
+						<p>This is a landing page website built with HTML, vanilla CSS and JavaScript. It's based on a Photoshop mockup called Hilltop - PSD Template for Creative Professionals, purchased from Envato/ThemeForest.</p>
+						<div class="project-links">
+							<span class="link-item"><a href="https://youtu.be/5lY5vTEuuHE" target="_blank">YouTube</a></span>
+							<span class="link-item"><a href="https://github.com/angelajholden/hilltop-landing-page" target="_blank">GitHub</a></span>
+							<span class="link-item"><a href="https://angelajholden.github.io/hilltop-landing-page" target="_blank">Demo Site</a></span>
+						</div>
+					</div>
+				</article>
+				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
+					<figure class="image">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-portfolio-website.jpg" alt="Screenshot of project portfolio website">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Personal Portfolio Website: PHP, HTML, SCSS & JavaScript</h2>
@@ -34,7 +62,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-ocean-blog-static-website.jpg" alt="Screenshot of The Ocean static website">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-ocean-blog-static-website.jpg" alt="Screenshot of The Ocean static website">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">The Ocean: Blog website with HTML, SCSS & JavaScript</h2>
@@ -49,7 +77,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-style-guide.jpg" alt="Screenshot of style guide for project planning">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-style-guide.jpg" alt="Screenshot of style guide for project planning">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Style Guide & Project Planning</h2>
@@ -63,13 +91,13 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-frontend-mentor-product-cart-with-list.jpg" alt="Screenshot of Frontend Mentor with Product Cart demo site">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-frontend-mentor-product-cart-with-list.jpg" alt="Screenshot of Frontend Mentor with Product Cart demo site">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Frontend Mentor: Product List with Cart</h2>
 						<p>Join me as I tackle a fun Frontend Mentor challenge where I'll build a product list with an interactive shopping cart from scratch! We'll dive into HTML, CSS, and JavaScript to create a clean, responsive layout, and I'll walk you through adding key features like item quantities, total pricing, and cart updates.</p>
 						<div class="project-links">
-							<span class="link-item"><a href="https://www.youtube.com/playlist?list=PLiEcEGGtRVul29O86zSMm1sN2JlEItpp7" target="_blank">YouTube</a></span>
+							<span class="link-item"><a href="https://youtu.be/DSoZbY6c3_8" target="_blank">YouTube</a></span>
 							<span class="link-item"><a href="https://github.com/angelajholden/product-list-with-cart" target="_blank">GitHub</a></span>
 							<span class="link-item"><a href="https://product-list-with-cart-cbacd611a250.herokuapp.com/" target="_blank">Demo Site</a></span>
 						</div>
@@ -77,7 +105,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-blog-layout-with-category-filter.jpg" alt="Screenshot of blog layout with a category filter">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-blog-layout-with-category-filter.jpg" alt="Screenshot of blog layout with a category filter">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Blog Layout with Category Filter | Photoshop to Finish</h2>
@@ -91,7 +119,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-masonry-layout.jpg" alt="Screenshot of a masonry layout">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-masonry-layout.jpg" alt="Screenshot of a masonry layout">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Pinterest Masonry Layout</h2>
@@ -105,7 +133,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="project-item animate__animated" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-modal-window-project.jpg" alt="Screenshot of modal window demo site">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-modal-window-project.jpg" alt="Screenshot of modal window demo site">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Build a Modal Window with HTML, SCSS &amp; JavaScript</h2>
@@ -119,7 +147,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</article>
 				<article class="project-item animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/projects/angelajholden-landing-page-html-css.jpg" alt="Screenshot of a landing page website">
+						<img loading="lazy" src="<?php echo BASE_URL; ?>images/projects/angelajholden-landing-page-html-css.jpg" alt="Screenshot of a landing page website">
 					</figure>
 					<div class="project-content">
 						<h2 class="secondary-heading">Building a Landing Page | HTML, CSS & JavaScript</h2>

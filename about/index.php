@@ -21,7 +21,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="skills-experience">
 			<div class="wrap">
 				<figure class="image-with-background animate__animated animate__slow" data-animation="animate__fadeInLeft">
-					<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Selfie of Angela J Holden from a video still frame." />
+					<img src="<?php echo BASE_URL; ?>images/angelajholden-frontend-developer.jpg" alt="Selfie of Angela J Holden from a video still frame." />
 				</figure>
 				<div class="text-container animate__animated animate__slow" data-animation="animate__fadeInRight">
 					<h2 class="secondary-heading">Tech Stack &amp; Tools</h2>
@@ -56,9 +56,9 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpeg" alt="Thumbnail for YouTube Video 'Frontend is from Hell'">
 				</figure>
 				<div class="content_wrap">
-					<article class="inspiration_content animate__animated animate__fast" data-animation="animate__fadeInUp"">
+					<article class="inspiration_content animate__animated animate__fast" data-animation="animate__fadeInUp">
 						<h2 class=" secondary-heading">Allow myself to introduce... myself.</h2>
-						<p>I build UIs with HTML, CSS, SCSS, and JavaScript <a href="https://www.youtube.com/@angelajholden/streams" target="_blank">live on YouTube.</a> No frameworks and no libraries. Real projects built in real-time, from a frontend developer who's been doing this work for years.</p>
+						<p>I build UIs with HTML, CSS and JavaScript <a href="https://www.youtube.com/@angelajholden/streams" target="_blank">live on YouTube.</a> No frameworks and no libraries. Real projects built in real-time, from a frontend developer who's been doing this work for years.</p>
 						<p>I came to tech from a completely different career, corporate law, and I've learned how powerful it is to take ownership of my time, my work, and my standards. That's what I try to model here.</p>
 						<p>This is a space for people who take the work seriously. That doesn't mean you have to know everything; it means you're here to grow, ask better questions, and learn with an open mind.</p>
 						<p>I built my YouTube channel to have fun and practice my own frontend skills. I'm not a character, this isn't a gimmick, and I'm not performing. It's me, doing the work the way I actually do it. If you're into that, you're in the right place.</p>
@@ -69,7 +69,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<h3 class=" tertiary-header">Frontend is from Hell 😈</h3>
 						<p><time datetime="2024-12-13">December 13, 2024</time></p>
 						<p>Frontend development; love it or hate it, you can't ignore it. In this stream, I'm reacting to two very different takes on the frontend world. We'll talk about the good, the bad, and the never-ending drama around frameworks.</p>
-						<p><a class="cta-link blue-solid" href="https://www.youtube.com/watch?v=DSoZbY6c3_8" target="_blank">Watch on YouTube</a></p>
+						<p><a class="cta-link blue-solid" href="https://www.youtube.com/live/8Di4M3GBS3I?si=sh4dWXOkd3N8FxyO&t=60" target="_blank">Watch on YouTube</a></p>
 					</aside>
 				</div>
 			</div>
@@ -82,7 +82,6 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</span>
 					Love
 				</h2>
-				<p></p>
 			</div>
 			<div class="wrap">
 				<article class="lawtuber-item">
@@ -110,7 +109,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<h3 class="tertiary-heading"><a class="link" href="https://www.youtube.com/@aburkhartlaw" target="_blank">Andrea Burkhart
 							<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
 						</a></h3>
-					<p>Andrea Burkhart is a criminal defense attorney in Washington state. She is the most insightful of all LawTubers, in my opinion. Andrea specializes in appellate law and has completely changed my attitude about criminal defense and the in the U.S.</p>
+					<p>Andrea Burkhart is a criminal defense attorney in Washington state. She is the most insightful of all LawTubers, in my opinion. Andrea specializes in appellate law and has completely changed my attitude about criminal defense in the U.S.</p>
 				</article>
 			</div>
 		</section>
