@@ -135,6 +135,7 @@
 	.masonry-articles & {
 		margin: 0;
 		overflow: hidden;
+		border: 1px solid $gray;
 
 		img {
 			transform: scale(1);

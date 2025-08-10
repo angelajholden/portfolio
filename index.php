@@ -10,9 +10,9 @@ include_once (__DIR__) . '/includes/head.php';
 ?>
 
 <body>
+	<h1 class="access-hidden">Angela J Holden | Frontend Developer &amp; Software Engineer</h1>
 	<?php include_once __DIR__ . '/includes/header.php'; ?>
 	<main id="content" class="main">
-		<h1 class="access-hidden">Angela J Holden | Software Engineer &amp; Frontend Developer</h1>
 		<section class="top-banner_hero animate__animated animate__fadeIn">
 			<div class="wrap">
 				<div class="text-wrap_hero">
@@ -101,7 +101,7 @@ include_once (__DIR__) . '/includes/head.php';
 			<div class="wrap">
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine">
+						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-trader-joes-cart.jpg" alt="A glass of wine">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">
@@ -131,7 +131,7 @@ include_once (__DIR__) . '/includes/head.php';
 				</article>
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake">
+						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-tips-for-freelancers.jpg" alt="A piece of carrot cake">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">
@@ -161,7 +161,7 @@ include_once (__DIR__) . '/includes/head.php';
 				</article>
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/folco-masi-erUcICg2LYE-unsplash.jpg" alt="Tennis player practing with pink tennis balls">
+						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-how-to-practice-javascript.jpg" alt="Tennis player practing with pink tennis balls">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">

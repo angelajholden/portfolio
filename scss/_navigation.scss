@@ -1,6 +1,5 @@
 .navigation {
 	position: static;
-	width: 100%;
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -13,15 +12,16 @@
 		top: 0;
 		right: -320px;
 		width: 320px;
+		transform: translateX(0);
 		max-width: 100%;
 		height: 100vh;
 		background-color: $navy;
 		pointer-events: none;
-		transition: right 300ms ease-in-out, visibility 300ms ease-in-out;
+		transition: transform 300ms ease-in-out, visibility 300ms ease-in-out;
 
 		&.active {
 			visibility: visible;
-			right: 0;
+			transform: translateX(-100%);
 			pointer-events: auto;
 		}
 	}
@@ -31,23 +31,21 @@
 	.navigation & {
 		display: flex;
 		flex-flow: row nowrap;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
+		gap: clamp(1rem, 2vw, 2rem);
 		margin: 0 auto;
 		padding: 0;
 		list-style-type: none;
-
-		li {
-			margin: 0 1rem;
-		}
 
 		@media (max-width: 960px) {
 			flex-flow: column nowrap;
 			justify-content: center;
 			align-items: center;
+			gap: 0;
 			height: 100%;
 
-			li:not(.logo-wrap) {
+			li {
 				display: block;
 				width: 100%;
 				margin: 0;
@@ -61,42 +59,20 @@
 	}
 }
 
-.logo-wrap {
-	.navigation & {
-		display: block;
-		width: 75px;
-		height: auto;
-
-		svg {
-			display: block;
-			fill: $white;
-		}
-
-		@media (max-width: 960px) {
-			width: 50px;
-
-			svg {
-				position: absolute;
-				top: 1.5rem;
-				left: 1rem;
-				width: 50px;
-				height: auto;
-			}
-		}
-	}
-}
-
 .nav_item {
 	.navigation & {
-		padding: 1rem 0.5rem;
+		padding: 0.75rem;
+		font-size: 1rem;
 		color: $white;
+		letter-spacing: 1px;
+		text-transform: uppercase;
 		text-decoration-color: transparent;
 		transition: text-decoration-color 300ms ease-in-out;
 
 		&.active,
+		&:focus,
 		&:hover,
-		&:active,
-		&:focus {
+		&:active {
 			text-decoration-color: $white;
 		}
 
