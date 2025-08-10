@@ -101,7 +101,7 @@ include_once (__DIR__) . '/includes/head.php';
 			<div class="wrap">
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/tyler-delgado-A1kXxn2KVCM-unsplash.jpg" alt="A glass of wine">
+						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-trader-joes-cart.jpg" alt="A glass of wine">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">
@@ -131,7 +131,7 @@ include_once (__DIR__) . '/includes/head.php';
 				</article>
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/steward-masweneng-AULRIvENksc-unsplash.jpg" alt="A piece of carrot cake">
+						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-tips-for-freelancers.jpg" alt="A piece of carrot cake">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">
@@ -161,7 +161,7 @@ include_once (__DIR__) . '/includes/head.php';
 				</article>
 				<article class="hero-item">
 					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/folco-masi-erUcICg2LYE-unsplash.jpg" alt="Tennis player practing with pink tennis balls">
+						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-how-to-practice-javascript.jpg" alt="Tennis player practing with pink tennis balls">
 					</figure>
 					<div class="item-content">
 						<h3 class="tertiary-heading">
