@@ -23,4 +23,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>styles.css" />
+	<script defer src="<?php echo BASE_URL; ?>js/prism.js"></script>
+	<script defer src="<?php echo BASE_URL; ?>js/main.js"></script>
 </head>

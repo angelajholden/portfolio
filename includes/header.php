@@ -2,7 +2,7 @@
 	<nav class="skip-nav" aria-label="Skip navigation"><a href="#content">Skip to Content</a></nav>
 	<div class="header_wrap">
 		<div class="primary-heading">
-			<a href="<?php echo BASE_URL; ?>index.php">
+			<a href="<?php echo BASE_URL; ?>">
 				<span class="access-hidden">Angela J Holden</span>
 				<svg aria-hidden="true" width="100%" height="100%" viewBox="0 0 1127 1298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2">
 			<g transform="matrix(4.16667,0,0,4.16667,-912.532,272.434)">
@@ -20,10 +20,9 @@
 		</button>
 		<nav id="mobile-menu" class="navigation" aria-label="Main navigation">
 			<ul class="wrap">
-				<li><a class="nav_item" href="<?php echo BASE_URL; ?>">Home</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>about/">About</a></li>
-				<li><a class="nav_item" href="<?php echo BASE_URL; ?>contact/">Contact</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>consulting/">Consulting</a></li>
+				<li><a class="nav_item" href="<?php echo BASE_URL; ?>contact/">Contact</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>articles/">Articles</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>projects/">Projects</a></li>
 				<li><a class="nav_item" href="https://www.youtube.com/@angelajholden?sub_confirmation=1" target="_blank">YouTube

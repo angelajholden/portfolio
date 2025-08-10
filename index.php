@@ -10,9 +10,9 @@ include_once (__DIR__) . '/includes/head.php';
 ?>
 
 <body>
+	<h1 class="access-hidden">Angela J Holden | Frontend Developer &amp; Software Engineer</h1>
 	<?php include_once __DIR__ . '/includes/header.php'; ?>
 	<main id="content" class="main">
-		<h1 class="access-hidden">Angela J Holden | Software Engineer &amp; Frontend Developer</h1>
 		<section class="top-banner_hero animate__animated animate__fadeIn">
 			<div class="wrap">
 				<div class="text-wrap_hero">
