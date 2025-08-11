@@ -11,6 +11,7 @@
 
 	li:not(.footer li) {
 		font-size: clamp(1rem, 2vw, 1.25rem);
+		line-height: 1.65;
 		letter-spacing: 0.5px;
 		padding: 0 1rem 1rem;
 	}
@@ -312,10 +313,54 @@
 	}
 }
 
-.project_link-guidelines {
+section.project_link-guidelines {
+	padding: clamp(1rem, 3.5vw, 4rem) 0 0;
 	background-color: $lt-gray;
 
+	.secondary-heading + p {
+		max-width: 78ch;
+		margin: 0 auto 2rem;
+
+		strong {
+			color: $navy;
+		}
+	}
+
 	.wrap {
-		max-width: 40rem;
+		max-width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+
+		@media (max-width: 1024px) {
+			flex-direction: column;
+		}
+	}
+
+	.guideline_item {
+		position: relative;
+		width: 50%;
+		padding: 5rem 5rem 3rem;
+		color: $white;
+		background-image: linear-gradient(to bottom right, color.scale($teal, $lightness: -25%), $teal);
+
+		@media (max-width: 1024px) {
+			width: 100%;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 2rem;
+			left: 2rem;
+			width: calc(100% - 4rem);
+			height: calc(100% - 4rem);
+			border: 2px solid;
+			border-image: linear-gradient(to bottom right, $teal, color.scale($teal, $lightness: -25%)) 1;
+			pointer-events: none;
+		}
+
+		p {
+			color: $white;
+		}
 	}
 }

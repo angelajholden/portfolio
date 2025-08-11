@@ -16,7 +16,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 			<div class="wrap">
 				<header class="content-header">
 					<h1 class="primary-heading">Frontend Code Reviews &amp; Consulting</h1>
-					<p>Practical, no-nonsense guidance for developers who want cleaner, faster, more accessible websites.</p>
+					<p><strong>Stream-Style Sessions:</strong> Practical, no-nonsense guidance for developers who want cleaner, faster, more accessible websites.</p>
 					<p><a class="button white-border-green" href="#">Book Your Session</a></p>
 				</header>
 				<figure class="image">
@@ -67,7 +67,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		</section>
 		<section class="consulting_price-table">
 			<h2 class="secondary-heading">Pricing</h2>
-			<p>After you complete your booking, you'll get an email with a link to an intake form, <strong>on my website.</strong> All sessions are handled through a secure, vetted process to protect both you and your project.</p>
+			<p><strong>From my live streams to your code.</strong> If you've seen me on YouTube, you already know how I review code — clear, detailed, and practical. Now you can book that same process 1:1 for your own project.</p>
 			<table class="table">
 				<thead>
 					<tr>
@@ -78,14 +78,14 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				</thead>
 				<tbody>
 					<tr>
-						<th data-label="Service" scope="row">Live 1:1 (60 min)</th>
+						<th data-label="Service" scope="row">Live 1:1 (50 min)</th>
 						<td data-label="What You Get">
 							<p>Real-time problem solving over Zoom. Bring your site, repo, or specific questions — we'll review, debug, and prioritize fixes together.</p>
 						</td>
 						<td data-label="Rate (USD)">$200</td>
 					</tr>
 					<tr>
-						<th data-label="Service" scope="row">Async Review</th>
+						<th data-label="Service" scope="row">Asynchronous Review</th>
 						<td data-label="What You Get">
 							<p>Send your project and get a detailed Loom walkthrough + prioritized action list you can implement at your own pace.</p>
 						</td>
@@ -94,7 +94,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<tr>
 						<th data-label="Service" scope="row">Follow-Up Session</th>
 						<td data-label="What You Get">
-							<p>Optional add-on within 30 days of your first session. Live or async.</p>
+							<p>Optional add-on within 30 days of your first session. Live or asynchronous.</p>
 						</td>
 						<td data-label="Rate (USD)">$150</td>
 					</tr>
@@ -104,19 +104,24 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		</section>
 		<section class="project_link-guidelines">
 			<h2 class="secondary-heading">Project Link Guidelines</h2>
+			<p>After you complete your booking, you'll get an email with a link to an intake form, <strong>on my website.</strong> All sessions are handled through a secure, vetted process to protect both you and your project.</p>
 			<div class="wrap">
-				<p>To keep things safe and simple, please share your project via a trusted host. I accept links from these domains.</p>
-				<ul class="list">
-					<li>GitHub repositories or GitHub Pages links</li>
-					<li>Netlify, Vercel, or similar static hosting</li>
-					<li>Heroku or other reputable app hosting</li>
-				</ul>
-				<p>For security, I can't open the following items. If you're unsure, just ask before our session — I'm happy to confirm.</p>
-				<ul class="list">
-					<li>ZIP files or other file downloads</li>
-					<li>Unfamiliar file-sharing sites</li>
-					<li>Anything that requires installing software to view</li>
-				</ul>
+				<article class="guideline_item">
+					<p>To keep things safe and simple, please share your project via a trusted host. I accept links from these domains.</p>
+					<ul class="list">
+						<li>GitHub repositories or GitHub Pages links</li>
+						<li>Netlify, Vercel, or similar static hosting</li>
+						<li>Heroku or other reputable app hosting</li>
+					</ul>
+				</article>
+				<article class="guideline_item">
+					<p>For security, I can't open the following items. If you're unsure, just ask before our session — I'm happy to confirm.</p>
+					<ul class="list">
+						<li>ZIP files or other file downloads</li>
+						<li>Unfamiliar file-sharing sites</li>
+						<li>Anything that requires installing software to view</li>
+					</ul>
+				</article>
 			</div>
 		</section>
 	</main>
