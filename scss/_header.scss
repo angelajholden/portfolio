@@ -3,7 +3,7 @@
 	top: 0;
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-image: linear-gradient(to right, lighten($navy, 10%), $navy);
+	background-image: linear-gradient(to right, color.scale($navy, $lightness: 12.5%), $navy);
 	z-index: 1;
 }
 
