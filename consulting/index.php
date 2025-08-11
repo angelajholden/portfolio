@@ -9,7 +9,7 @@ $noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 
-<body>
+<body class="consulting">
 	<?php include_once dirname(__DIR__) . '/includes/header.php'; ?>
 	<main id="content" class="main">
 		<section class="consulting_hero animate__animated animate__fadeIn">
@@ -20,7 +20,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<p><a class="button white-border-green" href="#">Book Your Session</a></p>
 				</header>
 				<figure class="image">
-					<img src="<?php echo BASE_URL; ?>images/ajh-selfie.jpg" alt="Angela J Holden stillshot from a live stream video.">
+					<img src="<?php echo BASE_URL; ?>images/angelajholden-consulting-coaching.jpg" alt="Angela J Holden stillshot from a live stream video.">
 				</figure>
 			</div>
 		</section>
@@ -67,7 +67,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		</section>
 		<section class="consulting_price-table">
 			<h2 class="secondary-heading">Pricing</h2>
-			<p>After you complete your booking, you'll received an email with a link to an intake form, <strong>from my website,</strong> to fill out. All sessions are handled through a secure, vetted process to protect both you and your project.</p>
+			<p>After you complete your booking, you'll get an email with a link to an intake form, <strong>on my website.</strong> All sessions are handled through a secure, vetted process to protect both you and your project.</p>
 			<table class="table">
 				<thead>
 					<tr>
@@ -80,7 +80,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<tr>
 						<th data-label="Service" scope="row">Live 1:1 (60 min)</th>
 						<td data-label="What You Get">
-							<p>Real-time problem solving over Zoom. Bring your site, repo, or specific questions — we’ll review, debug, and prioritize fixes together.</p>
+							<p>Real-time problem solving over Zoom. Bring your site, repo, or specific questions — we'll review, debug, and prioritize fixes together.</p>
 						</td>
 						<td data-label="Rate (USD)">$200</td>
 					</tr>
