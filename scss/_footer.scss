@@ -3,6 +3,8 @@
 
 	p {
 		font-size: 1rem;
+		text-align: left;
+		line-height: 2;
 		color: $white;
 	}
 }
@@ -192,6 +194,7 @@
 
 		.button {
 			margin: 0;
+			text-transform: none;
 
 			&:hover,
 			&:active,
