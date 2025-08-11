@@ -17,7 +17,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 				<header class="content-header">
 					<h1 class="primary-heading">Frontend Code Reviews &amp; Consulting</h1>
 					<p><strong>Stream-Style Sessions:</strong> Practical, no-nonsense guidance for developers who want cleaner, faster, more accessible websites.</p>
-					<p><a class="button white-border-green" href="#">Book Your Session</a></p>
+					<p><a class="button white-border-green" href="https://calendly.com/angelajholden" target="_blank">Book Your Session</a></p>
 				</header>
 				<figure class="image">
 					<img src="<?php echo BASE_URL; ?>images/angelajholden-consulting-coaching.jpg" alt="Angela J Holden stillshot from a live stream video.">
@@ -100,11 +100,11 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</tr>
 				</tbody>
 			</table>
-			<p><a class="button teal-solid" href="#">Let's Get Started!</a></p>
+			<p><a class="button teal-solid" href="https://calendly.com/angelajholden" target="_blank">Let's Get Started!</a></p>
 		</section>
 		<section class="project_link-guidelines">
 			<h2 class="secondary-heading">Project Link Guidelines</h2>
-			<p>After you complete your booking, you'll get an email with a link to an intake form, <strong>on my website.</strong> All sessions are handled through a secure, vetted process to protect both you and your project.</p>
+			<p>When you book, you'll provide a link to your project and answer some questions to help me prepare for our meeting. All sessions are handled through a secure, vetted process to protect both you and your project.</p>
 			<div class="wrap">
 				<article class="guideline_item">
 					<p>To keep things safe and simple, please share your project via a trusted host. I accept links from these domains.</p>
