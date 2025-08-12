@@ -58,6 +58,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<li><a href="../404/">404 Page</a></li>
 						<li><a href="../about/">About</a></li>
 						<li><a href="../accessibility/">Accessibility Statement</a></li>
+						<li><a href="../consulting/">Consulting</a></li>
 						<li><a href="../contact/">Contact</a></li>
 						<li><a href="../privacy-policy/">Privacy Policy</a></li>
 						<li><a href="../projects/">Projects</a></li>
