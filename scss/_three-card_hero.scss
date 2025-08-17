@@ -1,27 +1,10 @@
 .three-card_hero {
-	position: relative;
 	padding: 75px 0;
-	overflow-x: auto;
-	// background-image: linear-gradient(to right, darken($teal, 15%), $teal);
-	background-image: linear-gradient(to right, color.scale($teal, $lightness: -15%), $teal);
-	z-index: 0;
+	overflow: hidden;
+	background-image: linear-gradient(to right, color.scale($teal, $lightness: -35%), $teal);
 
 	@media (max-width: 960px) {
 		padding: 1rem 0;
-	}
-}
-
-.dot-bg {
-	.three-card_hero & {
-		position: absolute;
-		inset: 0;
-		width: 100%;
-		height: 100%;
-		background-image: url("svg/dot.svg");
-		background-repeat: repeat;
-		background-position: center center;
-		background-size: 9px auto;
-		z-index: -1;
 	}
 }
 
@@ -35,20 +18,26 @@
 	}
 }
 
+.scroll_wrap {
+	overflow-x: auto;
+	padding: 0 0.5rem;
+}
+
 .wrap {
 	.three-card_hero & {
 		max-width: none;
 		width: clamp(65rem, 90vw, 75rem);
 		display: flex;
 		flex-flow: row nowrap;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: stretch;
+		gap: 1rem;
 	}
 }
 
 .hero-item {
 	.three-card_hero & {
-		width: 31.333%;
+		width: calc((100% - 2rem) / 3);
 		background-color: $white;
 		border-bottom: 5px solid $mint;
 		box-shadow: 0 1px 1px 1px rgba($color: $black, $alpha: 0.1);
@@ -86,7 +75,7 @@
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: space-between;
-		height: 263px;
+		gap: 1rem;
 		padding: 1.5rem 1.5rem 0;
 	}
 }
@@ -95,7 +84,7 @@
 	.three-card_hero & {
 		font-size: 1.5rem;
 		line-height: 1.5;
-		margin: 0;
+		margin: 0 0 1rem;
 
 		a {
 			color: $navy;
@@ -116,8 +105,9 @@
 	.three-card_hero & {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
+		gap: 0.5rem;
 		font-family: "Lato", sans-serif;
 		font-weight: 400;
 		font-style: normal;
@@ -194,11 +184,15 @@
 	}
 }
 
-.button {
+.cta-link {
 	.three-card_hero & {
+		display: block;
+		max-width: 220px;
 		text-align: center;
-		margin-top: 2rem;
-		margin-left: 50%;
-		transform: translateX(-50%);
+		margin: 3rem auto 0;
+
+		@media (max-width: 960px) {
+			margin: 1rem auto;
+		}
 	}
 }

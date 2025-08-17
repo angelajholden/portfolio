@@ -40,9 +40,10 @@
 
 		@media (max-width: 960px) {
 			flex-flow: column nowrap;
-			justify-content: center;
+			justify-content: start;
 			align-items: center;
 			gap: 0;
+			margin: 4.5rem auto 0;
 			height: 100%;
 
 			li {

@@ -5,6 +5,7 @@
 			<nav class="footer-nav" aria-label="Footer navigation">
 				<ul>
 					<li><a href="<?php echo BASE_URL; ?>accessibility/">Accessibility Statement</a></li>
+					<li><a href="<?php echo BASE_URL; ?>consulting/">Consulting</a></li>
 					<li><a href="<?php echo BASE_URL; ?>privacy-policy/">Privacy Policy</a></li>
 					<li><a href="<?php echo BASE_URL; ?>terms-conditions/">Terms &amp; Conditions</a></li>
 					<li><a href="<?php echo BASE_URL; ?>site-map/">Site Map</a></li>
