@@ -153,4 +153,18 @@
 			color: $navy;
 		}
 	}
+
+	&.white-border-green {
+		background-color: transparent;
+		border: 3px solid $white;
+		color: $white;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $white;
+			border: 3px solid $white;
+			color: $green;
+		}
+	}
 }

@@ -77,6 +77,7 @@ include_once (__DIR__) . '/includes/head.php';
 		<section class="three-content_section">
 			<div class="heading-wrap">
 				<h2 class="secondary-heading">Frontend Philosophy</h2>
+				<p><strong>Need a Website?</strong> I'm available for select freelance web development projects. I build fast, accessible, and responsive sites using HTML, CSS and JavaScript.</p>
 			</div>
 			<div class="wrap">
 				<article class="content-item animate__animated" data-animation="animate__fadeInUp">
@@ -92,105 +93,111 @@ include_once (__DIR__) . '/includes/head.php';
 					<p>Often overlooked, DevOps is an important skill to have. Best practices must include version control and deployment, and an understanding of how to see one's own work in the broswer.</p>
 				</article>
 			</div>
+			<p class="animate__animated" data-animation="animate__fadeInUp">
+				<a class="cta-link blue-solid" href="<?php echo BASE_URL; ?>contact/">Get in Touch!</a>
+			</p>
 		</section>
 		<section class="three-card_hero animate__animated" data-animation="animate__fadeIn">
-			<div class="dot-bg"></div>
 			<div class="heading-wrap">
 				<h2 class="secondary-heading dark">Latest Articles</h2>
 			</div>
-			<div class="wrap">
-				<article class="hero-item">
-					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-trader-joes-cart.jpg" alt="A glass of wine">
-					</figure>
-					<div class="item-content">
-						<h3 class="tertiary-heading">
-							<a href="articles/answering-your-freelancing-questions/">Freelancing Q&A: Boundaries, Burnout, Niching Down, and Lessons Learned</a>
-						</h3>
-						<div class="item-meta">
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
-								Angela
-							</span>
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
-								<time datetime="2025-06-15">Jun 15, 2025</time>
-							</span>
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
-								Tips &amp; Advice
-							</span>
+			<div class="scroll_wrap">
+				<div class="wrap">
+					<article class="hero-item">
+						<figure class="image">
+							<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-trader-joes-cart.jpg" alt="A glass of wine">
+						</figure>
+						<div class="item-content">
+							<h3 class="tertiary-heading">
+								<a href="articles/answering-your-freelancing-questions/">Freelancing Q&A: Boundaries, Burnout, Niching Down, and Lessons Learned</a>
+							</h3>
+							<div class="item-meta">
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
+									Angela
+								</span>
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
+									<time datetime="2025-06-15">Jun 15, 2025</time>
+								</span>
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
+									Tips &amp; Advice
+								</span>
+							</div>
+							<p class="read-more-link">
+								<a href="articles/answering-your-freelancing-questions/">
+									<span class="access-hidden">Read more about: Freelancing Q&A: Boundaries, Burnout, Niching Down, and Lessons Learned</span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
+								</a>
+							</p>
 						</div>
-						<p class="read-more-link">
-							<a href="articles/answering-your-freelancing-questions/">
-								<span class="access-hidden">Read more about: Freelancing Q&A: Boundaries, Burnout, Niching Down, and Lessons Learned</span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
-							</a>
-						</p>
-					</div>
-				</article>
-				<article class="hero-item">
-					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-tips-for-freelancers.jpg" alt="A piece of carrot cake">
-					</figure>
-					<div class="item-content">
-						<h3 class="tertiary-heading">
-							<a href="articles/how-to-start-freelancing/">How to Start Freelancing as a Frontend Developer</a>
-						</h3>
-						<div class="item-meta">
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
-								Angela
-							</span>
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
-								<time datetime="2025-06-15">Jun 15, 2025</time>
-							</span>
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
-								Tips &amp; Advice
-							</span>
+					</article>
+					<article class="hero-item">
+						<figure class="image">
+							<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-tips-for-freelancers.jpg" alt="A piece of carrot cake">
+						</figure>
+						<div class="item-content">
+							<h3 class="tertiary-heading">
+								<a href="articles/how-to-start-freelancing/">How to Start Freelancing as a Frontend Developer</a>
+							</h3>
+							<div class="item-meta">
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
+									Angela
+								</span>
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
+									<time datetime="2025-06-15">Jun 15, 2025</time>
+								</span>
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
+									Tips &amp; Advice
+								</span>
+							</div>
+							<p class="read-more-link">
+								<a href="articles/how-to-start-freelancing/">
+									<span class="access-hidden">Read more about: How to Start Freelancing as a Frontend Developer</span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
+								</a>
+							</p>
 						</div>
-						<p class="read-more-link">
-							<a href="articles/how-to-start-freelancing/">
-								<span class="access-hidden">Read more about: How to Start Freelancing as a Frontend Developer</span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
-							</a>
-						</p>
-					</div>
-				</article>
-				<article class="hero-item">
-					<figure class="image">
-						<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-how-to-practice-javascript.jpg" alt="Tennis player practing with pink tennis balls">
-					</figure>
-					<div class="item-content">
-						<h3 class="tertiary-heading">
-							<a href="articles/how-to-practice-javascript/">How to Practice JavaScript, with an Example</a>
-						</h3>
-						<div class="item-meta">
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
-								Angela
-							</span>
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
-								<time datetime="2025-06-15">Jun 15, 2025</time>
-							</span>
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
-								Tutorials
-							</span>
+					</article>
+					<article class="hero-item">
+						<figure class="image">
+							<img src="<?php echo BASE_URL; ?>images/articles/angelajholden-how-to-practice-javascript.jpg" alt="Tennis player practing with pink tennis balls">
+						</figure>
+						<div class="item-content">
+							<h3 class="tertiary-heading">
+								<a href="articles/how-to-practice-javascript/">How to Practice JavaScript, with an Example</a>
+							</h3>
+							<div class="item-meta">
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"/></svg>
+									Angela
+								</span>
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
+									<time datetime="2025-06-15">Jun 15, 2025</time>
+								</span>
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
+									Tutorials
+								</span>
+							</div>
+							<p class="read-more-link">
+								<a href="articles/how-to-practice-javascript/">
+									<span class="access-hidden">Read more about: How to Practice JavaScript, with an Example</span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
+								</a>
+							</p>
 						</div>
-						<p class="read-more-link">
-							<a href="articles/how-to-practice-javascript/">
-								<span class="access-hidden">Read more about: How to Practice JavaScript, with an Example</span>
-								<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M184 112l144 144-144 144"/></svg>
-							</a>
-						</p>
-					</div>
-				</article>
+					</article>
+				</div>
 			</div>
-			<a class="button white-border-green" href="<?php echo BASE_URL; ?>articles/">All Articles</a>
+			<p>
+				<a class="cta-link white-border-green" href="<?php echo BASE_URL; ?>articles/">All Articles</a>
+			</p>
 		</section>
 	</main>
 	<?php include_once __DIR__ . '/includes/footer.php'; ?>

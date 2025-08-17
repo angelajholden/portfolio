@@ -9,6 +9,21 @@
 .heading-wrap {
 	.three-content_section & {
 		text-align: center;
+
+		p {
+			max-width: 75ch;
+			margin: 0 auto 2rem;
+		}
+
+		strong {
+			color: $navy;
+		}
+
+		@media (max-width: 960px) {
+			p {
+				margin: 0 auto 1rem;
+			}
+		}
 	}
 }
 
@@ -58,5 +73,18 @@
 		padding: 0 0 1rem;
 		margin: 0 0 1rem;
 		border-bottom: 3px dotted $mint;
+	}
+}
+
+.cta-link {
+	.three-content_section & {
+		display: block;
+		max-width: 220px;
+		text-align: center;
+		margin: 3rem auto 0;
+
+		@media (max-width: 960px) {
+			margin: 0 auto;
+		}
 	}
 }
