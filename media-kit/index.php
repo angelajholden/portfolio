@@ -4,8 +4,8 @@
 
 <?php 
 $title = 'Media Kit | Angela J Holden';
-$description = '';
-$noindex = true; // or true, if you want to block this specific page
+$description = 'Brand-safe, developer-first content: live builds, tutorials, compilations';
+$noindex = false; // or true, if you want to block this specific page
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 
@@ -38,9 +38,44 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</div>
 				</header>
 				<div class="content-item">
-					<p>This site follows WCAG 2.1 AA guidelines as a baseline for accessibility. I'm committed to building a website that's accessible to as many people as possible, and I always try to follow best practices for color contrast, semantic HTML, and keyboard navigation.</p>
-					<p>While I've worked to meet accessibility standards, some aspects of the site may not yet be fully optimized. I'm continuing to improve accessibility over time.</p>
-					<p>If you experience any accessibility issues or have suggestions for improvement, please reach out through the <a href="../contact/">contact form</a>. I'm always learning and open to feedback.</p>
+					<h2>Angela J. Holden | Software Engineer & Frontend Developer</h2>
+					<p>Brand-safe, developer-first content: live builds, tutorials, compilations.</p>
+					<p>&nbsp;</p>
+					<hr>
+					<h3>Channel Overview</h3>
+					<ul>
+						<li><strong>Focus:</strong> Frontend Development (HTML, CSS, Vanilla JS)</li>
+						<li><strong>Formats:</strong> Live coding streams, project compilations, tutorials, vlogs</li>
+						<li><strong>Audience:</strong> Aspiring devs, junior engineers, self-taught coders</li>
+						<li><strong>Tone:</strong> Authentic, educational, approachable — “real dev work, in real time.”</li>
+					</ul>
+					<h3>Current Analytics (as of September 2025)</h3>
+					<ul>
+						<li>Subscribers: 1,120 (growing ~100+ per week)</li>
+						<li>Avg Views per Video: 300&mdash;600 streams, 1000+ compilations</li>
+						<li>Watch Time (28 days): 400+ hours</li>
+						<li>Total Watch Hours: 2,838 (toward monetization threshold of 4,000)</li>
+						<li>Top Countries: US, Pakistan and India</li>
+						<li>Audience Age Range: 18&mdash;24 (56%) and 25&mdash;34 (38%)</li>
+					</ul>
+					<h3>Partnership Opportunities</h3>
+					<ul>
+						<li>Sponsored project videos or tutorials</li>
+						<li>Tool/product integration into real-time builds</li>
+						<li>Coaching/webinar collaborations (QA, dev workflow)</li>
+						<li>Affiliate partnerships</li>
+					</ul>
+					<h3>Why Partner with Me?</h3>
+					<ul>
+						<li>Unique long&ndash;form engagement: viewers watch 1&mdash;12 hours of content, not just snippets</li>
+						<li>Growing, loyal audience: live chat regulars, strong community culture</li>
+						<li>Developer with 12+ years self-taught experience, bringing real&ndash;world workflows to aspiring coders</li>
+						<li>Content is evergreen &mdash; projects + tutorials keep gaining views long after publishing</li>
+					</ul>
+					<h3>Contact</h3>
+					<ul>
+						<li><a href="mailto:info@angelajholden.com">info@angelajholden.com</a></li>
+					</ul>
 				</div>
 				<footer class="content-footer">
 					<?php include_once dirname(__DIR__) . '/includes/author.php'; ?>
