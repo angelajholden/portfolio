@@ -37,19 +37,23 @@ include_once (__DIR__) . '/includes/head.php';
 			</div>
 			<div class="wrap">
 				<figure class="image animate__animated" data-animation="animate__fadeInUp">
-					<img src="<?php echo BASE_URL; ?>images/angelajholden-resume-website.jpg" alt="YouTube thumbnail for Build a Printable Resume Website, HTML, CSS + JS Tutorial">
+					<img src="<?php echo BASE_URL; ?>images/angelajholden-responsive-navbar.jpg" alt="YouTube thumbnail for Accessible + Responsive Navbar (HTML CSS JavaScript)">
 				</figure>
 				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
-					<h3 class="tertiary-heading">Build a Printable Resume Website</h3>
-					<p>In this real-time project build, we'll create a one-page resume site that's printable, accessible, and powered by vanilla HTML, CSS and JavaScript. You'll learn how to:</p>
+					<h3 class="tertiary-heading">Accessible + Responsive Navbar (HTML CSS JavaScript)</h3>
+					<p>In this tutorial we'll build a fully accessible, responsive navigation menu using HTML, CSS and JavaScript — no frameworks.</p>
+					<!--
+					<p>You'll learn how to:</p>
 					<ul>
-						<li>Use @media print to create a printable layout</li>
-						<li>Trigger the print dialog with JavaScript</li>
-						<li>Structure a semantic one-page resume</li>
-						<li>Style the layout using CSS Grid</li>
+						<li>Structure semantic HTML for navigation</li>
+						<li>Add ARIA attributes for accessibility</li>
+						<li>Create smooth responsive styles for mobile and desktop</li>
+						<li>Toggle a mobile menu with clean JavaScript</li>
+						<li>Respect keyboard and screen reader users</li>
 					</ul>
+					-->
 					<p>
-						<a class="cta-link blue-solid" href="https://youtu.be/QoT0m1zvROM" target="_blank">Watch on YouTube
+						<a class="cta-link blue-solid" href="https://youtu.be/egP2fo_TPMI" target="_blank">Watch on YouTube
 						</a>
 					</p>
 				</div>
