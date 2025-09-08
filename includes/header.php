@@ -24,7 +24,6 @@
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>">Home</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>about/">About</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>consulting/">Consulting</a></li>
-				<li><a class="nav_item" href="<?php echo BASE_URL; ?>media-kit/">Media Kit</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>contact/">Contact</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>articles/">Articles</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>projects/">Projects</a></li>
