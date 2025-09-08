@@ -20,7 +20,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<p><a class="button white-border-green" href="https://calendly.com/angelajholden" target="_blank">Book Your Session</a></p>
 				</header>
 				<figure class="image">
-					<img src="<?php echo BASE_URL; ?>images/angelajholden-consulting-coaching-profile.jpg" alt="Angela J Holden stillshot from a live stream video.">
+					<img src="<?php echo BASE_URL; ?>images/angelajholden_consulting-headshot.jpg" alt="Angela J Holden stillshot from a live stream video.">
 				</figure>
 			</div>
 		</section>
