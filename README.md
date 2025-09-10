@@ -22,9 +22,9 @@ _This project is part of a free, open-source series focused on helping newer dev
 
 ---
 
-## 🔗 See the site live
+## 🔗 See the Site
 
--   [Live demo on Heroku](https://ajh-portfolio-f3ffe192dce2.herokuapp.com/)
+-   https://angelajholden.com
 
 ---
 
@@ -62,5 +62,3 @@ The visual design of this template was adapted from an original design.
 
 -   The code in this repository is 100% original and written by me.
 -   This project may not be resold, re-uploaded, or redistributed as a template or theme on marketplaces.
-
-If you fork this project, please make sure your use complies with the terms of the ThemeForest license.
