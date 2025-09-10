@@ -24,7 +24,7 @@ _This project is part of a free, open-source series focused on helping newer dev
 
 ## 🔗 See the site live
 
--   [Live demo on Heroku](https://ajh-portfolio-f3ffe192dce2.herokuapp.com/)
+-   https://angelajholden.com/
 
 ---
 
