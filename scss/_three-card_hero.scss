@@ -19,8 +19,10 @@
 }
 
 .scroll_wrap {
-	overflow-x: auto;
 	padding: 0 0.5rem;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	overscroll-behavior-x: contain;
 }
 
 .wrap {
@@ -37,6 +39,7 @@
 
 .hero-item {
 	.three-card_hero & {
+		scroll-snap-align: start;
 		width: calc((100% - 2rem) / 3);
 		background-color: $white;
 		border-bottom: 5px solid $mint;

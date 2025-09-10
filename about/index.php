@@ -64,7 +64,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</article>
 					<aside class="inspiration_sidebar animate__animated" data-animation="animate__fadeInUp">
 						<figure class=" image animate__animated" data-animation="animate__fadeInUp">
-							<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpeg" alt="Thumbnail for YouTube Video 'Frontend is from Hell'">
+							<img src="<?php echo BASE_URL; ?>images/frontend-is-from-hell.jpg" alt="Thumbnail for YouTube Video 'Frontend is from Hell'">
 						</figure>
 						<h3 class=" tertiary-header">Frontend is from Hell 😈</h3>
 						<p><time datetime="2024-12-13">December 13, 2024</time></p>
