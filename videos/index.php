@@ -16,7 +16,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="video-articles">
 			<header class="content-header">
 				<h1 class="primary-heading">Videos</h1>
-				<p>This is the full archive of everything I've streamed on YouTube starting in August 2024. I go live every Saturday and Sunday to practice HTML, CSS and JavaScript. I build real vanilla projects in real-time.</p>
+				<p>This is the full archive of everything I've streamed on <a href="https://www.youtube.com/@angelajholden/streams" target="_blank">YouTube</a> starting in August 2024. I go live every Saturday and Sunday to practice HTML, CSS and JavaScript. The only way to do this is by practicing.</p>
 			</header>
 			<form class="filter_form">
 				<label for="filter_input">Search Videos</label>
